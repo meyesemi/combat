@@ -1,6 +1,0 @@
-@E: CG389 :"C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_testColorbar_20180820\src\rgb_data_asyfifo.v":74:2:74:12|Reference to undefined module afifo
-@E: CG389 :"C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_testColorbar_20180820\src\rgb_data_asyfifo.v":92:2:92:12|Reference to undefined module afifo
-@E: CG389 :"C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_testColorbar_20180820\src\rgb_data_asyfifo.v":110:2:110:12|Reference to undefined module afifo
-@E: CG389 :"C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_testColorbar_20180820\src\rgb_data_asyfifo.v":128:2:128:12|Reference to undefined module afifo
-@E: CG389 :"C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_testColorbar_20180820\src\rgb_data_asyfifo.v":146:2:146:12|Reference to undefined module afifo
-

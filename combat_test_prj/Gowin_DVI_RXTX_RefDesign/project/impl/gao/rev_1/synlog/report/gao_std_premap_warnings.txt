@@ -1,2 +1,0 @@
-@W: BN117 :"c:\users\gowin\desktop\lese\gowin_dvi_rxtx_refdesign\project\impl\gao\gw_gao_top.v":158:12:158:21|Instance u_icon_top of partition view:work.gw_con_top(verilog) has no references to its outputs; instance not removed. 
-@W: BN117 :"c:\users\gowin\desktop\lese\gowin_dvi_rxtx_refdesign\project\impl\gao\gw_gao_top.v":158:12:158:21|Instance u_icon_top of partition view:work.gw_con_top(verilog) has no references to its outputs; instance not removed. 

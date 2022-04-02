@@ -1,2 +1,0 @@
-@W: BN117 :"d:\gowin\gowin_v1.9.5.02beta\ide\ipcore\dvi_rx\data\dvi_rx_top.v":42:31:42:42|Instance dvi2rgb_inst of partition view:work.\\\~dvi2rgb\.DVI_RX_Top\ (verilog) has no references to its outputs; instance not removed. 
-@W: BN117 :"d:\gowin\gowin_v1.9.5.02beta\ide\ipcore\dvi_rx\data\dvi_rx_top.v":42:31:42:42|Instance dvi2rgb_inst of partition view:work.\\\~dvi2rgb\.DVI_RX_Top\ (verilog) has no references to its outputs; instance not removed. 

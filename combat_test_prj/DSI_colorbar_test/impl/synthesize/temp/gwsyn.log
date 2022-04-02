@@ -1,4 +1,0 @@
-GowinSynthesis start
-Running parser ...
-ERROR (EX1998) : Cannot open Verilog file 'J:\Source_bac\Gowin_board\GW2A_LV18PG484\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi.vm'
-GowinSynthesis finish

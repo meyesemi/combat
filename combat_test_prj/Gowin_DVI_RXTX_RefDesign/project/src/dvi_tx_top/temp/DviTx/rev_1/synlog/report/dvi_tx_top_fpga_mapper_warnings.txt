@@ -1,3 +1,0 @@
-@W: MT246 :"d:\gowin\gowin_v1.9.5.02beta\ide\ipcore\dvi_tx\data\rgb2dvi.vp":66:5:66:19|Blackbox PLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT420 |Found inferred clock DVI_TX_Top|I_rgb_clk with period 11.06ns. Please declare a user-defined clock on port I_rgb_clk.
-@W: MT420 |Found inferred clock _~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock with period 6.67ns. Please declare a user-defined clock on net rgb2dvi_inst.serial_clk.

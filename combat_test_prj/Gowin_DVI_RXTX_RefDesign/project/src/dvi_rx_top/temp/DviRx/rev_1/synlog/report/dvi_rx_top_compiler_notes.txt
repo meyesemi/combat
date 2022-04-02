@@ -1,9 +1,0 @@
-@N|Running in 64-bit mode
-@N|Running in 64-bit mode
-@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
-@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
-@N: CG364 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_RX\data\dvi_rx_top.v":26:19:26:19|Synthesizing module DVI_RX_Top in library work.
-@N|Running in 64-bit mode
-@N: NF107 :"d:\gowin\gowin_v1.9.5.02beta\ide\ipcore\dvi_rx\data\dvi_rx_top.v":26:19:26:19|Selected library: work cell: DVI_RX_Top view verilog as top level
-@N: NF107 :"d:\gowin\gowin_v1.9.5.02beta\ide\ipcore\dvi_rx\data\dvi_rx_top.v":26:19:26:19|Selected library: work cell: DVI_RX_Top view verilog as top level
-

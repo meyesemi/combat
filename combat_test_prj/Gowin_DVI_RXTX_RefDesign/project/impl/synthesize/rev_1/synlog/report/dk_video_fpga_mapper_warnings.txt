@@ -1,6 +1,0 @@
-@W: MT246 :"e:\project_manager\mini_eye_board\hardware\gw2a_pg484\gowin\hdmi\gowin_dvi_rxtx_refdesign\project\src\dvi_tx_top\dvi_tx_top.v":3659:6:3659:20|Blackbox PLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT246 :"e:\project_manager\mini_eye_board\hardware\gw2a_pg484\gowin\hdmi\gowin_dvi_rxtx_refdesign\project\src\dvi_rx_top\dvi_rx_top.v":7249:9:7249:17|Blackbox CLKDIV is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT420 |Found inferred clock video_top|I_clk with period 7.00ns. Please declare a user-defined clock on port I_clk.
-@W: MT420 |Found inferred clock _~dvi2rgb_DVI_RX_Top__|O_rgb_clk_inferred_clock with period 11.06ns. Please declare a user-defined clock on net DVI_RX_Top_inst.dvi2rgb_inst.O_rgb_clk.
-@W: MT420 |Found inferred clock _~rgb2dvi_DVI_TX_Top__|serial_clk_inferred_clock with period 6.67ns. Please declare a user-defined clock on net DVI_TX_Top_inst.rgb2dvi_inst.serial_clk.
-@W: MT420 |Found inferred clock _~dvi2rgb_DVI_RX_Top__|hdmi_dclk_inferred_clock with period 6.67ns. Please declare a user-defined clock on net DVI_RX_Top_inst.dvi2rgb_inst.hdmi_dclk.

@@ -1,1 +1,0 @@
-vsim -do tb_top.do

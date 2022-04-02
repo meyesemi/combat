@@ -1,7 +1,0 @@
-D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\rev_1\synwork\dvi_tx_top_comp.srs  -osyn  D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\rev_1\synwork\dvi_tx_top_mult.srs  -log  D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\rev_1\synlog\dvi_tx_top_multi_srs_gen.srr 
-relcom:..\..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\dvi_tx_top_comp.srs -osyn ..\synwork\dvi_tx_top_mult.srs -log ..\synlog\dvi_tx_top_multi_srs_gen.srr
-rc:0 success:1 runtime:4
-file:..\synwork\dvi_tx_top_comp.srs|io:i|time:1589421292|size:31831|exec:0|csum:F6C3F08697FD644CCB6F126618304B03
-file:..\synwork\dvi_tx_top_mult.srs|io:o|time:1589421297|size:2236|exec:0|csum:
-file:..\synlog\dvi_tx_top_multi_srs_gen.srr|io:o|time:1589421297|size:1358|exec:0|csum:
-file:..\..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1582920966|size:8866304|exec:1|csum:C0E54C14713AD408F6EDCA9338632815

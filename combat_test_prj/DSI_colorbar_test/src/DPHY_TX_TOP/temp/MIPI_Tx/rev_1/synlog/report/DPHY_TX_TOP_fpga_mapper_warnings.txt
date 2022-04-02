@@ -1,2 +1,0 @@
-@W: MT246 :"d:\program files\gowin\1.8\ide\ipcore\mipi_tx\data\dphy_tx.v":449:11:449:19|Blackbox CLKDIV is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
-@W: MT420 |Found inferred clock _\~oserx4_DPHY_TX_TOP\ |sclk_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net DPHY_TX_INST.u_oserx4.sclk.

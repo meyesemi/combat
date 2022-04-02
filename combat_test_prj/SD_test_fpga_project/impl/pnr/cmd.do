@@ -1,9 +1,0 @@
--d J:\Source_bac\Gowin_board\GW2A_LV18PG484\gowin\SD_test_fpga_project\impl\gwsynthesis\gowin_empu_m1.vg
--p GW2A-18-PBGA484-8
--pn GW2A-LV18PG484C8/I7
--cst J:\Source_bac\Gowin_board\GW2A_LV18PG484\gowin\SD_test_fpga_project\src\gowin_empu_m1.cst
--cfg J:\Source_bac\Gowin_board\GW2A_LV18PG484\gowin\SD_test_fpga_project\impl\pnr\device.cfg
--bit
--tr
--ph
--timing

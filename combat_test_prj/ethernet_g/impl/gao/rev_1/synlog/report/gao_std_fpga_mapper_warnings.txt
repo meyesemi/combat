@@ -1,3 +1,0 @@
-@W: MT246 :"e:\rtl_design\others_reference\universityplan1_guangzhou2020\ethernet-1000m_test\ethernet_g\impl\gao\gw_gao_top.v":73:9:73:17|Blackbox GW_JTAG is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT420 |Found inferred clock gw_gao|I_phy1_rxc_c with period 4.81ns. Please declare a user-defined clock on port I_phy1_rxc_c.
-@W: MT420 |Found inferred clock gw_gao|gao_jtag_tck_inferred_clock with period 6.23ns. Please declare a user-defined clock on net gao_jtag_tck.

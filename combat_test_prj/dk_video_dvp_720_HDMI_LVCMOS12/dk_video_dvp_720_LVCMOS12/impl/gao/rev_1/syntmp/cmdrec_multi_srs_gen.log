@@ -1,7 +1,0 @@
-D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_dvp_720_LVCMOS12\impl\gao\rev_1\synwork\gao_std_comp.srs  -osyn  J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_dvp_720_LVCMOS12\impl\gao\rev_1\synwork\gao_std_mult.srs  -log  J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_dvp_720_LVCMOS12\impl\gao\rev_1\synlog\gao_std_multi_srs_gen.srr 
-relcom:D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\gao_std_comp.srs -osyn ..\synwork\gao_std_mult.srs -log ..\synlog\gao_std_multi_srs_gen.srr
-rc:0 success:1 runtime:1
-file:..\synwork\gao_std_comp.srs|io:i|time:1599131623|size:157396|exec:0|csum:05070B70BA84A3943140F00118574872
-file:..\synwork\gao_std_mult.srs|io:o|time:1599131624|size:7561|exec:0|csum:
-file:..\synlog\gao_std_multi_srs_gen.srr|io:o|time:1599131624|size:1411|exec:0|csum:
-file:D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1589223566|size:8875008|exec:1|csum:CB377A51AC326E9B678CA2CFE4C984B2

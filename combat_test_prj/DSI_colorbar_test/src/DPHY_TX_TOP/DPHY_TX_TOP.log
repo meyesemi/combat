@@ -1,7 +1,0 @@
-Info    (PA0001) : "C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_20180818_V2.1_MIPIIP\sytech_lvds2mipi\src\DPHY_TX_TOP\temp\MIPI_Tx\rev_1\DPHY_TX_TOP.vm" | Reading netlist file.
-Info    (PA0004) : Parsing netlist file 'C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_20180818_V2.1_MIPIIP\sytech_lvds2mipi\src\DPHY_TX_TOP\temp\MIPI_Tx\rev_1\DPHY_TX_TOP.vm' completed.
-Error   (PA2025) : No CLKDIV resource in current device. Please change device.
-Info    (PA0005) : Processing netlist completed with errors.
-Info    (CM0008) : Generate 'C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_20180818_V2.1_MIPIIP\sytech_lvds2mipi\src\DPHY_TX_TOP\DPHY_TX_TOP.vo' file completed.
-Info    (CM0001) : Mon Aug 20 16:28:31 2018
-

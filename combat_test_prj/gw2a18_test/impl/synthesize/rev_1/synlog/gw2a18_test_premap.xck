@@ -1,6 +1,0 @@
-ckid0_0:@|S:hdmi_out_top.u_tmds_pll.rpll_inst.CLKOUT@|E:hdmi_out_top.rgb2dvi.encoder\[0\]\.dataserializer.OSER10@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
-ckid0_1:@|S:hdmi_out_top.sync_vg.pix_buf.O@|E:hdmi_out_top.rgb2dvi.encoder\[1\]\.dataserializer.OSER10@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
-ckid0_2:@|S:hdmi_out_top.u_clkdiv1.CLKOUT@|E:hdmi_out_top.pattern_vg1.g_out[7:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2
-ckid0_3:@|S:hdmi_out_top.u_clkdiv.CLKOUT@|E:hdmi_out_top.pattern_vg.g_out[7:0]@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3
-ckid0_4:@|S:clk_50@|E:u_led.led_status[3]@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4
-ckid0_5:@|S:II_0.bufg.O@|E:II_0.receive_data[7:0]@|F:@syn_dgcc_clockid0_5==1@|M:ClockId_0_5
