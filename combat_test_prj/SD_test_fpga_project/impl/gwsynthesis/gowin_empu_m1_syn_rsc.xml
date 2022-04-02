@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="Gowin_EMPU_M1_template">
+    <SubModule name="inst_PLL"/>
+    <SubModule name="inst_rPLL"/>
+    <SubModule name="M1_template" Register="3716" Alu="155" Lut="8167" Dsp="1" Bsram="34" Ssram="32"/>
+</Module>

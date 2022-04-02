@@ -1,0 +1,43 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "0" on instance work_en_1d.
+@N: FX493 |Applying initial value "0" on instance tx_busy_reg.
+@N: FX493 |Applying initial value "00000000" on instance data_num[7:0].
+@N: FX493 |Applying initial value "000000000000000000000000" on instance time_cnt[23:0].
+@N: FX493 |Applying initial value "0" on instance work_en.
+@N: FX493 |Applying initial value "0" on instance tx_pluse_reg.
+@N: FX493 |Applying initial value "0" on instance tx_en.
+@N: FX493 |Applying initial value "0000000000000000" on instance clk_div_cnt[15:0].
+@N: FX493 |Applying initial value "000" on instance tx_bit_cnt[2:0].
+@N: FX493 |Applying initial value "000" on instance tx_state[2:0].
+@N: FX493 |Applying initial value "0" on instance uart_rx_1d.
+@N: FX493 |Applying initial value "0" on instance uart_rx_2d.
+@N: FX493 |Applying initial value "00000000" on instance rx_data_reg[7:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance clk_div_cnt[15:0].
+@N: FX493 |Applying initial value "000" on instance rx_bit_cnt[2:0].
+@N: FX493 |Applying initial value "000" on instance rx_state[2:0].
+@N: FX493 |Applying initial value "000000000000000000" on instance time_cnt[17:0].
+@N: FX493 |Applying initial value "00" on instance key_push_cnt[1:0].
+@N: FX493 |Applying initial value "0000000000000000000000000" on instance led_light_cnt[24:0].
+@N: FX493 |Applying initial value "000000000000000000" on instance time_cnt[17:0].
+@N: FX493 |Applying initial value "100" on instance pattern_set_r[2:0].
+@N: FX493 |Applying initial value "000" on instance color_cnt[2:0].
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\top.v":44:20:44:26|Tristate driver lcd_pwm (in view: work.top(verilog)) on net lcd_pwm (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\top.v":55:20:55:29|Tristate driver tmds_clk_n (in view: work.top(verilog)) on net tmds_clk_n (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\top.v":56:20:56:29|Tristate driver tmds_clk_p (in view: work.top(verilog)) on net tmds_clk_p (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\top.v":57:20:57:30|Tristate driver tmds_data_n_1 (in view: work.top(verilog)) on net tmds_data_n[2] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\top.v":57:20:57:30|Tristate driver tmds_data_n_2 (in view: work.top(verilog)) on net tmds_data_n[1] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\top.v":57:20:57:30|Tristate driver tmds_data_n_3 (in view: work.top(verilog)) on net tmds_data_n[0] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\top.v":58:20:58:30|Tristate driver tmds_data_p_1 (in view: work.top(verilog)) on net tmds_data_p[2] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\top.v":58:20:58:30|Tristate driver tmds_data_p_2 (in view: work.top(verilog)) on net tmds_data_p[1] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\top.v":58:20:58:30|Tristate driver tmds_data_p_3 (in view: work.top(verilog)) on net tmds_data_p[0] (in view: work.top(verilog)) has its enable tied to GND.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\uart\uart_rx.v":153:4:153:9|Removing sequential instance rx_en (in view: work.uart_rx_434_0_1_2_3_4(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Removing sequential instance v_count_out_1[11:0] (in view: work.sync_vg_Z1(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Removing sequential instance h_count_out_1[10:0] (in view: work.sync_vg_Z1(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Removing sequential instance v_count_out_1[11:0] (in view: work.sync_vg_Z2(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Removing sequential instance h_count_out_1[10:0] (in view: work.sync_vg_Z2(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: MO225 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\led.v":50:4:50:9|There are no possible illegal states for state machine led_status[15:0] (in view: work.led(verilog)); safe FSM implementation is not required.
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\gw2a18_test\src\top.v":58:20:58:30|Tristate driver tmds_data_p_1 (in view: work.top(verilog)) on net tmds_data_p[2] (in view: work.top(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\impl\synthesize\rev_1\gw2a18_test.sap.

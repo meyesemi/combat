@@ -1,0 +1,88 @@
+@P:  Worst Slack : -1.784
+@P:  TMDS_PLL|clkout_inferred_clock - Estimated Frequency : NA
+@P:  TMDS_PLL|clkout_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  TMDS_PLL|clkout_inferred_clock - Estimated Period : NA
+@P:  TMDS_PLL|clkout_inferred_clock - Requested Period : 6.667
+@P:  TMDS_PLL|clkout_inferred_clock - Slack : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsr90_1_inferred_clock - Estimated Frequency : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsr90_1_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsr90_1_inferred_clock - Estimated Period : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsr90_1_inferred_clock - Requested Period : 6.667
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsr90_1_inferred_clock - Slack : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw0_0_inferred_clock - Estimated Frequency : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw0_0_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw0_0_inferred_clock - Estimated Period : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw0_0_inferred_clock - Requested Period : 6.667
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw0_0_inferred_clock - Slack : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw270_0_inferred_clock - Estimated Frequency : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw270_0_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw270_0_inferred_clock - Estimated Period : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw270_0_inferred_clock - Requested Period : 6.667
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[0]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw270_0_inferred_clock - Slack : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsr90_inferred_clock - Estimated Frequency : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsr90_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsr90_inferred_clock - Estimated Period : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsr90_inferred_clock - Requested Period : 6.667
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsr90_inferred_clock - Slack : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw0_inferred_clock - Estimated Frequency : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw0_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw0_inferred_clock - Estimated Period : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw0_inferred_clock - Requested Period : 6.667
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw0_inferred_clock - Slack : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw270_inferred_clock - Estimated Frequency : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw270_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw270_inferred_clock - Estimated Period : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw270_inferred_clock - Requested Period : 6.667
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top/u_ddr_phy_wd/data_lane_gen[1]_u_ddr_phy_data_lane/u_ddr_phy_data_io_|dqsw270_inferred_clock - Slack : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top|clk_out_inferred_clock - Estimated Frequency : 96.6 MHz
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top|clk_out_inferred_clock - Requested Frequency : 0.1 MHz
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top|clk_out_inferred_clock - Estimated Period : 10.351
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top|clk_out_inferred_clock - Requested Period : 8502.420
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top|clk_out_inferred_clock - Slack : 4248.363
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top|clk_x4i_inferred_clock - Estimated Frequency : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top|clk_x4i_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top|clk_x4i_inferred_clock - Estimated Period : NA
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top|clk_x4i_inferred_clock - Requested Period : 6.667
+@P:  _DDR3_Memory_Interface_Top/gw3mc_top/u_ddr_phy_top|clk_x4i_inferred_clock - Slack : NA
+@P:  _~DPHY_RX_DPHY_RX_TOP__|HS_CLK_inferred_clock - Estimated Frequency : 520.0 MHz
+@P:  _~DPHY_RX_DPHY_RX_TOP__|HS_CLK_inferred_clock - Requested Frequency : 611.8 MHz
+@P:  _~DPHY_RX_DPHY_RX_TOP__|HS_CLK_inferred_clock - Estimated Period : 1.923
+@P:  _~DPHY_RX_DPHY_RX_TOP__|HS_CLK_inferred_clock - Requested Period : 1.635
+@P:  _~DPHY_RX_DPHY_RX_TOP__|HS_CLK_inferred_clock - Slack : -0.288
+@P:  _~idesx4_DPHY_RX_TOP__|clk_byte_out_inferred_clock - Estimated Frequency : 129.1 MHz
+@P:  _~idesx4_DPHY_RX_TOP__|clk_byte_out_inferred_clock - Requested Frequency : 151.8 MHz
+@P:  _~idesx4_DPHY_RX_TOP__|clk_byte_out_inferred_clock - Estimated Period : 7.748
+@P:  _~idesx4_DPHY_RX_TOP__|clk_byte_out_inferred_clock - Requested Period : 6.586
+@P:  _~idesx4_DPHY_RX_TOP__|clk_byte_out_inferred_clock - Slack : -1.162
+@P:  _~idesx4_DPHY_RX_TOP__|eclko_inferred_clock - Estimated Frequency : NA
+@P:  _~idesx4_DPHY_RX_TOP__|eclko_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~idesx4_DPHY_RX_TOP__|eclko_inferred_clock - Estimated Period : NA
+@P:  _~idesx4_DPHY_RX_TOP__|eclko_inferred_clock - Requested Period : 6.667
+@P:  _~idesx4_DPHY_RX_TOP__|eclko_inferred_clock - Slack : NA
+@P:  pll_8bit_2lane|clkout_inferred_clock - Estimated Frequency : 136.9 MHz
+@P:  pll_8bit_2lane|clkout_inferred_clock - Requested Frequency : 0.1 MHz
+@P:  pll_8bit_2lane|clkout_inferred_clock - Estimated Period : 7.305
+@P:  pll_8bit_2lane|clkout_inferred_clock - Requested Period : 8500.713
+@P:  pll_8bit_2lane|clkout_inferred_clock - Slack : 4249.518
+@P:  video_top|I_clk - Estimated Frequency : 151.8 MHz
+@P:  video_top|I_clk - Requested Frequency : 178.5 MHz
+@P:  video_top|I_clk - Estimated Period : 6.589
+@P:  video_top|I_clk - Requested Period : 5.601
+@P:  video_top|I_clk - Slack : -0.989
+@P:  video_top|pix_clk - Estimated Frequency : 84.1 MHz
+@P:  video_top|pix_clk - Requested Frequency : 98.9 MHz
+@P:  video_top|pix_clk - Estimated Period : 11.892
+@P:  video_top|pix_clk - Requested Period : 10.108
+@P:  video_top|pix_clk - Slack : -1.784
+@P:  System - Estimated Frequency : 617.7 MHz
+@P:  System - Requested Frequency : 726.6 MHz
+@P:  System - Estimated Period : 1.619
+@P:  System - Requested Period : 1.376
+@P:  System - Slack : -0.243
+@P: video_top Part : gw2a_18cpbga484-8
+@P: video_top I/O primitives : 69
+@P: video_top I/O Register bits : 0
+@P: video_top Register bits (Non I/O) : 3040 (19%)
+@P: video_top Block Rams : 19 of 46 (41%)
+@P: video_top Total Luts : 3132 of 800 (15%)
+@P:  CPU Time : 0h:00m:22s

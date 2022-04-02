@@ -1,0 +1,41 @@
+i hdmi_out_top.u_tmds_pll.clkout_i
+m 0 0
+u 4 4
+p {t:hdmi_out_top.u_tmds_pll.rpll_inst.CLKOUT}{t:hdmi_out_top.u_tmds_pll.clkout_inferred_clock.I[0]}{t:hdmi_out_top.u_tmds_pll.clkout_inferred_clock.OUT[0]}{p:hdmi_out_top.u_tmds_pll.clkout}{t:hdmi_out_top.u_tmds_pll.clkout}{t:hdmi_out_top.rgb2dvi.serialclk}{p:hdmi_out_top.rgb2dvi.serialclk}{t:hdmi_out_top.rgb2dvi.encoder\[0\]\.dataserializer.serialclk}{p:hdmi_out_top.rgb2dvi.encoder\[0\]\.dataserializer.serialclk}{t:hdmi_out_top.rgb2dvi.encoder\[0\]\.dataserializer.OSER10.FCLK}
+e ckid0_0 {t:hdmi_out_top.rgb2dvi.encoder\[0\]\.dataserializer.OSER10.FCLK} OSER10
+c ckid0_0 {t:hdmi_out_top.u_tmds_pll.rpll_inst.CLKOUT} rPLL Unsupported/too complex instance on clock path
+i hdmi_out_top.sync_vg.clk_out
+m 0 0
+u 35 140
+p {t:hdmi_out_top.sync_vg.pix_buf.O}{p:hdmi_out_top.sync_vg.clk_out}{t:hdmi_out_top.sync_vg.clk_out}{t:hdmi_out_top.rgb2dvi.pixelclk}{p:hdmi_out_top.rgb2dvi.pixelclk}{t:hdmi_out_top.rgb2dvi.encoder\[1\]\.dataserializer.pixelclk}{p:hdmi_out_top.rgb2dvi.encoder\[1\]\.dataserializer.pixelclk}{t:hdmi_out_top.rgb2dvi.encoder\[1\]\.dataserializer.OSER10.PCLK}
+e ckid0_1 {t:hdmi_out_top.rgb2dvi.encoder\[1\]\.dataserializer.OSER10.PCLK} OSER10
+c ckid0_1 {t:hdmi_out_top.sync_vg.pix_buf.O} BUFG Unable to find a clock in input cone
+i hdmi_out_top.clk_in1_i
+m 0 0
+u 45 130
+p {t:hdmi_out_top.u_clkdiv1.CLKOUT}{t:hdmi_out_top.clk_in1_inferred_clock.I[0]}{t:hdmi_out_top.clk_in1_inferred_clock.OUT[0]}{t:hdmi_out_top.pattern_vg1.pix_clk}{p:hdmi_out_top.pattern_vg1.pix_clk}{t:hdmi_out_top.pattern_vg1.g_out[7:0].C}
+e ckid0_2 {t:hdmi_out_top.pattern_vg1.g_out[7:0].C} dffe
+c ckid0_2 {t:hdmi_out_top.u_clkdiv1.CLKOUT} CLKDIV Unsupported/too complex instance on clock path
+i hdmi_out_top.clk_in_i
+m 0 0
+u 45 131
+p {t:hdmi_out_top.u_clkdiv.CLKOUT}{t:hdmi_out_top.clk_in_inferred_clock.I[0]}{t:hdmi_out_top.clk_in_inferred_clock.OUT[0]}{t:hdmi_out_top.pattern_vg.pix_clk}{p:hdmi_out_top.pattern_vg.pix_clk}{t:hdmi_out_top.pattern_vg.g_out[7:0].C}
+e ckid0_3 {t:hdmi_out_top.pattern_vg.g_out[7:0].C} dffe
+c ckid0_3 {t:hdmi_out_top.u_clkdiv.CLKOUT} CLKDIV Unsupported/too complex instance on clock path
+i clk_50
+m 0 0
+u 52 53
+p {p:clk_50}{t:u_led.clk}{p:u_led.clk}{t:u_led.led_status[3].C}
+e ckid0_4 {t:u_led.led_status[3].C} dff
+c ckid0_4 {p:clk_50} port Unsupported/too complex instance on clock path
+i II_0.clk_12m
+m 0 0
+u 97 118
+p {t:II_0.bufg.O}{t:II_0.receive_data[7:0].C}
+e ckid0_5 {t:II_0.receive_data[7:0].C} dff
+c ckid0_5 {t:II_0.bufg.O} BUFG Unsupported/too complex instance on clock path
+i hdmi_out_top.u_tmds_pll.lock
+m 0 0
+u 0 0
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

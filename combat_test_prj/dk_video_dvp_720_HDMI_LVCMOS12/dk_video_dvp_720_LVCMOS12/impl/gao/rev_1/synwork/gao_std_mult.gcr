@@ -1,0 +1,35 @@
+i u_la0_top.ENCNET0
+m 0 0
+u 19 75
+p {t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_0 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_0 {p:ENCRYPTED} port Unsupported/too complex instance on clock path
+i control0_i[0]
+m 0 0
+u 39 297
+p {t:u_gw_jtag.tck_o}{t:control0_inferred_clock[0].I[0]}{t:control0_inferred_clock[0].OUT[0]}{t:u_la0_top.control[0]}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_1 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_1 {t:u_gw_jtag.tck_o} GW_JTAG Unsupported/too complex instance on clock path
+i enable_er1
+m 0 0
+u 0 0
+i update_dr
+m 0 0
+u 0 0
+i shift_dr_capture_dr
+m 0 0
+u 0 0
+i gao_jtag_reset
+m 0 0
+u 0 0
+i gao_jtag_tdi
+m 0 0
+u 0 0
+i tdo_o_c
+m 0 0
+u 0 0
+i cmos_pclk
+m 0 0
+u 0 0
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

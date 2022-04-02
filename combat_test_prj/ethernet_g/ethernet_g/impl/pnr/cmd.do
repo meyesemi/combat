@@ -1,0 +1,12 @@
+-d C:\Users\gowin\Desktop\ceshi\ethernet_g\ethernet_g\impl\synthesize\rev_1\Gbit_PHY_test_RGMII.vm
+-p GW2A-18-PBGA484-7
+-pn GW2A-LV18PG484C7/I6
+-cst C:\Users\gowin\Desktop\ceshi\ethernet_g\ethernet_g\src\Gbit_PHY_test_RGMII.cst
+-cfg C:\Users\gowin\Desktop\ceshi\ethernet_g\ethernet_g\impl\pnr\device.cfg
+-sdc C:\Users\gowin\Desktop\ceshi\ethernet_g\ethernet_g\src\Gbit_PHY_test_RGMII.sdc
+-gao C:\Users\gowin\Desktop\ceshi\ethernet_g\ethernet_g\impl\gao\gao.v
+-bit
+-tr
+-ph
+-posp
+-reg_not_in_iob

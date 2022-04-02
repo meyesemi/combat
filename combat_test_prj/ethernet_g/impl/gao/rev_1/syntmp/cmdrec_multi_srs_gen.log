@@ -1,0 +1,7 @@
+D:\Program Files\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\Ethernet-1000M_test\ethernet_g\impl\gao\rev_1\synwork\gao_std_comp.srs  -osyn  E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\Ethernet-1000M_test\ethernet_g\impl\gao\rev_1\synwork\gao_std_mult.srs  -log  E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\Ethernet-1000M_test\ethernet_g\impl\gao\rev_1\synlog\gao_std_multi_srs_gen.srr 
+relcom:D:\Program Files\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\gao_std_comp.srs -osyn ..\synwork\gao_std_mult.srs -log ..\synlog\gao_std_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\gao_std_comp.srs|io:i|time:1597134445|size:155085|exec:0|csum:888655D5648B05158044990179C96B29
+file:..\synwork\gao_std_mult.srs|io:o|time:1597134447|size:7149|exec:0|csum:
+file:..\synlog\gao_std_multi_srs_gen.srr|io:o|time:1597134447|size:1448|exec:0|csum:
+file:D:\Program Files\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1569428746|size:8840192|exec:1|csum:53D4B99CD3CB87F879FC8DA558113E33

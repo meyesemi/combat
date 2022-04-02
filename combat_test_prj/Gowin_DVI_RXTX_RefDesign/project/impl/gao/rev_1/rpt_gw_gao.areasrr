@@ -1,0 +1,175 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: GOWIN-PC
+
+Implementation : rev_1
+
+#### START OF AREA REPORT #####[
+
+Part:			GW2A_18PBGA484-8 (GoWin)
+
+----------------------------------------------------------------------
+########   Utilization report for  Top level view:   gw_gao   ########
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     344                100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block gw_gao:	344 (40.09 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          398                100 %                
+MUX2_LUT5     6                  100 %                
+MUX2_LUT6     2                  100 %                
+ALU           77                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block gw_gao:	483 (56.29 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     7                  100 %                
+============================================================
+Total MEMORY ELEMENTS in the block gw_gao:	7 (0.82 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   ao_top_0   ########
+Instance path:   gw_gao.ao_top_0                              
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     330                95.9 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block gw_gao.ao_top_0:	330 (38.46 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          392                98.5 %               
+MUX2_LUT5     6                  100 %                
+MUX2_LUT6     2                  100 %                
+ALU           77                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block gw_gao.ao_top_0:	477 (55.59 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     7                  100 %                
+============================================================
+Total MEMORY ELEMENTS in the block gw_gao.ao_top_0:	7 (0.82 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   ao_crc32_0   ########
+Instance path:   ao_top_0.ao_crc32_0                            
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     32                 9.3 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ao_top_0.ao_crc32_0:	32 (3.73 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     34                 8.54 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block ao_top_0.ao_crc32_0:	34 (3.96 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ao_match_0_0s_1s_28s_1_1_0_1_2_3_4   ########
+Instance path:   ao_top_0.ao_match_0_0s_1s_28s_1_1_0_1_2_3_4                            
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     6                  1.74 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ao_top_0.ao_match_0_0s_1s_28s_1_1_0_1_2_3_4:	6 (0.70 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          14                 3.52 %               
+MUX2_LUT5     1                  16.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ao_top_0.ao_match_0_0s_1s_28s_1_1_0_1_2_3_4:	15 (1.75 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   ao_mem_ctrl_0_4096s_28s_12s   ########
+Instance path:   ao_top_0.ao_mem_ctrl_0_4096s_28s_12s                            
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     54                 15.7 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ao_top_0.ao_mem_ctrl_0_4096s_28s_12s:	54 (6.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          58                 14.6 %               
+MUX2_LUT5     2                  33.3 %               
+MUX2_LUT6     1                  50 %                 
+ALU           44                 57.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ao_top_0.ao_mem_ctrl_0_4096s_28s_12s:	105 (12.24 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     7                  100 %                
+============================================================
+Total MEMORY ELEMENTS in the block ao_top_0.ao_mem_ctrl_0_4096s_28s_12s:	7 (0.82 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   gw_con_top   ########
+Instance path:   gw_gao.gw_con_top                              
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     14                 4.07 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block gw_gao.gw_con_top:	14 (1.63 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     6                  1.51 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block gw_gao.gw_con_top:	6 (0.70 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,32 @@
+i DVI_RX_Top_inst.dvi2rgb_inst.ENCNET0
+m 0 0
+u 268 268
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_0 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_0 {t:ENCRYPTED} CLKDIV Unsupported/too complex instance on clock path
+i DVI_TX_Top_inst.rgb2dvi_inst.ENCNET1
+m 0 0
+u 4 4
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_1 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_1 {t:ENCRYPTED} PLL Unsupported/too complex instance on clock path
+i DVI_RX_Top_inst.dvi2rgb_inst.ENCNET2
+m 0 0
+u 3 3
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_2 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_2 {t:ENCRYPTED} PLL Unsupported/too complex instance on clock path
+i I_clk
+m 0 0
+u 77 102
+p {p:I_clk}{t:run_cnt[25:0].C}
+e ckid0_3 {t:run_cnt[25:0].C} dffr
+c ckid0_3 {p:I_clk} port Unsupported/too complex instance on clock path
+i DVI_TX_Top_inst.rgb2dvi_inst.ENCNET37
+m 0 0
+u 0 0
+i DVI_RX_Top_inst.dvi2rgb_inst.ENCNET59
+m 0 0
+u 0 0
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

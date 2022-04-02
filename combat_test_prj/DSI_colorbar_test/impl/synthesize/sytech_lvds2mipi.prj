@@ -1,0 +1,55 @@
+# project files
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/Asyn_Fifo.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/DPHY_TX_TOP.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/Dul_Ram.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/afifo.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/colorbar_test.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/gw_pll_mipi/gw_pll_mipi.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/ivideo_dynamic_top.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/lcd_backlight_ctrl.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/lvds2mipi_defines.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/mipi_data_rd_ctrl.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/mipi_dsi_top.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/mipi_hs_lp_tx.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/mipi_packetizer.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/mipi_screen_init.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/rgb48bit_to4ch16bit_ctrl.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/rgb_data_asyfifo.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/serdes_rst_ctrl.v"
+add_file -verilog "E:/gowin/DSI_colorbar/DSI_colorbar_test18K/DSI_colorbar_test/src/gw_pll/gw_pll.v"
+
+# implementation: "rev_1"
+impl -add rev_1 -type fpga
+
+# device options
+set_option -technology GOWIN-GW2A
+set_option -part GW2A_18
+set_option -package PBGA484
+set_option -speed_grade -8
+
+set_option -frequency auto
+set_option -maxfan 10000
+set_option -disable_io_insertion 0
+set_option -update_models_cp 0
+set_option -rw_check_on_ram 1
+set_option -run_prop_extract 1
+set_option -symbolic_fsm_compiler 1
+set_option -resource_sharing 1
+set_option -pipe 1
+set_option -retiming 0
+set_option -write_apr_constraint 1
+set_option -num_critical_paths 0
+set_option -num_startend_points 0
+set_option -vlog_std sysv
+set_option -compiler_compatible 0
+set_option -multi_file_compilation_unit 1
+set_option -looplimit 2000
+set_option -vhdl2019 1
+set_option -fix_gated_and_generated_clocks 1
+set_option -top_module ivideo_dynamic_top
+set_option -library_path C:/Gowin/Gowin_V1.9.6.01Beta/IDE/simlib/hardware_core/gw2a/prim_syn.v
+# set result format/file
+project -result_file "sytech_lvds2mipi.vm"
+impl -active "rev_1"
+project -run -clean
+

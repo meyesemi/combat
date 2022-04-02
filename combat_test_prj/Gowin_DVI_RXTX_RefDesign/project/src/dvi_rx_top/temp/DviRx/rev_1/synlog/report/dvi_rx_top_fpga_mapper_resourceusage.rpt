@@ -1,0 +1,30 @@
+---------------------------------------
+Resource Usage Report for DVI_RX_Top 
+
+Mapping to part: gw2a_18pbga484-8
+Cell usage:
+CLKDIV          1 use
+DFFC            114 uses
+DFFCE           70 uses
+DFFPE           1 use
+GSR             1 use
+IDES10          3 uses
+INV             4 uses
+IODELAY         3 uses
+MUX2_LUT5       7 uses
+MUX2_LUT6       3 uses
+PLL             1 use
+LUT2            61 uses
+LUT3            67 uses
+LUT4            446 uses
+
+I/O ports: 37
+I/O primitives: 4
+TLVDS_IBUF     4 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   185 of 15552 (1%)
+
+@S |Mapping Summary:
+Total  LUTs: 574 (2%)
+

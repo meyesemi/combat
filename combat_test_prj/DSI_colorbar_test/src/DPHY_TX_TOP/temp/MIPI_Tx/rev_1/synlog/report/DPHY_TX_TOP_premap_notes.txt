@@ -1,0 +1,7 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N|Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_20180818_V2.1_MIPIIP\sytech_lvds2mipi\src\DPHY_TX_TOP\temp\MIPI_Tx\rev_1\DPHY_TX_TOP.sap.

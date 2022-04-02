@@ -1,0 +1,51 @@
+# project files
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/btn_ctl.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/btn_deb.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/gowin_rpll/rpll.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/hdmi_out_top.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/key_ctl.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/lcd_rpll/lcd_rpll.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/led.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/outputserdes.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/pattern_vg.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/rgb2dvi.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/sync_vg.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/tmds_encoder.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/top.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/uart/uart_data_gen.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/uart/uart_rx.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/uart/uart_top.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/gw2a18_test/src/uart/uart_tx.v"
+
+# implementation: "rev_1"
+impl -add rev_1 -type fpga
+
+# device options
+set_option -technology GOWIN-GW2A
+set_option -part GW2A_18
+set_option -package PBGA484
+set_option -speed_grade -7
+
+set_option -frequency auto
+set_option -maxfan 10000
+set_option -disable_io_insertion 0
+set_option -update_models_cp 0
+set_option -rw_check_on_ram 1
+set_option -run_prop_extract 1
+set_option -symbolic_fsm_compiler 1
+set_option -resource_sharing 1
+set_option -pipe 1
+set_option -retiming 0
+set_option -write_apr_constraint 1
+set_option -vlog_std sysv
+set_option -compiler_compatible 0
+set_option -multi_file_compilation_unit 1
+set_option -looplimit 2000
+set_option -fix_gated_and_generated_clocks 1
+set_option -top_module top
+set_option -library_path D:/Gowin/Gowin_V1.9.6.01Beta/IDE/simlib/hardware_core/gw2a/prim_syn.v
+# set result format/file
+project -result_file "gw2a18_test.vm"
+impl -active "rev_1"
+project -run -clean
+

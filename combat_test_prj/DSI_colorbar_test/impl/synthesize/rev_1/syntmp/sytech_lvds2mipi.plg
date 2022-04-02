@@ -1,0 +1,43 @@
+@P:  Worst Slack : -0.956
+@P:  GW_PLL|clkout_inferred_clock - Estimated Frequency : 156.9 MHz
+@P:  GW_PLL|clkout_inferred_clock - Requested Frequency : 184.5 MHz
+@P:  GW_PLL|clkout_inferred_clock - Estimated Period : 6.375
+@P:  GW_PLL|clkout_inferred_clock - Requested Period : 5.419
+@P:  GW_PLL|clkout_inferred_clock - Slack : -0.956
+@P:  _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock - Estimated Frequency : 164.9 MHz
+@P:  _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock - Requested Frequency : 194.0 MHz
+@P:  _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock - Estimated Period : 6.063
+@P:  _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock - Requested Period : 5.154
+@P:  _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock - Slack : -0.909
+@P:  ivideo_dynamic_top|I_clk - Estimated Frequency : 265.3 MHz
+@P:  ivideo_dynamic_top|I_clk - Requested Frequency : 312.1 MHz
+@P:  ivideo_dynamic_top|I_clk - Estimated Period : 3.769
+@P:  ivideo_dynamic_top|I_clk - Requested Period : 3.204
+@P:  ivideo_dynamic_top|I_clk - Slack : -0.565
+@P:  ivideo_dynamic_top|O_lcd_clkop_wire_inferred_clock - Estimated Frequency : NA
+@P:  ivideo_dynamic_top|O_lcd_clkop_wire_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  ivideo_dynamic_top|O_lcd_clkop_wire_inferred_clock - Estimated Period : NA
+@P:  ivideo_dynamic_top|O_lcd_clkop_wire_inferred_clock - Requested Period : 6.667
+@P:  ivideo_dynamic_top|O_lcd_clkop_wire_inferred_clock - Slack : NA
+@P:  ivideo_dynamic_top|O_lcd_clkos_wire_inferred_clock - Estimated Frequency : NA
+@P:  ivideo_dynamic_top|O_lcd_clkos_wire_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  ivideo_dynamic_top|O_lcd_clkos_wire_inferred_clock - Estimated Period : NA
+@P:  ivideo_dynamic_top|O_lcd_clkos_wire_inferred_clock - Requested Period : 6.667
+@P:  ivideo_dynamic_top|O_lcd_clkos_wire_inferred_clock - Slack : NA
+@P:  mipi_dsi_top|I_mipi_init_clk_derived_clock - Estimated Frequency : 0.1 MHz
+@P:  mipi_dsi_top|I_mipi_init_clk_derived_clock - Requested Frequency : 0.1 MHz
+@P:  mipi_dsi_top|I_mipi_init_clk_derived_clock - Estimated Period : 11650.787
+@P:  mipi_dsi_top|I_mipi_init_clk_derived_clock - Requested Period : 20000.000
+@P:  mipi_dsi_top|I_mipi_init_clk_derived_clock - Slack : 2.151
+@P:  System - Estimated Frequency : 1869.2 MHz
+@P:  System - Requested Frequency : 2199.3 MHz
+@P:  System - Estimated Period : 0.535
+@P:  System - Requested Period : 0.455
+@P:  System - Slack : -0.080
+@P: ivideo_dynamic_top Part : gw2a_18pbga484-8
+@P: ivideo_dynamic_top I/O primitives : 19
+@P: ivideo_dynamic_top I/O Register bits : 0
+@P: ivideo_dynamic_top Register bits (Non I/O) : 2322 (14%)
+@P: ivideo_dynamic_top Block Rams : 5 of 46 (10%)
+@P: ivideo_dynamic_top Total Luts : 901 of 800 (4%)
+@P:  CPU Time : 0h:00m:16s

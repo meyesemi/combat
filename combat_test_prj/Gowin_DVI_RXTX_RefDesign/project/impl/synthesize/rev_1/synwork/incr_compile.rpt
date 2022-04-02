@@ -1,0 +1,98 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+Modified Files: 22
+FID:  path (prevtimestamp, timestamp)
+8        D:\Gowin\Gowin_V1.9.5.05Beta\SynplifyPro\lib\generic\gw2a.v (2020-05-12 03:01:26, N/A)
+9        D:\Gowin\Gowin_V1.9.5.05Beta\SynplifyPro\lib\vlog\hypermods.v (2020-05-12 03:02:52, N/A)
+10       D:\Gowin\Gowin_V1.9.5.05Beta\SynplifyPro\lib\vlog\scemi_objects.v (2020-05-12 03:02:52, N/A)
+11       D:\Gowin\Gowin_V1.9.5.05Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (2020-05-12 03:02:52, N/A)
+12       D:\Gowin\Gowin_V1.9.5.05Beta\SynplifyPro\lib\vlog\umr_capim.v (2020-05-12 03:02:52, N/A)
+16       D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v (N/A, 2020-06-19 18:46:34)
+17       D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\hypermods.v (N/A, 2020-05-12 03:02:52)
+18       D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2020-05-12 03:02:52)
+19       D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2020-05-12 03:02:52)
+20       D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2020-05-12 03:02:52)
+5        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_rx_top\dvi_rx_top.v (2020-05-14 09:54:22, N/A)
+6        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\dvi_tx_top.v (2020-05-14 09:55:13, N/A)
+13       D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\EDID_PROM.v (2020-06-12 10:46:47, N/A)
+14       D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\EDID_PROM_defines.v (2020-06-18 09:05:38, N/A)
+15       D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\I2C_SLAVE_TOP.vp (2020-06-18 09:00:46, N/A)
+7        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (2020-06-18 09:28:32, N/A)
+21       E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_rx_top\dvi_rx_top.v (N/A, 2020-05-14 09:54:22)
+22       E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\dvi_tx_top.v (N/A, 2020-05-14 09:55:13)
+23       E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\EDID_PROM.v (N/A, 2020-06-12 10:46:47)
+24       E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\EDID_PROM_defines.v (N/A, 2020-06-18 09:05:38)
+25       E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\I2C_SLAVE_TOP.vp (N/A, 2020-06-18 09:00:46)
+26       E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 15
+MID:  lib.cell.view
+0        work.DVI_RX_Top.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_rx_top\dvi_rx_top.v (N/A, 2020-05-14 09:54:22) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+1        work.DVI_TX_Top.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\dvi_tx_top.v (N/A, 2020-05-14 09:55:13) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+12       work.EDID_PROM.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\EDID_PROM.v (N/A, 2020-06-12 10:46:47) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+13       work.I2C_SLAVE_Top.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\EDID_PROM.v (N/A, 2020-06-12 10:46:47) <-- (may instantiate this module)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\I2C_SLAVE_TOP.vp (N/A, 2020-06-18 09:00:46) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+2        work.\~Data_Aligning.DVI_RX_Top_.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_rx_top\dvi_rx_top.v (N/A, 2020-05-14 09:54:22) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+3        work.\~TMDS8b10b.DVI_TX_Top_.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\dvi_tx_top.v (N/A, 2020-05-14 09:55:13) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+4        work.\~TMDS8b10b.DVI_TX_Top__0.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\dvi_tx_top.v (N/A, 2020-05-14 09:55:13) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+5        work.\~TMDS8b10b.DVI_TX_Top__2.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\dvi_tx_top.v (N/A, 2020-05-14 09:55:13) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+6        work.\~TMDS_Decoder.DVI_RX_Top_.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_rx_top\dvi_rx_top.v (N/A, 2020-05-14 09:54:22) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+7        work.\~TMDS_Decoder.DVI_RX_Top__1.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_rx_top\dvi_rx_top.v (N/A, 2020-05-14 09:54:22) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+8        work.\~TMDS_Decoder.DVI_RX_Top__2.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_rx_top\dvi_rx_top.v (N/A, 2020-05-14 09:54:22) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+9        work.\~dvi2rgb.DVI_RX_Top_.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_rx_top\dvi_rx_top.v (N/A, 2020-05-14 09:54:22) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+10       work.\~rgb2dvi.DVI_TX_Top_.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\dvi_tx_top.v (N/A, 2020-05-14 09:55:13) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+14       work.i2c_slave.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\EDID_PROM.v (N/A, 2020-06-12 10:46:47) <-- (may instantiate this module)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\edid_i2c\I2C_SLAVE_TOP.vp (N/A, 2020-06-18 09:00:46) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (may instantiate this module)
+11       work.video_top.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\Hardware\GW2A_PG484\gowin\HDMI\Gowin_DVI_RXTX_RefDesign\project\src\video_top.v (N/A, 2020-08-13 17:24:13) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

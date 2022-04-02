@@ -1,0 +1,250 @@
+# Mon Aug 10 19:32:15 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: AAA-PC
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw2020q1p1, Build 004R, Built Jun 18 2020 10:25:53, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@A: MF827 |No constraint file specified.
+@L: E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi_scck.rpt 
+See clock summary report "E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 148MB)
+
+@W: BN132 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\mipi_hs_lp_tx.v":256:1:256:6|Removing sequential instance mipi_dsi_top_inst.mipi_hs_lp_tx_inst.Lp_data_lane3_reg[1:0] because it is equivalent to instance mipi_dsi_top_inst.mipi_hs_lp_tx_inst.Lp_data_lane2_reg[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\mipi_hs_lp_tx.v":256:1:256:6|Removing sequential instance mipi_dsi_top_inst.mipi_hs_lp_tx_inst.Lp_data_lane2_reg[1:0] because it is equivalent to instance mipi_dsi_top_inst.mipi_hs_lp_tx_inst.Lp_data_lane1_reg[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\mipi_hs_lp_tx.v":256:1:256:6|Removing sequential instance mipi_dsi_top_inst.mipi_hs_lp_tx_inst.Lp_data_lane1_reg[1:0] because it is equivalent to instance mipi_dsi_top_inst.mipi_hs_lp_tx_inst.Lp_data_lane0_reg[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":114:0:114:5|Removing sequential instance w_full (in view: work.Asyn_Fifo_10s_16s_0_1_2_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":121:0:121:5|Removing sequential instance w_afull (in view: work.Asyn_Fifo_10s_16s_0_1_2_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":275:0:275:5|Removing sequential instance r_aempty (in view: work.Asyn_Fifo_10s_16s_0_1_2_0(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":114:0:114:5|Removing sequential instance w_full (in view: work.Asyn_Fifo_10s_16s_0_1_2_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":121:0:121:5|Removing sequential instance w_afull (in view: work.Asyn_Fifo_10s_16s_0_1_2_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":275:0:275:5|Removing sequential instance r_aempty (in view: work.Asyn_Fifo_10s_16s_0_1_2_1(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":114:0:114:5|Removing sequential instance w_full (in view: work.Asyn_Fifo_10s_16s_0_1_2_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":121:0:121:5|Removing sequential instance w_afull (in view: work.Asyn_Fifo_10s_16s_0_1_2_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":275:0:275:5|Removing sequential instance r_aempty (in view: work.Asyn_Fifo_10s_16s_0_1_2_2(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":114:0:114:5|Removing sequential instance w_full (in view: work.Asyn_Fifo_10s_16s_0_1_2_4(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":121:0:121:5|Removing sequential instance w_afull (in view: work.Asyn_Fifo_10s_16s_0_1_2_4(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":275:0:275:5|Removing sequential instance r_aempty (in view: work.Asyn_Fifo_10s_16s_0_1_2_4(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":114:0:114:5|Removing sequential instance w_full (in view: work.Asyn_Fifo_6s_8s_0_1_2_3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":121:0:121:5|Removing sequential instance w_afull (in view: work.Asyn_Fifo_6s_8s_0_1_2_3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":275:0:275:5|Removing sequential instance r_aempty (in view: work.Asyn_Fifo_6s_8s_0_1_2_3(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":269:0:269:5|Removing sequential instance r_empty (in view: work.Asyn_Fifo_10s_16s_0_1_2_0(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":269:0:269:5|Removing sequential instance r_empty (in view: work.Asyn_Fifo_10s_16s_0_1_2_1(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":269:0:269:5|Removing sequential instance r_empty (in view: work.Asyn_Fifo_10s_16s_0_1_2_2(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":269:0:269:5|Removing sequential instance r_empty (in view: work.Asyn_Fifo_10s_16s_0_1_2_4(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+Encoding state machine Fsm_vss_flag[2:0] (in view: work.rgb48bit_to4ch16bit_ctrl(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine ST[3:0] (in view: work.Asyn_Fifo_10s_16s_0_1_2_0(verilog))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":186:0:186:5|There are no possible illegal states for state machine ST[3:0] (in view: work.Asyn_Fifo_10s_16s_0_1_2_0(verilog)); safe FSM implementation is not required.
+Encoding state machine ST[3:0] (in view: work.Asyn_Fifo_10s_16s_0_1_2_1(verilog))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":186:0:186:5|There are no possible illegal states for state machine ST[3:0] (in view: work.Asyn_Fifo_10s_16s_0_1_2_1(verilog)); safe FSM implementation is not required.
+Encoding state machine ST[3:0] (in view: work.Asyn_Fifo_10s_16s_0_1_2_2(verilog))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":186:0:186:5|There are no possible illegal states for state machine ST[3:0] (in view: work.Asyn_Fifo_10s_16s_0_1_2_2(verilog)); safe FSM implementation is not required.
+Encoding state machine ST[3:0] (in view: work.Asyn_Fifo_10s_16s_0_1_2_4(verilog))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":186:0:186:5|There are no possible illegal states for state machine ST[3:0] (in view: work.Asyn_Fifo_10s_16s_0_1_2_4(verilog)); safe FSM implementation is not required.
+Encoding state machine ST[3:0] (in view: work.Asyn_Fifo_6s_8s_0_1_2_3(verilog))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\asyn_fifo.v":186:0:186:5|There are no possible illegal states for state machine ST[3:0] (in view: work.Asyn_Fifo_6s_8s_0_1_2_3(verilog)); safe FSM implementation is not required.
+Encoding state machine Fsm_rgb_ctrl[4:0] (in view: work.mipi_data_rd_ctrl(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine Fsm_mipi_hs[5:0] (in view: work.mipi_packetizer(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+Encoding state machine Fsm_mipi_init[3:0] (in view: work.mipi_screen_init(verilog))
+original code -> new code
+   000000 -> 00
+   000010 -> 01
+   000011 -> 10
+   001000 -> 11
+@N: MO225 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\mipi_screen_init.v":201:1:201:6|There are no possible illegal states for state machine Fsm_mipi_init[3:0] (in view: work.mipi_screen_init(verilog)); safe FSM implementation is not required.
+Encoding state machine Fsm_serdes_rst_ctrl[5:0] (in view: work.serdes_rst_ctrl(verilog))
+original code -> new code
+   00000 -> 000001
+   00001 -> 000010
+   00010 -> 000100
+   00011 -> 001000
+   00100 -> 010000
+   00101 -> 100000
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 232MB peak: 232MB)
+
+@N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 233MB peak: 233MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 233MB peak: 233MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 233MB peak: 233MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 233MB peak: 233MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                  Requested     Requested     Clock                                                           Clock                     Clock
+Level     Clock                                                  Frequency     Period        Type                                                            Group                     Load 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                 150.0 MHz     6.667         system                                                          system_clkgroup           0    
+                                                                                                                                                                                            
+0 -       GW_PLL|clkout_inferred_clock                           237.1 MHz     4.217         inferred                                                        Autoconstr_clkgroup_4     1374 
+                                                                                                                                                                                            
+0 -       _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock           150.0 MHz     6.667         inferred                                                        Autoconstr_clkgroup_1     1222 
+1 .         mipi_dsi_top|I_mipi_init_clk_derived_clock           150.0 MHz     6.667         derived (from _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock)     Autoconstr_clkgroup_1     29   
+                                                                                                                                                                                            
+0 -       ivideo_dynamic_top|I_clk                               401.2 MHz     2.492         inferred                                                        Autoconstr_clkgroup_0     39   
+                                                                                                                                                                                            
+0 -       ivideo_dynamic_top|O_lcd_clkos_wire_inferred_clock     150.0 MHz     6.667         inferred                                                        Autoconstr_clkgroup_2     4    
+                                                                                                                                                                                            
+0 -       ivideo_dynamic_top|O_lcd_clkop_wire_inferred_clock     150.0 MHz     6.667         inferred                                                        Autoconstr_clkgroup_3     1    
+============================================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                       Clock     Source                                                               Clock Pin                                                       Non-clock Pin     Non-clock Pin
+Clock                                                  Load      Pin                                                                  Seq Example                                                     Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                 0         -                                                                    -                                                               -                 -            
+                                                                                                                                                                                                                                     
+GW_PLL|clkout_inferred_clock                           1374      GW_PLL_inst.pll_inst.CLKOUT(PLL)                                     rgb_data_asyfifo_inst.afifo_lane4.asyn_fifo.rptr_gw1[6:0].C     -                 -            
+                                                                                                                                                                                                                                     
+_~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock           1222      MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U3_CLKDIV.CLKOUT(CLKDIV)     MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U5_OSER80.PCLK          -                 -            
+mipi_dsi_top|I_mipi_init_clk_derived_clock             29        mipi_dsi_top_inst.I_mipi_init_clk.Q[0](dffre)                        mipi_dsi_top_inst.mipi_screen_init_inst.O_VBL_on_sw.C           -                 -            
+                                                                                                                                                                                                                                     
+ivideo_dynamic_top|I_clk                               39        I_clk(port)                                                          cnt[9:0].C                                                      -                 -            
+                                                                                                                                                                                                                                     
+ivideo_dynamic_top|O_lcd_clkos_wire_inferred_clock     4         DHCEN_ECLK_OS.CLKOUT(DHCEN)                                          MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U5_OSER80.FCLK          -                 -            
+                                                                                                                                                                                                                                     
+ivideo_dynamic_top|O_lcd_clkop_wire_inferred_clock     1         DHCEN_ECLK_OP.CLKOUT(DHCEN)                                          MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8.FCLK           -                 -            
+=====================================================================================================================================================================================================================================
+
+@W: MT529 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\serdes_rst_ctrl.v":28:1:28:6|Found inferred clock ivideo_dynamic_top|I_clk which controls 39 sequential elements including serdes_rst_ctrl_mipi.Fsm_serdes_rst_ctrl[5]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\dul_ram.v":36:0:36:5|Found inferred clock _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock which controls 1222 sequential elements including rgb_data_asyfifo_inst.afifo_lane0.asyn_fifo.Dul_Ram.genblk1\.bd[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\dphy_tx_top.v":208:8:208:16|Found inferred clock ivideo_dynamic_top|O_lcd_clkos_wire_inferred_clock which controls 4 sequential elements including MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U5_OSER83. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\dphy_tx_top.v":230:8:230:15|Found inferred clock ivideo_dynamic_top|O_lcd_clkop_wire_inferred_clock which controls 1 sequential elements including MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"e:\gowin\dsi_colorbar\dsi_colorbar_test18k\dsi_colorbar_test\src\colorbar_test.v":119:0:119:5|Found inferred clock GW_PLL|clkout_inferred_clock which controls 1374 sequential elements including colorbar_test_inst.lcd_datain_1[16]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+5 non-gated/non-generated clock tree(s) driving 2545 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 29 clock pin(s) of sequential element(s)
+0 instances converted, 29 sequential instances remain driven by gated/generated clocks
+
+================================================================= Non-Gated/Non-Generated Clocks =================================================================
+Clock Tree ID     Driving Element                                              Drive Element Type     Fanout     Sample Instance                                  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       I_clk                                                        port                   39         cnt[9:0]                                         
+@KP:ckid0_1       DHCEN_ECLK_OP.CLKOUT                                         DHCEN                  1          MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8 
+@KP:ckid0_2       MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U3_CLKDIV.CLKOUT     CLKDIV                 1194       MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8 
+@KP:ckid0_3       DHCEN_ECLK_OS.CLKOUT                                         DHCEN                  4          MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U5_OSER83
+@KP:ckid0_6       GW_PLL_inst.pll_inst.CLKOUT                                  PLL                    1307       rgb48bit_to4ch16bit_ctrl_inst.Fsm_vss_flag[1]    
+==================================================================================================================================================================
+============================================================================================= Gated/Generated Clocks =============================================================================================
+Clock Tree ID     Driving Element                            Drive Element Type     Unconverted Fanout     Sample Instance                                              Explanation                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_4       mipi_dsi_top_inst.I_mipi_init_clk.Q[0]     dffre                  29                     mipi_dsi_top_inst.mipi_screen_init_inst.Fsm_mipi_init[1]     Derived clock on input (not legal for GCC)
+==================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 233MB peak: 233MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 233MB peak: 233MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 235MB peak: 235MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 235MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Mon Aug 10 19:32:18 2020
+
+###########################################################]

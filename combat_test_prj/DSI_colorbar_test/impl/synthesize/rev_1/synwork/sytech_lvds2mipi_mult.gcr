@@ -1,0 +1,39 @@
+i I_clk
+m 0 0
+u 12 39
+p {p:I_clk}{t:cnt[9:0].C}
+e ckid0_0 {t:cnt[9:0].C} dffr
+c ckid0_0 {p:I_clk} port Unsupported/too complex instance on clock path
+i O_lcd_clkop_wire_i
+m 0 0
+u 1 1
+p {t:DHCEN_ECLK_OP.CLKOUT}{t:O_lcd_clkop_wire_inferred_clock.I[0]}{t:O_lcd_clkop_wire_inferred_clock.OUT[0]}{t:MIPI_DPHY_tx_inst.clk_bit_90}{p:MIPI_DPHY_tx_inst.clk_bit_90}{t:MIPI_DPHY_tx_inst.DPHY_TX_INST.clk_bit_90}{p:MIPI_DPHY_tx_inst.DPHY_TX_INST.clk_bit_90}{t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.clk_bit_90}{p:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.clk_bit_90}{t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8.FCLK}
+e ckid0_1 {t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8.FCLK} OSER8
+c ckid0_1 {t:DHCEN_ECLK_OP.CLKOUT} DHCEN Unsupported/too complex instance on clock path
+i MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.sclk_0_i
+m 0 0
+u 659 1194
+p {t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U3_CLKDIV.CLKOUT}{t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.sclk_0_inferred_clock.I[0]}{t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.sclk_0_inferred_clock.OUT[0]}{t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8.PCLK}
+e ckid0_2 {t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8.PCLK} OSER8
+c ckid0_2 {t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U3_CLKDIV.CLKOUT} CLKDIV Unsupported/too complex instance on clock path
+i O_lcd_clkos_wire_i
+m 0 0
+u 4 4
+p {t:DHCEN_ECLK_OS.CLKOUT}{t:O_lcd_clkos_wire_inferred_clock.I[0]}{t:O_lcd_clkos_wire_inferred_clock.OUT[0]}{t:MIPI_DPHY_tx_inst.clk_bit}{p:MIPI_DPHY_tx_inst.clk_bit}{t:MIPI_DPHY_tx_inst.DPHY_TX_INST.clk_bit}{p:MIPI_DPHY_tx_inst.DPHY_TX_INST.clk_bit}{t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.clk_bit}{p:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.clk_bit}{t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U5_OSER83.FCLK}
+e ckid0_3 {t:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U5_OSER83.FCLK} OSER8
+c ckid0_3 {t:DHCEN_ECLK_OS.CLKOUT} DHCEN Unsupported/too complex instance on clock path
+i mipi_dsi_top_inst.I_mipi_init_clk_i
+m 0 0
+u 6 29
+n ckid0_4 {t:mipi_dsi_top_inst.mipi_screen_init_inst.Fsm_mipi_init[1].C} Derived clock on input (not legal for GCC)
+p {t:mipi_dsi_top_inst.I_mipi_init_clk.Q[0]}{t:mipi_dsi_top_inst.I_mipi_init_clk_derived_clock.I[0]}{t:mipi_dsi_top_inst.I_mipi_init_clk_derived_clock.OUT[0]}{t:mipi_dsi_top_inst.mipi_screen_init_inst.I_mipi_init_clk}{p:mipi_dsi_top_inst.mipi_screen_init_inst.I_mipi_init_clk}{t:mipi_dsi_top_inst.mipi_screen_init_inst.Fsm_mipi_init[1].C}
+e ckid0_4 {t:mipi_dsi_top_inst.mipi_screen_init_inst.Fsm_mipi_init[1].C} dffr
+d ckid0_5 {t:mipi_dsi_top_inst.I_mipi_init_clk.Q[0]} dffre Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i GW_PLL_inst.clkout_i
+m 0 0
+u 54 1307
+p {t:GW_PLL_inst.pll_inst.CLKOUT}{t:GW_PLL_inst.clkout_inferred_clock.I[0]}{t:GW_PLL_inst.clkout_inferred_clock.OUT[0]}{p:GW_PLL_inst.clkout}{t:GW_PLL_inst.clkout}{t:rgb48bit_to4ch16bit_ctrl_inst.I_sclk}{p:rgb48bit_to4ch16bit_ctrl_inst.I_sclk}{t:rgb48bit_to4ch16bit_ctrl_inst.Fsm_vss_flag[1].C}
+e ckid0_6 {t:rgb48bit_to4ch16bit_ctrl_inst.Fsm_vss_flag[1].C} dffr
+c ckid0_6 {t:GW_PLL_inst.pll_inst.CLKOUT} PLL Unsupported/too complex instance on clock path
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

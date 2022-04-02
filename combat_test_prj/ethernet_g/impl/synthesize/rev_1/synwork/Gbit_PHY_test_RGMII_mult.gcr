@@ -1,0 +1,8 @@
+i I_phy1_rxc
+m 0 0
+u 13 20
+p {p:I_phy1_rxc}{t:test_d[7:0].C}
+e ckid0_0 {t:test_d[7:0].C} dff
+c ckid0_0 {p:I_phy1_rxc} port Unsupported/too complex instance on clock path
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

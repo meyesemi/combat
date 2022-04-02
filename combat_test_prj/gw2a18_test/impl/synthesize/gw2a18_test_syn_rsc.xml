@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Lut="3">
+    <SubModule name="II_0" Register="8">
+        <SubModule name="uart_data_gen" Register="45" Alu="32" Lut="45"/>
+        <SubModule name="u_uart_tx" Register="25" Alu="16" Lut="31"/>
+        <SubModule name="u_uart_rx" Register="40" Alu="16" Lut="37"/>
+    </SubModule>
+    <SubModule name="key_ctl" Register="3" Lut="2">
+        <SubModule name="genblk1.genblk1.U_btn_deb" Register="19" Alu="18" Lut="6"/>
+    </SubModule>
+    <SubModule name="u_led" Register="31" Alu="25" Lut="44"/>
+    <SubModule name="hdmi_out_top">
+        <SubModule name="u_tmds_pll" Lut="1"/>
+        <SubModule name="lcd_pll" Lut="1"/>
+        <SubModule name="btn_ctl" Register="15" Lut="12">
+            <SubModule name="genblk1.genblk1.II_0" Register="20" Alu="18" Lut="6"/>
+        </SubModule>
+        <SubModule name="btn_ctl1" Register="15" Lut="12">
+            <SubModule name="genblk1.genblk1.II_0" Register="20" Alu="18" Lut="6"/>
+        </SubModule>
+        <SubModule name="sync_vg" Register="59" Alu="35" Lut="62"/>
+        <SubModule name="pattern_vg" Register="46" Alu="20" Lut="93"/>
+        <SubModule name="sync_vg1" Register="55" Alu="35" Lut="165"/>
+        <SubModule name="pattern_vg1" Register="45" Alu="19" Lut="14"/>
+        <SubModule name="rgb2dvi">
+            <SubModule name="clockserializer"/>
+            <SubModule name="encoder[0].dataencoder" Register="57" Alu="5" Lut="152"/>
+            <SubModule name="encoder[2].dataencoder" Register="46" Alu="5" Lut="111"/>
+            <SubModule name="encoder[1].dataencoder" Register="46" Alu="5" Lut="104"/>
+            <SubModule name="encoder[2].dataserializer"/>
+            <SubModule name="encoder[1].dataserializer"/>
+            <SubModule name="encoder[0].dataserializer"/>
+        </SubModule>
+    </SubModule>
+</Module>

@@ -1,0 +1,134 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G-1
+Install: D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-AP2159I
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q3p1, Build 317R, Built Apr  1 2020 10:50:36
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G-1
+Install: D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-AP2159I
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q3p1, Build 317R, Built Apr  1 2020 10:50:36
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\lib\generic\gw2a.v" (library work)
+@I::"D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\dvi_tx_top.v" (library work)
+@I:"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\dvi_tx_top.v":"D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\top_define.v" (library work)
+@I:"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\dvi_tx_top.v":"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\static_macro_define.v" (library work)
+@I:"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\dvi_tx_top.v":"D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\dvi_tx_defines.v" (library work)
+@I::"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp" (library work)
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":168:9:168:26|Duplicate defparam GSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":169:9:169:26|Duplicate defparam LSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":168:9:168:26|Duplicate defparam GSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":196:9:196:26|Duplicate defparam GSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":169:9:169:26|Duplicate defparam LSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":197:9:197:26|Duplicate defparam LSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":168:9:168:26|Duplicate defparam GSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":196:9:196:26|Duplicate defparam GSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":224:9:224:26|Duplicate defparam GSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":169:9:169:26|Duplicate defparam LSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":197:9:197:26|Duplicate defparam LSREN found ! Previously declared here.
+@W: CG1347 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp":225:9:225:26|Duplicate defparam LSREN found ! Previously declared here.
+Verilog syntax check successful!
+Selecting top level module DVI_TX_Top
+Running optimization stage 1 on PLL .......
+Running optimization stage 1 on \~TMDS8b10b.DVI_TX_Top  .......
+Running optimization stage 1 on OSER10 .......
+Running optimization stage 1 on TLVDS_OBUF .......
+Running optimization stage 1 on \~rgb2dvi.DVI_TX_Top  .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\dvi_tx_top.v":26:19:26:19|Synthesizing module DVI_TX_Top in library work.
+Running optimization stage 1 on DVI_TX_Top .......
+Running optimization stage 2 on DVI_TX_Top .......
+Running optimization stage 2 on \~rgb2dvi.DVI_TX_Top  .......
+Running optimization stage 2 on TLVDS_OBUF .......
+Running optimization stage 2 on OSER10 .......
+Running optimization stage 2 on \~TMDS8b10b.DVI_TX_Top  .......
+Running optimization stage 2 on PLL .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 92MB peak: 95MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May 14 09:54:48 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G-1
+Install: D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-AP2159I
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+@N: NF107 :"d:\gowin\gowin_v1.9.5.02beta\ide\ipcore\dvi_tx\data\dvi_tx_top.v":26:19:26:19|Selected library: work cell: DVI_TX_Top view verilog as top level
+@N: NF107 :"d:\gowin\gowin_v1.9.5.02beta\ide\ipcore\dvi_tx\data\dvi_tx_top.v":26:19:26:19|Selected library: work cell: DVI_TX_Top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 87MB peak: 88MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May 14 09:54:52 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\rev_1\synwork\dvi_tx_top_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 18MB peak: 19MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May 14 09:54:52 2020
+
+###########################################################]

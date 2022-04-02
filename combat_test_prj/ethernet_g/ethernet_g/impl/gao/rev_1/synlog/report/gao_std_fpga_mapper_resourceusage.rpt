@@ -1,0 +1,39 @@
+---------------------------------------
+Resource Usage Report for gw_gao 
+
+Mapping to part: gw2a_18pbga484-7
+Cell usage:
+ALU             64 uses
+DFF             9 uses
+DFFC            50 uses
+DFFCE           193 uses
+DFFNC           4 uses
+DFFNP           2 uses
+DFFP            5 uses
+DFFPE           32 uses
+GSR             1 use
+GW_JTAG         1 use
+INV             3 uses
+MUX2_LUT5       9 uses
+MUX2_LUT6       1 use
+SDPB            1 use
+LUT2            60 uses
+LUT3            103 uses
+LUT4            239 uses
+MUX16           1 use
+
+I/O ports: 14
+I/O primitives: 4
+IBUF           3 uses
+OBUF           1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   295 of 15552 (1%)
+
+RAM/ROM usage summary
+Block Rams : 1 of 46 (2%)
+
+
+@S |Mapping Summary:
+Total  LUTs: 410 
+

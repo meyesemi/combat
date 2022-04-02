@@ -1,0 +1,22 @@
+@P:  Worst Slack : -1.951
+@P:  DVI_TX_Top|I_rgb_clk - Estimated Frequency : 76.9 MHz
+@P:  DVI_TX_Top|I_rgb_clk - Requested Frequency : 90.4 MHz
+@P:  DVI_TX_Top|I_rgb_clk - Estimated Period : 13.008
+@P:  DVI_TX_Top|I_rgb_clk - Requested Period : 11.057
+@P:  DVI_TX_Top|I_rgb_clk - Slack : -1.951
+@P:  _~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock - Estimated Frequency : NA
+@P:  _~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock - Estimated Period : NA
+@P:  _~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock - Requested Period : 6.667
+@P:  _~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock - Slack : NA
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 150.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 6.667
+@P:  System - Slack : 9.356
+@P: DVI_TX_Top Part : gw2a_18pbga484-8
+@P: DVI_TX_Top I/O primitives : 4
+@P: DVI_TX_Top I/O Register bits : 0
+@P: DVI_TX_Top Register bits (Non I/O) : 79 (0%)
+@P: DVI_TX_Top Total Luts : 276 of 800 (1%)
+@P:  CPU Time : 0h:00m:07s

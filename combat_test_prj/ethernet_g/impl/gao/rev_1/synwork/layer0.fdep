@@ -1,0 +1,72 @@
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\RTL_Design\\others_reference\\UniversityPlan1_Guangzhou2020\\Ethernet-1000M_test\\ethernet_g\\impl\\gao\\rev_1\\synwork\\gao_std_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-nram|-divnmod|-nostructver|-gowin|-infer_seqShift|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-y|D:\\Program Files\\Gowin\\Gowin_V1.9.6.01Beta\\IDE\\simlib\\hardware_core\\gw2a\\prim_syn.v|-I|E:\\RTL_Design\\others_reference\\UniversityPlan1_Guangzhou2020\\Ethernet-1000M_test\\ethernet_g\\impl\\gao|-I|D:\\Program Files\\Gowin\\Gowin_V1.9.6.01Beta\\IDE\\data\\ipcores\\GAO|-I|E:\\RTL_Design\\others_reference\\UniversityPlan1_Guangzhou2020\\Ethernet-1000M_test\\ethernet_g\\impl\\gao\\|-I|D:\\Program Files\\Gowin\\Gowin_V1.9.2.01Beta\\SynplifyPro\\lib|-sysv|-devicelib|D:\\Program Files\\Gowin\\Gowin_V1.9.2.01Beta\\SynplifyPro\\lib\\generic\\gw2a.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.2.01Beta\\SynplifyPro\\bin64\\c_ver.exe":1569428574
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.2.01Beta\\SynplifyPro\\lib\\generic\\gw2a.v":1569433954
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.2.01Beta\\SynplifyPro\\lib\\vlog\\hypermods.v":1569428306
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.2.01Beta\\SynplifyPro\\lib\\vlog\\umr_capim.v":1569428306
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.2.01Beta\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1569428306
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.2.01Beta\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1569428306
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.6.01Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_crc32.v":1595553408
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.6.01Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_match.v":1595553408
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.6.01Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0/gw_ao_define.v":1595553408
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.6.01Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_mem_ctrl.v":1595553408
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.6.01Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_top.v":1595553408
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.6.01Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0/gw_ao_define.v":1595553408
+#CUR:"E:\\RTL_Design\\others_reference\\UniversityPlan1_Guangzhou2020\\Ethernet-1000M_test\\ethernet_g\\impl\\gao\\ao_0/gw_ao_top_define.v":1597134434
+#CUR:"E:\\RTL_Design\\others_reference\\UniversityPlan1_Guangzhou2020\\Ethernet-1000M_test\\ethernet_g\\impl\\gao\\ao_0/gw_ao_expression.v":1597134434
+#CUR:"E:\\RTL_Design\\others_reference\\UniversityPlan1_Guangzhou2020\\Ethernet-1000M_test\\ethernet_g\\impl\\gao\\ao_0/gw_ao_parameter.v":1597134434
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.6.01Beta\\IDE\\data\\ipcores\\GAO\\GW_CON\\gw_con_top.v":1595553408
+#CUR:"E:\\RTL_Design\\others_reference\\UniversityPlan1_Guangzhou2020\\Ethernet-1000M_test\\ethernet_g\\impl\\gao\\ao_control/gw_con_top_define.v":1597134434
+#CUR:"E:\\RTL_Design\\others_reference\\UniversityPlan1_Guangzhou2020\\Ethernet-1000M_test\\ethernet_g\\impl\\gao\\ao_control/gw_con_parameter.v":1597134434
+#CUR:"D:\\Program Files\\Gowin\\Gowin_V1.9.6.01Beta\\IDE\\data\\ipcores\\gw_jtag.v":1595553408
+#CUR:"E:\\RTL_Design\\others_reference\\UniversityPlan1_Guangzhou2020\\Ethernet-1000M_test\\ethernet_g\\impl\\gao\\gw_gao_top.v":1597134434
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"D:\Program Files\Gowin\Gowin_V1.9.6.01Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v" verilog
+1			"D:\Program Files\Gowin\Gowin_V1.9.6.01Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v" verilog
+2		*	"D:\Program Files\Gowin\Gowin_V1.9.6.01Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_define.v" verilog
+3			"D:\Program Files\Gowin\Gowin_V1.9.6.01Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v" verilog
+4			"D:\Program Files\Gowin\Gowin_V1.9.6.01Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v" verilog
+5		*	"E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\Ethernet-1000M_test\ethernet_g\impl\gao\ao_0\gw_ao_top_define.v" verilog
+6		*	"E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\Ethernet-1000M_test\ethernet_g\impl\gao\ao_0\gw_ao_expression.v" verilog
+7		*	"E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\Ethernet-1000M_test\ethernet_g\impl\gao\ao_0\gw_ao_parameter.v" verilog
+8			"D:\Program Files\Gowin\Gowin_V1.9.6.01Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v" verilog
+9		*	"E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\Ethernet-1000M_test\ethernet_g\impl\gao\ao_control\gw_con_top_define.v" verilog
+10		*	"E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\Ethernet-1000M_test\ethernet_g\impl\gao\ao_control\gw_con_parameter.v" verilog
+11			"D:\Program Files\Gowin\Gowin_V1.9.6.01Beta\IDE\data\ipcores\gw_jtag.v" verilog
+12			"E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\Ethernet-1000M_test\ethernet_g\impl\gao\gw_gao_top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 2
+2 5 6 7
+3 -1
+4 2 5 6 7 3 0 1
+5 2 6 7
+6 2 5 7
+7 2 5 6
+8 9 10
+9 10
+10 9
+11 -1
+12 8 9 10 4 2 5 6 7 11
+#Dependency Lists(Users Of)
+0 4
+1 4
+2 1 4 5 6 7 12
+3 4
+4 12
+5 2 4 6 7 12
+6 2 4 5 7 12
+7 2 4 5 6 12
+8 12
+9 8 10 12
+10 8 9 12
+11 12
+12 -1
+#Design Unit to File Association
+module work ao_crc32_0 0
+module work ao_match_0 1
+module work ao_mem_ctrl_0 3
+module work ao_top_0 4
+module work gw_con_top 8
+module work GW_JTAG 11
+module work gw_gao 12

@@ -1,0 +1,118 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: AAA-PC
+
+Implementation : rev_1
+
+# Written on Mon Aug 10 19:32:18 2020
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ivideo_dynamic_top"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                         Ending                                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                           System                                           |     6.667            |     No paths         |     No paths         |     No paths                         
+System                                           ivideo_dynamic_top|I_clk                         |     2.492            |     No paths         |     No paths         |     No paths                         
+ivideo_dynamic_top|I_clk                         System                                           |     2.492            |     No paths         |     No paths         |     No paths                         
+ivideo_dynamic_top|I_clk                         ivideo_dynamic_top|I_clk                         |     2.492            |     No paths         |     No paths         |     No paths                         
+ivideo_dynamic_top|I_clk                         _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ivideo_dynamic_top|I_clk                         GW_PLL|clkout_inferred_clock                     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ivideo_dynamic_top|I_clk                         mipi_dsi_top|I_mipi_init_clk_derived_clock       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+_~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock     _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock     |     6.667            |     No paths         |     No paths         |     No paths                         
+_~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock     GW_PLL|clkout_inferred_clock                     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+GW_PLL|clkout_inferred_clock                     _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+GW_PLL|clkout_inferred_clock                     GW_PLL|clkout_inferred_clock                     |     4.217            |     No paths         |     No paths         |     No paths                         
+mipi_dsi_top|I_mipi_init_clk_derived_clock       _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock     |     6.667            |     No paths         |     No paths         |     No paths                         
+mipi_dsi_top|I_mipi_init_clk_derived_clock       mipi_dsi_top|I_mipi_init_clk_derived_clock       |     6.667            |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:O_hs_clk_n
+p:O_hs_clk_p
+p:O_hs_d0_n
+p:O_hs_d0_p
+p:O_hs_d1_n
+p:O_hs_d1_p
+p:O_hs_d2_n
+p:O_hs_d2_p
+p:O_hs_d3_n
+p:O_hs_d3_p
+p:O_lcd_led_en
+p:O_lcd_led_pwm
+p:O_lp_clk_n (bidir end point)
+p:O_lp_clk_n (bidir start point)
+p:O_lp_clk_p (bidir end point)
+p:O_lp_clk_p (bidir start point)
+p:O_lp_d0_n (bidir end point)
+p:O_lp_d0_n (bidir start point)
+p:O_lp_d0_p (bidir end point)
+p:O_lp_d0_p (bidir start point)
+p:O_lp_d1_n (bidir end point)
+p:O_lp_d1_n (bidir start point)
+p:O_lp_d1_p (bidir end point)
+p:O_lp_d1_p (bidir start point)
+p:O_lp_d2_n (bidir end point)
+p:O_lp_d2_n (bidir start point)
+p:O_lp_d2_p (bidir end point)
+p:O_lp_d2_p (bidir start point)
+p:O_lp_d3_n (bidir end point)
+p:O_lp_d3_n (bidir start point)
+p:O_lp_d3_p (bidir end point)
+p:O_lp_d3_p (bidir start point)
+p:RST_n
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

@@ -1,0 +1,11 @@
+-d D:\verifacation\combat\shuangmu\dvp_hdmi_test\dk_video_dvp_720_HDMI_LVCMOS12\dk_video_dvp_720_LVCMOS12\impl\synthesize\rev_1\dk_video.vm
+-p GW2A-18C-PBGA484-8
+-pn GW2A-LV18PG484C8/I7
+-cst D:\verifacation\combat\shuangmu\dvp_hdmi_test\dk_video_dvp_720_HDMI_LVCMOS12\dk_video_dvp_720_LVCMOS12\src\dk_video.cst
+-cfg D:\verifacation\combat\shuangmu\dvp_hdmi_test\dk_video_dvp_720_HDMI_LVCMOS12\dk_video_dvp_720_LVCMOS12\impl\pnr\device.cfg
+-sdc D:\verifacation\combat\shuangmu\dvp_hdmi_test\dk_video_dvp_720_HDMI_LVCMOS12\dk_video_dvp_720_LVCMOS12\src\dk_video.sdc
+-gao D:\verifacation\combat\shuangmu\dvp_hdmi_test\dk_video_dvp_720_HDMI_LVCMOS12\dk_video_dvp_720_LVCMOS12\impl\gao\gao.v
+-bit
+-tr
+-ph
+-timing

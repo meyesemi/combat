@@ -1,0 +1,43 @@
+/***********************************************************************
+ Physical Constraint file 
+ Version:1.8.1Beta
+ Created Time:   Wed Aug 29 17:30:35 2018
+ Device:         GW2A-18
+ Package:        LQFP144
+************************************************************************/
+
+IO_LOC "I_clk" M19;
+
+IO_LOC "O_hs_clk_p" A15,B15 ;
+IO_LOC "O_hs_d0_p"  A17, B17;
+IO_LOC "O_hs_d1_p"  C14, C15;
+IO_LOC "O_hs_d2_p"  A22, B22;
+IO_LOC "O_hs_d3_p"  C18, C19;
+IO_LOC "O_lp_d0_n"  A8;
+IO_LOC "O_lp_d0_p"  B8;
+IO_LOC "O_lp_d1_n"  A5;
+IO_LOC "O_lp_d1_p"  A4;
+IO_LOC "O_lp_d2_n"  A1;
+IO_LOC "O_lp_d2_p"  B1;
+IO_LOC "O_lp_d3_n"  C10;
+IO_LOC "O_lp_d3_p"  C9;
+IO_LOC "O_lp_clk_n" A7;
+IO_LOC "O_lp_clk_p" B7;
+IO_LOC "O_lcd_led_pwm" F19;
+
+IO_LOC "RST_n" AB3;
+
+IO_PORT "O_lp_d3_n"  IO_TYPE=LVCMOS12 BANK_VCCIO=1.2;
+IO_PORT "O_lp_d3_p"  IO_TYPE=LVCMOS12 BANK_VCCIO=1.2;
+IO_PORT "O_lp_d2_n"  IO_TYPE=LVCMOS12 BANK_VCCIO=1.2;
+IO_PORT "O_lp_d2_p"  IO_TYPE=LVCMOS12 BANK_VCCIO=1.2;
+IO_PORT "O_lp_d1_n"  IO_TYPE=LVCMOS12 BANK_VCCIO=1.2;
+IO_PORT "O_lp_d1_p"  IO_TYPE=LVCMOS12 BANK_VCCIO=1.2;
+IO_PORT "O_lp_d0_n"  IO_TYPE=LVCMOS12 BANK_VCCIO=1.2;
+IO_PORT "O_lp_clk_n"  IO_TYPE=LVCMOS12 BANK_VCCIO=1.2;
+IO_PORT "O_lp_clk_p"  IO_TYPE=LVCMOS12 BANK_VCCIO=1.2;
+IO_PORT "O_lp_d0_p"  IO_TYPE=LVCMOS12 BANK_VCCIO=1.2;
+
+IO_PORT "I_clk"  IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_PORT "RST_n"  IO_TYPE=LVCMOS33;
+IO_PORT "O_lcd_led_pwm"  IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
