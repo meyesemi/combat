@@ -1,0 +1,69 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: GOWIN-PC
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+Modified Files: 18
+FID:  path (prevtimestamp, timestamp)
+0        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v (N/A, 2020-08-12 10:36:14)
+1        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_parameter.v (N/A, 2020-08-12 10:36:14)
+2        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_top_define.v (N/A, 2020-08-12 10:36:14)
+3        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_control/gw_con_parameter.v (N/A, 2020-08-12 10:36:14)
+4        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_control/gw_con_top_define.v (N/A, 2020-08-12 10:36:14)
+5        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\gw_gao_top.v (N/A, 2020-08-12 10:36:14)
+6        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0/gw_ao_define.v (N/A, 2020-06-30 11:09:42)
+7        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v (N/A, 2020-06-30 11:09:42)
+8        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v (N/A, 2020-06-30 11:09:42)
+9        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v (N/A, 2020-06-30 11:09:42)
+10       D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v (N/A, 2020-06-30 11:09:42)
+11       D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v (N/A, 2020-06-30 11:09:42)
+12       D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\gw_jtag.v (N/A, 2020-06-30 11:09:44)
+13       D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\generic\gw2a.v (N/A, 2020-06-19 18:46:34)
+14       D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\hypermods.v (N/A, 2020-05-12 03:02:52)
+15       D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2020-05-12 03:02:52)
+16       D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2020-05-12 03:02:52)
+17       D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2020-05-12 03:02:52)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 7
+MID:  lib.cell.view
+0        work.GW_JTAG.verilog may have changed because the following files changed:
+                        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v (N/A, 2020-08-12 10:36:14) <-- Error finding FID for 'C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v' in FDep file
+1        work.ao_crc32_0.verilog may have changed because the following files changed:
+                        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v (N/A, 2020-08-12 10:36:14) <-- Error finding FID for 'C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v' in FDep file
+                        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v (N/A, 2020-06-30 11:09:42) <-- (module definition)
+                        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v (N/A, 2020-06-30 11:09:42) <-- (may instantiate this module)
+2        work.ao_match_0.verilog may have changed because the following files changed:
+                        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v (N/A, 2020-08-12 10:36:14) <-- Error finding FID for 'C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v' in FDep file
+                        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v (N/A, 2020-06-30 11:09:42) <-- (module definition)
+                        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v (N/A, 2020-06-30 11:09:42) <-- (may instantiate this module)
+3        work.ao_mem_ctrl_0.verilog may have changed because the following files changed:
+                        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v (N/A, 2020-08-12 10:36:14) <-- Error finding FID for 'C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v' in FDep file
+                        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v (N/A, 2020-06-30 11:09:42) <-- (module definition)
+                        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v (N/A, 2020-06-30 11:09:42) <-- (may instantiate this module)
+4        work.ao_top_0.verilog may have changed because the following files changed:
+                        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v (N/A, 2020-08-12 10:36:14) <-- Error finding FID for 'C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v' in FDep file
+                        D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v (N/A, 2020-06-30 11:09:42) <-- (module definition)
+5        work.gw_con_top.verilog may have changed because the following files changed:
+                        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v (N/A, 2020-08-12 10:36:14) <-- Error finding FID for 'C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v' in FDep file
+6        work.gw_gao.verilog may have changed because the following files changed:
+                        C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v (N/A, 2020-08-12 10:36:14) <-- Error finding FID for 'C:\Users\gowin\Desktop\LESE\Gowin_DVI_RXTX_RefDesign\project\impl\gao\ao_0/gw_ao_expression.v' in FDep file
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

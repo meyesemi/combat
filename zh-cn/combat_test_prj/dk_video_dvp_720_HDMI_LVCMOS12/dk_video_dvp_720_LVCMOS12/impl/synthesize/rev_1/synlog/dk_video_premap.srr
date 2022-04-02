@@ -1,0 +1,238 @@
+# Tue Sep 22 14:29:40 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: D:\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw2020q1p1, Build 004R, Built Jun 18 2020 10:25:53, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 135MB)
+
+@A: MF827 |No constraint file specified.
+@L: J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_dvp_720_LVCMOS12\impl\synthesize\rev_1\dk_video_scck.rpt 
+See clock summary report "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_dvp_720_LVCMOS12\impl\synthesize\rev_1\dk_video_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 179MB)
+
+@N: FX493 |Applying initial value "0000" on instance s_cnt[3:0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d3.
+@N: FX493 |Applying initial value "1" on instance video_vs_n_d0.
+@N: FX493 |Applying initial value "1" on instance video_vs_n_d1.
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d3.
+@N: FX493 |Applying initial value "0" on instance vin_vs_n_falling_r.
+@N: FX493 |Applying initial value "0" on instance vout_vs_n_falling_r.
+@N: FX493 |Applying initial value "1" on instance vin_vs_n_sync3.
+@N: FX493 |Applying initial value "1" on instance vout_vs_n_sync3.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\video_top.v":38:19:38:27|Tristate driver cmos_xclk (in view: work.video_top(verilog)) on net cmos_xclk (in view: work.video_top(verilog)) has its enable tied to GND.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\key_debouncen.v":83:4:83:9|Removing sequential instance key_n_out1 (in view: work.key_debounceN_50000000_100000000(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\power_on_delay.v":51:0:51:5|Removing sequential instance initial_en (in view: work.power_on_delay(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\key_debouncen.v":95:4:95:9|Removing sequential instance key_n_out2 (in view: work.key_debounceN_50000000_200000000(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@W: BN114 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\cmos_8_16bit.v":28:7:28:14|Removing instance u_clkdiv (in view: work.cmos_8_16bit(verilog)) of black box view:work.CLKDIV(verilog) because it does not drive other instances.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\cmos_8_16bit.v":68:0:68:5|Removing sequential instance hblank (in view: work.cmos_8_16bit(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\i2c_com.v":47:4:47:9|Removing sequential instance ack3 (in view: work.i2c_com(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\i2c_com.v":47:4:47:9|Removing sequential instance ack2 (in view: work.i2c_com(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\i2c_com.v":47:4:47:9|Removing sequential instance ack1 (in view: work.i2c_com(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+Encoding state machine config_step[2:0] (in view: work.reg_config(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine wr_ptr[2:0] (in view: work.dma_frame_ctrl_8388608_28s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine rd_ptr[2:0] (in view: work.dma_frame_ctrl_8388608_28s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_state[3:0] (in view: work.dma_bus_arbiter_28s_128s_1_2_4_8(verilog))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 263MB peak: 263MB)
+
+@N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 264MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 265MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 265MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 265MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                                     Requested      Requested     Clock                                  Clock                      Clock
+Level     Clock                                                                     Frequency      Period        Type                                   Group                      Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                                    2979.7 MHz     0.336         system                                 system_clkgroup            0    
+                                                                                                                                                                                        
+0 -       _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_out_inferred_clock           150.0 MHz      6.667         inferred                               Autoconstr_clkgroup_4      2100 
+                                                                                                                                                                                        
+0 -       video_top|pix_clk                                                         76.3 MHz       13.104        inferred                               Autoconstr_clkgroup_1      200  
+                                                                                                                                                                                        
+0 -       video_top|I_clk                                                           222.0 MHz      4.504         inferred                               Autoconstr_clkgroup_2      129  
+                                                                                                                                                                                        
+0 -       video_top|cmos_pclk                                                       178.8 MHz      5.593         inferred                               Autoconstr_clkgroup_0      104  
+                                                                                                                                                                                        
+0 -       video_top|I_clk_27M                                                       261.1 MHz      3.829         inferred                               Autoconstr_clkgroup_12     29   
+1 .         reg_config|clock_20k_derived_clock                                      261.1 MHz      3.829         derived (from video_top|I_clk_27M)     Autoconstr_clkgroup_12     44   
+                                                                                                                                                                                        
+0 -       _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_x4i_inferred_clock           150.0 MHz      6.667         inferred                               Autoconstr_clkgroup_5      60   
+                                                                                                                                                                                        
+0 -       _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw270_inferred_clock     150.0 MHz      6.667         inferred                               Autoconstr_clkgroup_7      9    
+                                                                                                                                                                                        
+0 -       _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw270_inferred_clock       150.0 MHz      6.667         inferred                               Autoconstr_clkgroup_10     9    
+                                                                                                                                                                                        
+0 -       _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsr90_inferred_clock      150.0 MHz      6.667         inferred                               Autoconstr_clkgroup_8      8    
+                                                                                                                                                                                        
+0 -       _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsr90_inferred_clock        150.0 MHz      6.667         inferred                               Autoconstr_clkgroup_11     8    
+                                                                                                                                                                                        
+0 -       TMDS_PLL|clkout_inferred_clock                                            150.0 MHz      6.667         inferred                               Autoconstr_clkgroup_3      4    
+                                                                                                                                                                                        
+0 -       _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw0_inferred_clock       150.0 MHz      6.667         inferred                               Autoconstr_clkgroup_6      1    
+                                                                                                                                                                                        
+0 -       _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw0_inferred_clock         150.0 MHz      6.667         inferred                               Autoconstr_clkgroup_9      1    
+========================================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                          Clock     Source                                                                                                                                                         Clock Pin                                                                                                                                                                Non-clock Pin                                                                                                                                                            Non-clock Pin                                 
+Clock                                                                     Load      Pin                                                                                                                                                            Seq Example                                                                                                                                                              Seq Example                                                                                                                                                              Comb Example                                  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                    0         -                                                                                                                                                              -                                                                                                                                                                        -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+_~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_out_inferred_clock           2100      DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.clkdiv.CLKOUT(CLKDIV)                                                                                   DDR3_Memory_Interface_Top_inst.gw3mc_top.u_gwmc_top.mc_ras_n_dly_2_s0.CLK                                                                                                DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[1\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\iserdes_gen\[0\]\.u_ides8_mem.PCLK     -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+video_top|pix_clk                                                         200       u_clkdiv.CLKOUT(CLKDIV)                                                                                                                                        Pout_de_dn[1:0].C                                                                                                                                                        -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+video_top|I_clk                                                           129       I_clk(port)                                                                                                                                                    run_cnt[25:0].C                                                                                                                                                          -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+video_top|cmos_pclk                                                       104       cmos_pclk(port)                                                                                                                                                cmos_d_d0[7:0].C                                                                                                                                                         -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+video_top|I_clk_27M                                                       29        I_clk_27M(port)                                                                                                                                                reg_config_inst1.clock_20k.C                                                                                                                                             -                                                                                                                                                                        -                                             
+reg_config|clock_20k_derived_clock                                        44        reg_config_inst1.clock_20k.Q[0](dffre)                                                                                                                         reg_config_inst1.reg_conf_done_reg.C                                                                                                                                     -                                                                                                                                                                        reg_config_inst1.u1.un14_i2c_sclk[0].I[0](inv)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+_~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_x4i_inferred_clock           60        DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_dqcen.CLKOUT(DHCEN)                                                                                   DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.u_ddr_phy_cmd_lane.u_ddr_phy_cmd_io.\\mcd_oserdes_gen\[0\]\.u_cmd_gen.FCLK                           -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+_~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw270_inferred_clock     9         DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[1\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\cml5\.u_dqs.DQSW270(DQS)     DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[1\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\oserdes_gen\[0\]\.u_oser8_mem.TCLK     -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+_~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw270_inferred_clock       9         DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[0\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\cml5\.u_dqs.DQSW270(DQS)     DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[0\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\oserdes_gen\[0\]\.u_oser8_mem.TCLK     -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+_~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsr90_inferred_clock      8         DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[1\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\cml5\.u_dqs.DQSR90(DQS)      DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[1\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\iserdes_gen\[0\]\.u_ides8_mem.ICLK     -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+_~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsr90_inferred_clock        8         DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[0\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\cml5\.u_dqs.DQSR90(DQS)      DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[0\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\iserdes_gen\[0\]\.u_ides8_mem.ICLK     -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+TMDS_PLL|clkout_inferred_clock                                            4         u_tmds_pll.pll_inst.CLKOUT(PLL)                                                                                                                                DVI_TX_Top_inst.rgb2dvi_inst.u_OSER10_r.FCLK                                                                                                                             -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+_~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw0_inferred_clock       1         DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[1\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\cml5\.u_dqs.DQSW0(DQS)       DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[1\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.u_dqs_gen.TCLK                           -                                                                                                                                                                        -                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+_~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw0_inferred_clock         1         DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[0\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.\\cml5\.u_dqs.DQSW0(DQS)       DDR3_Memory_Interface_Top_inst.gw3mc_top.u_ddr_phy_top.u_ddr_phy_wd.\\data_lane_gen\[0\]\.u_ddr_phy_data_lane.u_ddr_phy_data_io.u_dqs_gen.TCLK                           -                                                                                                                                                                        -                                             
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+@W: MT529 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\cmos_8_16bit.v":76:0:76:5|Found inferred clock video_top|cmos_pclk which controls 104 sequential elements including cmos_8_16bit_m0.pdata_o[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\key_debouncen.v":70:4:70:9|Found inferred clock video_top|I_clk which controls 129 sequential elements including key_debounceN_inst0.cnt[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\dvi_tx_top\rgb2dvi.v":240:7:240:18|Found inferred clock TMDS_PLL|clkout_inferred_clock which controls 4 sequential elements including DVI_TX_Top_inst.rgb2dvi_inst.u_OSER10_clk. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\power_on_delay.v":36:0:36:5|Found inferred clock video_top|I_clk_27M which controls 29 sequential elements including power_on_delay_inst.cnt2[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+13 non-gated/non-generated clock tree(s) driving 2646 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 44 clock pin(s) of sequential element(s)
+0 instances converted, 44 sequential instances remain driven by gated/generated clocks
+
+============================================== Non-Gated/Non-Generated Clocks ==============================================
+Clock Tree ID     Driving Element                Drive Element Type     Fanout     Sample Instance                          
+----------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       u_clkdiv.CLKOUT                CLKDIV                 200        Pout_vs_dn[4:0]                          
+@KP:ckid0_2       u_tmds_pll.pll_inst.CLKOUT     PLL                    4          DVI_TX_Top_inst.rgb2dvi_inst.u_OSER10_clk
+@KP:ckid0_3       ENCRYPTED                      CLKDIV                 2084       ENCRYPTED                                
+@KP:ckid0_4       I_clk                          port                   129        run_cnt[25:0]                            
+@KP:ckid0_5       ENCRYPTED                      DHCEN                  60         ENCRYPTED                                
+@KP:ckid0_6       ENCRYPTED                      DQS                    8          ENCRYPTED                                
+@KP:ckid0_7       ENCRYPTED                      DQS                    9          ENCRYPTED                                
+@KP:ckid0_8       ENCRYPTED                      DQS                    1          ENCRYPTED                                
+@KP:ckid0_9       ENCRYPTED                      DQS                    8          ENCRYPTED                                
+@KP:ckid0_10      ENCRYPTED                      DQS                    9          ENCRYPTED                                
+@KP:ckid0_11      ENCRYPTED                      DQS                    1          ENCRYPTED                                
+@KP:ckid0_12      cmos_pclk                      port                   104        cmos_vsync_d0                            
+@KP:ckid0_16      I_clk_27M                      port                   29         reg_config_inst1.clock_20k_cnt[10:0]     
+============================================================================================================================
+============================================================================= Gated/Generated Clocks =============================================================================
+Clock Tree ID     Driving Element                     Drive Element Type     Unconverted Fanout     Sample Instance                     Explanation                               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_14      reg_config_inst1.clock_20k.Q[0]     dffre                  44                     reg_config_inst1.config_step[1]     Derived clock on input (not legal for GCC)
+==================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: MO111 :"j:\source_bac\gowin_board\gw2a_lv18pg484\test_prj\dk_video_dvp_720_lvcmos12\src\video_top.v":38:19:38:27|Tristate driver cmos_xclk (in view: work.video_top(verilog)) on net cmos_xclk (in view: work.video_top(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_dvp_720_LVCMOS12\impl\synthesize\rev_1\dk_video.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 265MB peak: 266MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 265MB peak: 266MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 265MB peak: 266MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 186MB peak: 266MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Tue Sep 22 14:29:45 2020
+
+###########################################################]

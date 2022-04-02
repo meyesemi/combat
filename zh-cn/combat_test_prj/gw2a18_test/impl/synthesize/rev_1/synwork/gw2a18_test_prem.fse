@@ -1,0 +1,36 @@
+
+fsm_encoding {11504501} sequential
+
+fsm_state_encoding {11504501} 0000 {0000}
+
+fsm_state_encoding {11504501} 0001 {0001}
+
+fsm_state_encoding {11504501} 0010 {0010}
+
+fsm_state_encoding {11504501} 0011 {0011}
+
+fsm_state_encoding {11504501} 0100 {0100}
+
+fsm_state_encoding {11504501} 0101 {0101}
+
+fsm_state_encoding {11504501} 0110 {0110}
+
+fsm_state_encoding {11504501} 0111 {0111}
+
+fsm_state_encoding {11504501} 1000 {1000}
+
+fsm_state_encoding {11504501} 1001 {1001}
+
+fsm_state_encoding {11504501} 1010 {1010}
+
+fsm_state_encoding {11504501} 1011 {1011}
+
+fsm_state_encoding {11504501} 1100 {1100}
+
+fsm_state_encoding {11504501} 1101 {1101}
+
+fsm_state_encoding {11504501} 1110 {1110}
+
+fsm_state_encoding {11504501} 1111 {1111}
+
+fsm_registers {11504501} {led_status[3]}  {led_status[2]}  {led_status[1]}  {led_status[0]} 

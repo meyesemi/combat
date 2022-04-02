@@ -1,0 +1,6 @@
+ckid0_0:@|S:I_clk@|E:cnt[9:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:DHCEN_ECLK_OP.CLKOUT@|E:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
+ckid0_2:@|S:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U3_CLKDIV.CLKOUT@|E:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2
+ckid0_3:@|S:DHCEN_ECLK_OS.CLKOUT@|E:MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U5_OSER83@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3
+ckid0_4:@|S:mipi_dsi_top_inst.I_mipi_init_clk.Q[0]@|E:mipi_dsi_top_inst.mipi_screen_init_inst.Fsm_mipi_init[1]@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4
+ckid0_6:@|S:GW_PLL_inst.pll_inst.CLKOUT@|E:rgb48bit_to4ch16bit_ctrl_inst.Fsm_vss_flag[1]@|F:@syn_dgcc_clockid0_6==1@|M:ClockId_0_6

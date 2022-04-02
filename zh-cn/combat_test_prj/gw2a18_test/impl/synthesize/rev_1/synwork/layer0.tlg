@@ -1,0 +1,230 @@
+Selecting top level module top
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2388:7:2388:10|Synthesizing module BUFG in library work.
+Running optimization stage 1 on BUFG .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_data_gen.v":23:7:23:19|Synthesizing module uart_data_gen in library work.
+Running optimization stage 1 on uart_data_gen .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_tx.v":24:7:24:13|Synthesizing module uart_tx in library work.
+
+	BPS_NUM=16'b0000000110110010
+	IDLE=4'b0000
+	SEND_START=4'b0001
+	SEND_DATA=4'b0010
+	SEND_STOP=4'b0011
+	SEND_END=4'b0100
+   Generated name = uart_tx_434_0_1_2_3_4
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_tx.v":101:33:101:42|Removing redundant assignment.
+Running optimization stage 1 on uart_tx_434_0_1_2_3_4 .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_rx.v":25:7:25:13|Synthesizing module uart_rx in library work.
+
+	BPS_NUM=16'b0000000110110010
+	IDLE=4'b0000
+	RECEIV_START=4'b0001
+	RECEIV_DATA=4'b0010
+	RECEIV_STOP=4'b0011
+	RECEIV_END=4'b0100
+   Generated name = uart_rx_434_0_1_2_3_4
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_rx.v":97:30:97:39|Removing redundant assignment.
+Running optimization stage 1 on uart_rx_434_0_1_2_3_4 .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_top.v":24:7:24:14|Synthesizing module uart_top in library work.
+Running optimization stage 1 on uart_top .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\key_ctl.v":24:7:24:13|Synthesizing module key_ctl in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+
+	BTN_WIDTH=4'b0001
+   Generated name = btn_deb_1
+Running optimization stage 1 on btn_deb_1 .......
+Running optimization stage 1 on key_ctl .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\led.v":23:7:23:9|Synthesizing module led in library work.
+Running optimization stage 1 on led .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.01Beta\IDE\simlib\hardware_core\gw2a\prim_syn.v":45:7:45:10|Synthesizing module rPLL in library work.
+Running optimization stage 1 on rPLL .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\gowin_rpll\rpll.v":8:7:8:14|Synthesizing module TMDS_pll in library work.
+Running optimization stage 1 on TMDS_pll .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\lcd_rpll\lcd_rpll.v":8:7:8:13|Synthesizing module lcd_pll in library work.
+Running optimization stage 1 on lcd_pll .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2481:7:2481:12|Synthesizing module CLKDIV in library work.
+Running optimization stage 1 on CLKDIV .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":23:7:23:13|Synthesizing module btn_ctl in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+
+	BTN_WIDTH=4'b0010
+   Generated name = btn_deb_2
+Running optimization stage 1 on btn_deb_2 .......
+@W: CG360 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":42:9:42:15|Removing wire btn_deb, as there is no assignment to it.
+Running optimization stage 1 on btn_ctl .......
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Register bit pattern_set[3] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Register bit pattern_set[4] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Register bit pattern_set[5] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Register bit pattern_set[6] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Register bit pattern_set[7] is always 0.
+@W: CL279 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Pruning register bits 7 to 3 of pattern_set[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":35:7:35:13|Synthesizing module sync_vg in library work.
+
+	X_BITS=4'b1100
+	Y_BITS=4'b1100
+	V_TOTAL=12'b001011101110
+	V_FP=12'b000000000101
+	V_BP=12'b000000010100
+	V_SYNC=12'b000000000101
+	V_ACT=12'b001011010000
+	H_TOTAL=12'b011001110010
+	H_FP=12'b000001101110
+	H_BP=12'b000011011100
+	H_SYNC=12'b000000101000
+	H_ACT=12'b010100000000
+	HV_OFFSET=12'b000000000000
+   Generated name = sync_vg_Z1
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":119:30:119:35|Removing redundant assignment.
+Running optimization stage 1 on sync_vg_Z1 .......
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Register bit v_count_out[12] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Register bit y_out[12] is always 0.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Pruning register bit 12 of y_out[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Pruning register bit 12 of v_count_out[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\pattern_vg.v":22:7:22:16|Synthesizing module pattern_vg in library work.
+
+	COCLOR_DEPP=4'b1000
+	X_BITS=4'b1100
+	Y_BITS=4'b1100
+	FRACT_BITS=4'b1100
+	H_ACT=12'b010100000000
+	V_ACT=12'b001011010000
+   Generated name = pattern_vg_8_12_12_12_1280_720
+Running optimization stage 1 on pattern_vg_8_12_12_12_1280_720 .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":35:7:35:13|Synthesizing module sync_vg in library work.
+
+	X_BITS=4'b1100
+	Y_BITS=4'b1100
+	V_TOTAL=12'b001000000101
+	V_FP=12'b000000000110
+	V_BP=12'b000000010111
+	V_SYNC=12'b000000001000
+	V_ACT=12'b000111100000
+	H_TOTAL=12'b010001000000
+	H_FP=12'b000000010000
+	H_BP=12'b000001110000
+	H_SYNC=12'b000001110000
+	H_ACT=12'b001100100000
+	HV_OFFSET=12'b000000000000
+   Generated name = sync_vg_Z2
+Running optimization stage 1 on sync_vg_Z2 .......
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Register bit v_count_out[12] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Register bit y_out[12] is always 0.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Pruning register bit 12 of y_out[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Pruning register bit 12 of v_count_out[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\pattern_vg.v":22:7:22:16|Synthesizing module pattern_vg in library work.
+
+	COCLOR_DEPP=4'b1000
+	X_BITS=4'b1100
+	Y_BITS=4'b1100
+	FRACT_BITS=4'b1100
+	H_ACT=12'b001100100000
+	V_ACT=12'b000111100000
+   Generated name = pattern_vg_8_12_12_12_800_480
+Running optimization stage 1 on pattern_vg_8_12_12_12_800_480 .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2423:7:2423:16|Synthesizing module TLVDS_OBUF in library work.
+Running optimization stage 1 on TLVDS_OBUF .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":550:7:550:12|Synthesizing module OSER10 in library work.
+Running optimization stage 1 on OSER10 .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\outputserdes.v":21:7:21:18|Synthesizing module outputserdes in library work.
+
+	KPARALLELWIDTH=32'b00000000000000000000000000001010
+   Generated name = outputserdes_10s
+Running optimization stage 1 on outputserdes_10s .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\rgb2dvi.v":21:7:21:13|Synthesizing module rgb2dvi in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\tmds_encoder.v":22:7:22:18|Synthesizing module tmds_encoder in library work.
+Running optimization stage 1 on tmds_encoder .......
+Running optimization stage 1 on rgb2dvi .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v":22:7:22:18|Synthesizing module hdmi_out_top in library work.
+@W: CS263 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v":169:33:169:37|Port-width mismatch for port y_out. The port definition is 13 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v":231:33:231:38|Port-width mismatch for port y_out. The port definition is 13 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+Running optimization stage 1 on hdmi_out_top .......
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":23:7:23:9|Synthesizing module top in library work.
+@W: CG360 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":44:20:44:26|Removing wire lcd_pwm, as there is no assignment to it.
+@W: CG360 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":55:20:55:29|Removing wire tmds_clk_n, as there is no assignment to it.
+@W: CG360 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":56:20:56:29|Removing wire tmds_clk_p, as there is no assignment to it.
+@W: CG360 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":57:20:57:30|Removing wire tmds_data_n, as there is no assignment to it.
+@W: CG360 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":58:20:58:30|Removing wire tmds_data_p, as there is no assignment to it.
+@W: CG360 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":77:10:77:17|Removing wire tmds_clk, as there is no assignment to it.
+@W: CG360 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":78:14:78:22|Removing wire tmds_data, as there is no assignment to it.
+Running optimization stage 1 on top .......
+@W: CL318 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":44:20:44:26|*Output lcd_pwm has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":55:20:55:29|*Output tmds_clk_n has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":56:20:56:29|*Output tmds_clk_p has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":57:20:57:30|*Output tmds_data_n has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":58:20:58:30|*Output tmds_data_p has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Running optimization stage 2 on top .......
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":30:20:30:27|Input sd_sddef is unused.
+@W: CL158 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":47:20:47:26|Inout lcd_sda is unused
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":48:20:48:26|Input lcd_int is unused.
+Running optimization stage 2 on hdmi_out_top .......
+Running optimization stage 2 on tmds_encoder .......
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\tmds_encoder.v":91:4:91:9|Pruning register bit 0 of n0q_m[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\tmds_encoder.v":140:4:140:9|Register bit cnt[0] is always 0.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\tmds_encoder.v":140:4:140:9|Pruning register bit 0 of cnt[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on rgb2dvi .......
+Running optimization stage 2 on outputserdes_10s .......
+Running optimization stage 2 on OSER10 .......
+Running optimization stage 2 on TLVDS_OBUF .......
+Running optimization stage 2 on pattern_vg_8_12_12_12_800_480 .......
+Running optimization stage 2 on sync_vg_Z2 .......
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":72:4:72:9|Register bit h_count[11] is always 0.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":72:4:72:9|Pruning register bit 11 of h_count[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Register bit h_count_out[11] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Register bit x_out[11] is always 0.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Pruning register bit 11 of x_out[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Pruning register bit 11 of h_count_out[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Register bit x_out[10] is always 0.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Pruning register bit 10 of x_out[10:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on pattern_vg_8_12_12_12_1280_720 .......
+Running optimization stage 2 on sync_vg_Z1 .......
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":72:4:72:9|Register bit h_count[11] is always 0.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":72:4:72:9|Pruning register bit 11 of h_count[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Register bit h_count_out[11] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Register bit x_out[11] is always 0.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Pruning register bit 11 of x_out[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Pruning register bit 11 of h_count_out[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on btn_deb_2 .......
+Running optimization stage 2 on btn_ctl .......
+@W: CL279 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":79:4:79:9|Pruning register bits 7 to 1 of red[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":79:4:79:9|Pruning register bits 7 to 1 of green[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":79:4:79:9|Pruning register bits 7 to 1 of blue[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on CLKDIV .......
+Running optimization stage 2 on lcd_pll .......
+Running optimization stage 2 on TMDS_pll .......
+Running optimization stage 2 on rPLL .......
+Running optimization stage 2 on led .......
+@N: CL201 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\led.v":50:4:50:9|Trying to extract state machine for register led_status.
+Extracted state machine for register led_status
+State machine has 16 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1101
+   1110
+   1111
+@W: CL249 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\led.v":50:4:50:9|Initial value is not supported on state machine led_status
+Running optimization stage 2 on btn_deb_1 .......
+Running optimization stage 2 on key_ctl .......
+Running optimization stage 2 on uart_top .......
+Running optimization stage 2 on uart_rx_434_0_1_2_3_4 .......
+@N: CL201 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_rx.v":104:4:104:9|Trying to extract state machine for register rx_state.
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_rx.v":34:24:34:27|Input rstn is unused.
+Running optimization stage 2 on uart_tx_434_0_1_2_3_4 .......
+@N: CL201 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_tx.v":109:4:109:9|Trying to extract state machine for register tx_state.
+Running optimization stage 2 on uart_data_gen .......
+Running optimization stage 2 on BUFG .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\impl\synthesize\rev_1\synwork\layer0.rt.csv
+

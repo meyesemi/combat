@@ -1,0 +1,58 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG1306 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\gowin_rpll\rpll.v":21:0:21:3|Loading library file D:\Gowin\Gowin_V1.9.6.01Beta\IDE\simlib\hardware_core\gw2a\prim_syn.v into library work
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2388:7:2388:10|Synthesizing module BUFG in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_data_gen.v":23:7:23:19|Synthesizing module uart_data_gen in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_tx.v":24:7:24:13|Synthesizing module uart_tx in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_tx.v":101:33:101:42|Removing redundant assignment.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_rx.v":25:7:25:13|Synthesizing module uart_rx in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_rx.v":97:30:97:39|Removing redundant assignment.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_top.v":24:7:24:14|Synthesizing module uart_top in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\key_ctl.v":24:7:24:13|Synthesizing module key_ctl in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\led.v":23:7:23:9|Synthesizing module led in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.01Beta\IDE\simlib\hardware_core\gw2a\prim_syn.v":45:7:45:10|Synthesizing module rPLL in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\gowin_rpll\rpll.v":8:7:8:14|Synthesizing module TMDS_pll in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\lcd_rpll\lcd_rpll.v":8:7:8:13|Synthesizing module lcd_pll in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2481:7:2481:12|Synthesizing module CLKDIV in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":23:7:23:13|Synthesizing module btn_ctl in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Register bit pattern_set[3] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Register bit pattern_set[4] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Register bit pattern_set[5] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Register bit pattern_set[6] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v":147:4:147:9|Register bit pattern_set[7] is always 0.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":35:7:35:13|Synthesizing module sync_vg in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":119:30:119:35|Removing redundant assignment.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Register bit v_count_out[12] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Register bit y_out[12] is always 0.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\pattern_vg.v":22:7:22:16|Synthesizing module pattern_vg in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":35:7:35:13|Synthesizing module sync_vg in library work.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Register bit v_count_out[12] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Register bit y_out[12] is always 0.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\pattern_vg.v":22:7:22:16|Synthesizing module pattern_vg in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2423:7:2423:16|Synthesizing module TLVDS_OBUF in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":550:7:550:12|Synthesizing module OSER10 in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\outputserdes.v":21:7:21:18|Synthesizing module outputserdes in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\rgb2dvi.v":21:7:21:13|Synthesizing module rgb2dvi in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\tmds_encoder.v":22:7:22:18|Synthesizing module tmds_encoder in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v":22:7:22:18|Synthesizing module hdmi_out_top in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":23:7:23:9|Synthesizing module top in library work.
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":30:20:30:27|Input sd_sddef is unused.
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v":48:20:48:26|Input lcd_int is unused.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\tmds_encoder.v":140:4:140:9|Register bit cnt[0] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":72:4:72:9|Register bit h_count[11] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Register bit h_count_out[11] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Register bit x_out[11] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Register bit x_out[10] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":72:4:72:9|Register bit h_count[11] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":133:4:133:9|Register bit h_count_out[11] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v":141:4:141:9|Register bit x_out[11] is always 0.
+@N: CL201 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\led.v":50:4:50:9|Trying to extract state machine for register led_status.
+@N: CL201 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_rx.v":104:4:104:9|Trying to extract state machine for register rx_state.
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_rx.v":34:24:34:27|Input rstn is unused.
+@N: CL201 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_tx.v":109:4:109:9|Trying to extract state machine for register tx_state.
+@N|Running in 64-bit mode
+

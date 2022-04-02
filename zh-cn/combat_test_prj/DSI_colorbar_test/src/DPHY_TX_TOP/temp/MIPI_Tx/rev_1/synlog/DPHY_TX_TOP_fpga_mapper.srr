@@ -1,0 +1,272 @@
+# Mon Aug 20 16:28:27 2018
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03G-Beta7
+Install: D:\Program Files\Gowin\1.8\SynplifyPro
+OS: Windows 6.1
+
+Hostname: GQG-PC
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version mapgw, Build 1117R, Built Jun 28 2018 10:23:07
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 191MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 191MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 191MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 191MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		100000.00ns		  23 /         0
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 191MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 190MB peak: 191MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 119MB peak: 191MB)
+
+Writing Analyst data base C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_20180818_V2.1_MIPIIP\sytech_lvds2mipi\src\DPHY_TX_TOP\temp\MIPI_Tx\rev_1\synwork\DPHY_TX_TOP_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 191MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 190MB peak: 191MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 189MB peak: 191MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 190MB peak: 191MB)
+
+@W: MT246 :"d:\program files\gowin\1.8\ide\ipcore\mipi_tx\data\dphy_tx.v":449:11:449:19|Blackbox CLKDIV is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock _\~oserx4_DPHY_TX_TOP\ |sclk_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net DPHY_TX_INST.u_oserx4.sclk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Aug 20 16:28:30 2018
+#
+
+
+Top view:               DPHY_TX_TOP
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 999.343
+
+                                                Requested     Estimated      Requested     Estimated                 Clock        Clock              
+Starting Clock                                  Frequency     Frequency      Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+_\~oserx4_DPHY_TX_TOP\ |sclk_inferred_clock     1.0 MHz       NA             1000.000      NA            NA          inferred     Inferred_clkgroup_0
+System                                          1.0 MHz       1522.1 MHz     1000.000      0.657         999.343     system       system_clkgroup    
+=====================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                 |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Starting  Ending                                       |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------
+System    _\~oserx4_DPHY_TX_TOP\ |sclk_inferred_clock  |  1000.000    999.343  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                           Starting                                        Arrival            
+Instance                                   Reference     Type     Pin     Net              Time        Slack  
+                                           Clock                                                              
+--------------------------------------------------------------------------------------------------------------
+DPHY_TX_INST.u_IO_Ctrl_TX.hs_data_en_i     System        INV      O       hs_data_en_i     0.000       999.343
+DPHY_TX_INST.u_IO_Ctrl_TX.hs_clk_en_i      System        INV      O       hs_clk_en_i      0.000       999.404
+==============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                         Required            
+Instance                            Reference     Type      Pin     Net              Time         Slack  
+                                    Clock                                                                
+---------------------------------------------------------------------------------------------------------
+DPHY_TX_INST.u_oserx4.U5_OSER80     System        OSER8     TX0     hs_data_en_i     999.939      999.343
+DPHY_TX_INST.u_oserx4.U5_OSER80     System        OSER8     TX1     hs_data_en_i     999.939      999.343
+DPHY_TX_INST.u_oserx4.U5_OSER80     System        OSER8     TX2     hs_data_en_i     999.939      999.343
+DPHY_TX_INST.u_oserx4.U5_OSER80     System        OSER8     TX3     hs_data_en_i     999.939      999.343
+DPHY_TX_INST.u_oserx4.U5_OSER81     System        OSER8     TX0     hs_data_en_i     999.939      999.343
+DPHY_TX_INST.u_oserx4.U5_OSER81     System        OSER8     TX1     hs_data_en_i     999.939      999.343
+DPHY_TX_INST.u_oserx4.U5_OSER81     System        OSER8     TX2     hs_data_en_i     999.939      999.343
+DPHY_TX_INST.u_oserx4.U5_OSER81     System        OSER8     TX3     hs_data_en_i     999.939      999.343
+DPHY_TX_INST.u_oserx4.U5_OSER82     System        OSER8     TX0     hs_data_en_i     999.939      999.343
+DPHY_TX_INST.u_oserx4.U5_OSER82     System        OSER8     TX1     hs_data_en_i     999.939      999.343
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.939
+
+    - Propagation time:                      0.596
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     999.343
+
+    Number of logic level(s):                0
+    Starting point:                          DPHY_TX_INST.u_IO_Ctrl_TX.hs_data_en_i / O
+    Ending point:                            DPHY_TX_INST.u_oserx4.U5_OSER80 / TX0
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            _\~oserx4_DPHY_TX_TOP\ |sclk_inferred_clock [rising] on pin PCLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                       Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+DPHY_TX_INST.u_IO_Ctrl_TX.hs_data_en_i     INV       O        Out     0.000     0.000       -         
+hs_data_en_i                               Net       -        -       0.596     -           16        
+DPHY_TX_INST.u_oserx4.U5_OSER80            OSER8     TX0      In      -         0.596       -         
+======================================================================================================
+Total path delay (propagation time + setup) of 0.657 is 0.061(9.3%) logic and 0.596(90.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 190MB peak: 191MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 190MB peak: 191MB)
+
+---------------------------------------
+Resource Usage Report for DPHY_TX_TOP 
+
+Mapping to part: gw2a_18lqfp144-8
+Cell usage:
+CLKDIV          1 use
+GSR             1 use
+INV             8 uses
+OSER8           5 uses
+LUT2            15 uses
+
+I/O ports: 83
+I/O primitives: 15
+ELVDS_TBUF     5 uses
+IOBUF          10 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 of 15552 (0%)
+Total load per clock:
+
+@S |Mapping Summary:
+Total  LUTs: 15 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 40MB peak: 191MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Mon Aug 20 16:28:30 2018
+
+###########################################################]

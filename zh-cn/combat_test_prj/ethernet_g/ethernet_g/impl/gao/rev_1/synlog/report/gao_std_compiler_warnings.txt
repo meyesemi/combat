@@ -1,0 +1,33 @@
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":109:9:109:26|Net match_m0_en_reg_wr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":110:9:110:26|Net match_m1_en_reg_wr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":111:9:111:26|Net match_m2_en_reg_wr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":112:9:112:27|Net match_ctl_en_reg_wr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":113:9:113:24|Net match_cnt_reg_wr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":121:9:121:27|Net capture_length_zero is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":629:9:629:20|Net start_reg_wr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":632:9:632:29|Net trig_level_max_reg_wr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":633:9:633:31|Net capture_mem_addr_max_wr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":634:9:634:31|Net capture_mem_addr_rem_wr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":635:9:635:30|Net capture_windows_num_wr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2109:9:2109:18|Net match_en_0 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2110:9:2110:18|Net match_en_1 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2111:9:2111:18|Net match_en_2 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2112:9:2112:18|Net match_en_3 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2113:9:2113:18|Net match_en_4 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2114:9:2114:18|Net match_en_5 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2115:9:2115:18|Net match_en_6 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2116:9:2116:18|Net match_en_7 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2117:9:2117:18|Net match_en_8 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2118:9:2118:18|Net match_en_9 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2119:9:2119:19|Net match_en_10 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2120:9:2120:19|Net match_en_11 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2121:9:2121:19|Net match_en_12 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2122:9:2122:19|Net match_en_13 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2123:9:2123:19|Net match_en_14 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2124:9:2124:19|Net match_en_15 is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2636:9:2636:16|Net stop_reg is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":203:9:203:18|Net capture_dr is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.6Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":217:9:217:22|Net enable_i_delay is not declared.
+@W: CG360 :"C:\Users\gowin\Desktop\ceshi\ethernet_g\ethernet_g\impl\gao\gw_gao_top.v":63:5:63:11|Removing wire tdo_er2, as there is no assignment to it.
+@W: CL156 :"C:\Users\gowin\Desktop\ceshi\ethernet_g\ethernet_g\impl\gao\gw_gao_top.v":63:5:63:11|*Input tdo_er2 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+

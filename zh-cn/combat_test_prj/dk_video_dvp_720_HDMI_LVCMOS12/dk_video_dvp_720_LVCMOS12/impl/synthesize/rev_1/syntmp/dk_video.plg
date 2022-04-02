@@ -1,0 +1,83 @@
+@P:  Worst Slack : -1.705
+@P:  TMDS_PLL|clkout_inferred_clock - Estimated Frequency : NA
+@P:  TMDS_PLL|clkout_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  TMDS_PLL|clkout_inferred_clock - Estimated Period : NA
+@P:  TMDS_PLL|clkout_inferred_clock - Requested Period : 6.667
+@P:  TMDS_PLL|clkout_inferred_clock - Slack : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsr90_inferred_clock - Estimated Frequency : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsr90_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsr90_inferred_clock - Estimated Period : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsr90_inferred_clock - Requested Period : 6.667
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsr90_inferred_clock - Slack : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw0_inferred_clock - Estimated Frequency : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw0_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw0_inferred_clock - Estimated Period : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw0_inferred_clock - Requested Period : 6.667
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw0_inferred_clock - Slack : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw270_inferred_clock - Estimated Frequency : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw270_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw270_inferred_clock - Estimated Period : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw270_inferred_clock - Requested Period : 6.667
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw270_inferred_clock - Slack : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsr90_inferred_clock - Estimated Frequency : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsr90_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsr90_inferred_clock - Estimated Period : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsr90_inferred_clock - Requested Period : 6.667
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsr90_inferred_clock - Slack : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw0_inferred_clock - Estimated Frequency : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw0_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw0_inferred_clock - Estimated Period : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw0_inferred_clock - Requested Period : 6.667
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw0_inferred_clock - Slack : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw270_inferred_clock - Estimated Frequency : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw270_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw270_inferred_clock - Estimated Period : NA
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw270_inferred_clock - Requested Period : 6.667
+@P:  _~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw270_inferred_clock - Slack : NA
+@P:  _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_out_inferred_clock - Estimated Frequency : 103.7 MHz
+@P:  _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_out_inferred_clock - Requested Frequency : 0.1 MHz
+@P:  _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_out_inferred_clock - Estimated Period : 9.640
+@P:  _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_out_inferred_clock - Requested Period : 8502.420
+@P:  _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_out_inferred_clock - Slack : 4248.363
+@P:  _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_x4i_inferred_clock - Estimated Frequency : NA
+@P:  _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_x4i_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_x4i_inferred_clock - Estimated Period : NA
+@P:  _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_x4i_inferred_clock - Requested Period : 6.667
+@P:  _~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_x4i_inferred_clock - Slack : NA
+@P:  reg_config|clock_20k_derived_clock - Estimated Frequency : 330.2 MHz
+@P:  reg_config|clock_20k_derived_clock - Requested Frequency : 194.2 MHz
+@P:  reg_config|clock_20k_derived_clock - Estimated Period : 3.028
+@P:  reg_config|clock_20k_derived_clock - Requested Period : 5.148
+@P:  reg_config|clock_20k_derived_clock - Slack : 4.240
+@P:  video_top|I_clk - Estimated Frequency : 153.2 MHz
+@P:  video_top|I_clk - Requested Frequency : 180.3 MHz
+@P:  video_top|I_clk - Estimated Period : 6.525
+@P:  video_top|I_clk - Requested Period : 5.547
+@P:  video_top|I_clk - Slack : -0.979
+@P:  video_top|I_clk_27M - Estimated Frequency : 298.0 MHz
+@P:  video_top|I_clk_27M - Requested Frequency : 194.2 MHz
+@P:  video_top|I_clk_27M - Estimated Period : 3.356
+@P:  video_top|I_clk_27M - Requested Period : 5.148
+@P:  video_top|I_clk_27M - Slack : 1.792
+@P:  video_top|cmos_pclk - Estimated Frequency : 162.1 MHz
+@P:  video_top|cmos_pclk - Requested Frequency : 190.7 MHz
+@P:  video_top|cmos_pclk - Estimated Period : 6.169
+@P:  video_top|cmos_pclk - Requested Period : 5.244
+@P:  video_top|cmos_pclk - Slack : -0.925
+@P:  video_top|pix_clk - Estimated Frequency : 88.0 MHz
+@P:  video_top|pix_clk - Requested Frequency : 103.5 MHz
+@P:  video_top|pix_clk - Estimated Period : 11.367
+@P:  video_top|pix_clk - Requested Period : 9.662
+@P:  video_top|pix_clk - Slack : -1.705
+@P:  System - Estimated Frequency : 617.7 MHz
+@P:  System - Requested Frequency : 726.6 MHz
+@P:  System - Estimated Period : 1.619
+@P:  System - Requested Period : 1.376
+@P:  System - Slack : -0.243
+@P: video_top Part : gw2a_18cpbga484-8
+@P: video_top I/O primitives : 73
+@P: video_top I/O Register bits : 0
+@P: video_top Register bits (Non I/O) : 2399 (15%)
+@P: video_top Block Rams : 16 of 46 (34%)
+@P: video_top Total Luts : 2985 of 800 (14%)
+@P:  CPU Time : 0h:00m:19s

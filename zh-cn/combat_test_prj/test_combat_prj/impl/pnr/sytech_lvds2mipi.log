@@ -1,0 +1,31 @@
+Reading netlist file: "J:\Source_bac\Gowin_board\GW2A_LV18PG484\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi.vm"
+Parsing netlist file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi.vm" completed
+WARN  (PA1003) : Invalid parameterized value 'GW1N-9'(DEVICE) specified for instance 'pll_inst'
+WARN  (PA1003) : Invalid parameterized value 'GW1N-4'(DEVICE) specified for instance 'pll_inst'
+Processing netlist completed
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1118) : the clock "I_clk.default_clk"'s frequency does not match pll_inst's param "FCLKIN = "50""
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Placement and routing completed
+Running timing analysis......
+[95%] Timing analysis completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\test_combat_prj\impl\pnr\sytech_lvds2mipi.power.html" completed
+Generate file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\test_combat_prj\impl\pnr\sytech_lvds2mipi.pin.html" completed
+Generate file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\test_combat_prj\impl\pnr\sytech_lvds2mipi.rpt.html" completed
+Generate file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\test_combat_prj\impl\pnr\sytech_lvds2mipi.rpt.txt" completed
+Generate file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\test_combat_prj\impl\pnr\sytech_lvds2mipi.tr.html" completed
+Mon Aug 24 11:25:38 2020
+

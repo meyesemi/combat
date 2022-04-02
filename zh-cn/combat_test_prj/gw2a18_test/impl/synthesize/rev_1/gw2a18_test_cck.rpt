@@ -1,0 +1,148 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+
+# Written on Mon Aug 24 14:27:37 2020
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                Ending                                  |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                  System                                  |     11.214           |     No paths         |     No paths         |     No paths                         
+System                                  hdmi_out_top|clk_in_inferred_clock      |     4.734            |     No paths         |     No paths         |     No paths                         
+System                                  hdmi_out_top|clk_in1_inferred_clock     |     4.734            |     No paths         |     No paths         |     No paths                         
+hdmi_out_top|clk_in_inferred_clock      System                                  |     4.734            |     No paths         |     No paths         |     No paths                         
+hdmi_out_top|clk_in_inferred_clock      hdmi_out_top|clk_in_inferred_clock      |     4.734            |     No paths         |     No paths         |     No paths                         
+hdmi_out_top|clk_in1_inferred_clock     hdmi_out_top|clk_in1_inferred_clock     |     4.734            |     No paths         |     No paths         |     No paths                         
+top|clk_50                              top|clk_50                              |     3.067            |     No paths         |     No paths         |     No paths                         
+===========================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:btn[0]
+p:btn[1]
+p:clk
+p:key
+p:lcd_b[0]
+p:lcd_b[1]
+p:lcd_b[2]
+p:lcd_b[3]
+p:lcd_b[4]
+p:lcd_b[5]
+p:lcd_b[6]
+p:lcd_b[7]
+p:lcd_clk
+p:lcd_de
+p:lcd_g[0]
+p:lcd_g[1]
+p:lcd_g[2]
+p:lcd_g[3]
+p:lcd_g[4]
+p:lcd_g[5]
+p:lcd_g[6]
+p:lcd_g[7]
+p:lcd_hs
+p:lcd_int
+p:lcd_pwm
+p:lcd_r[0]
+p:lcd_r[1]
+p:lcd_r[2]
+p:lcd_r[3]
+p:lcd_r[4]
+p:lcd_r[5]
+p:lcd_r[6]
+p:lcd_r[7]
+p:lcd_scl
+p:lcd_sda
+p:lcd_vs
+p:led[0]
+p:led[1]
+p:led[2]
+p:led[3]
+p:rx_scl
+p:rx_sda
+p:sd_clk
+p:sd_cmd
+p:sd_data[0]
+p:sd_data[1]
+p:sd_data[2]
+p:sd_data[3]
+p:sd_sddef
+p:tmds_clk_n
+p:tmds_clk_p
+p:tmds_data_n[0]
+p:tmds_data_n[1]
+p:tmds_data_n[2]
+p:tmds_data_p[0]
+p:tmds_data_p[1]
+p:tmds_data_p[2]
+p:tmds_rx_clk_n
+p:tmds_rx_clk_p
+p:tmds_rx_data_n[0]
+p:tmds_rx_data_n[1]
+p:tmds_rx_data_n[2]
+p:tmds_rx_data_p[0]
+p:tmds_rx_data_p[1]
+p:tmds_rx_data_p[2]
+p:tx_scl
+p:tx_sda
+p:u_rx
+p:u_tx
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

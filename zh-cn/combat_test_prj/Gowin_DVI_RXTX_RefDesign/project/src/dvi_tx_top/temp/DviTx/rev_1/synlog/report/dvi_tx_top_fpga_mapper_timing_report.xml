@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\rev_1\synlog\dvi_tx_top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>DVI_TX_Top|I_rgb_clk</data>
+<data>90.4 MHz</data>
+<data>76.9 MHz</data>
+<data>-1.951</data>
+</row>
+<row>
+<data>_~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>9.356</data>
+</row>
+</report_table>

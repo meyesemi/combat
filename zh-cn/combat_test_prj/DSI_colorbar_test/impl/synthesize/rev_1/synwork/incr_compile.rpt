@@ -1,0 +1,145 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: AAA-PC
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+Modified Files: 46
+FID:  path (prevtimestamp, timestamp)
+157      C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v (N/A, 2020-06-19 18:46:34)
+158      C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\hypermods.v (N/A, 2020-05-12 03:02:52)
+159      C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2020-05-12 03:02:52)
+160      C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2020-05-12 03:02:52)
+161      C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2020-05-12 03:02:52)
+134      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Asyn_Fifo.v (2018-02-06 16:07:16, N/A)
+135      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v (2018-08-29 15:19:26, N/A)
+136      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Dul_Ram.v (2018-04-13 09:18:59, N/A)
+137      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\afifo.v (2018-02-06 15:03:40, N/A)
+138      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v (2018-08-22 11:14:20, N/A)
+139      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\gw_pll.v (2018-08-20 17:46:24, N/A)
+140      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\gw_pll_mipi\gw_pll_mipi.v (2018-08-29 17:45:49, N/A)
+141      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (2020-08-10 14:20:27, N/A)
+142      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lcd_backlight_ctrl.v (2018-04-28 16:12:24, N/A)
+143      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lvds2mipi_defines.v (2018-04-11 14:45:00, N/A)
+144      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v (2018-08-17 18:46:08, N/A)
+145      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v (2018-06-07 11:11:36, N/A)
+146      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v (2018-06-05 10:59:41, N/A)
+147      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_packetizer.v (2018-06-08 10:12:12, N/A)
+148      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_screen_init.v (2018-08-22 10:39:25, N/A)
+149      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v (2018-08-17 13:38:59, N/A)
+150      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb_data_asyfifo.v (2018-04-13 18:32:47, N/A)
+151      C:\Users\gowin\Desktop\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\serdes_rst_ctrl.v (2019-12-13 18:06:31, N/A)
+152      D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\generic\gw2a.v (2020-06-19 18:46:34, N/A)
+153      D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\hypermods.v (2020-05-12 03:02:52, N/A)
+154      D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\scemi_objects.v (2020-05-12 03:02:52, N/A)
+155      D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (2020-05-12 03:02:52, N/A)
+156      D:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\umr_capim.v (2020-05-12 03:02:52, N/A)
+162      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Asyn_Fifo.v (N/A, 2018-02-06 16:07:16)
+163      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v (N/A, 2018-08-29 15:19:26)
+164      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Dul_Ram.v (N/A, 2018-04-13 09:18:59)
+165      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\afifo.v (N/A, 2018-02-06 15:03:40)
+166      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v (N/A, 2018-08-22 11:14:20)
+167      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\gw_pll\gw_pll.v (N/A, 2020-08-10 19:31:17)
+168      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\gw_pll_mipi\gw_pll_mipi.v (N/A, 2020-08-10 19:27:13)
+169      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27)
+170      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lcd_backlight_ctrl.v (N/A, 2018-04-28 16:12:24)
+171      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lvds2mipi_defines.v (N/A, 2018-04-11 14:45:00)
+172      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v (N/A, 2018-08-17 18:46:08)
+173      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v (N/A, 2018-06-07 11:11:36)
+174      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v (N/A, 2018-06-05 10:59:41)
+175      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_packetizer.v (N/A, 2018-06-08 10:12:12)
+176      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_screen_init.v (N/A, 2018-08-22 10:39:25)
+177      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v (N/A, 2018-08-17 13:38:59)
+178      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb_data_asyfifo.v (N/A, 2018-04-13 18:32:47)
+179      E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\serdes_rst_ctrl.v (N/A, 2019-12-13 18:06:31)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 20
+MID:  lib.cell.view
+0        work.Asyn_Fifo.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Asyn_Fifo.v (N/A, 2018-02-06 16:07:16) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\afifo.v (N/A, 2018-02-06 15:03:40) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb_data_asyfifo.v (N/A, 2018-04-13 18:32:47) <-- (may instantiate this module)
+24       work.DPHY_TX_TOP.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v (N/A, 2018-08-29 15:19:26) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+1        work.Dul_Ram.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Asyn_Fifo.v (N/A, 2018-02-06 16:07:16) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Dul_Ram.v (N/A, 2018-04-13 09:18:59) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\afifo.v (N/A, 2018-02-06 15:03:40) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb_data_asyfifo.v (N/A, 2018-04-13 18:32:47) <-- (may instantiate this module)
+22       work.GW_PLL.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\gw_pll\gw_pll.v (N/A, 2020-08-10 19:31:17) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+3        work.GW_PLL_mipi.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\gw_pll_mipi\gw_pll_mipi.v (N/A, 2020-08-10 19:27:13) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+25       work.\~DPHY_TX.DPHY_TX_TOP_.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v (N/A, 2018-08-29 15:19:26) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+26       work.\~IO_Ctrl_TX.DPHY_TX_TOP_.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v (N/A, 2018-08-29 15:19:26) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+27       work.\~oserx4.DPHY_TX_TOP_.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v (N/A, 2018-08-29 15:19:26) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+4        work.afifo.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\afifo.v (N/A, 2018-02-06 15:03:40) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb_data_asyfifo.v (N/A, 2018-04-13 18:32:47) <-- (may instantiate this module)
+23       work.colorbar_test.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v (N/A, 2018-08-22 11:14:20) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+7        work.ivideo_dynamic_top.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (module definition)
+9        work.lcd_backlight_ctrl.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lcd_backlight_ctrl.v (N/A, 2018-04-28 16:12:24) <-- (module definition)
+13       work.mipi_data_rd_ctrl.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v (N/A, 2018-08-17 18:46:08) <-- (module definition)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v (N/A, 2018-06-07 11:11:36) <-- (may instantiate this module)
+15       work.mipi_dsi_top.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v (N/A, 2018-06-07 11:11:36) <-- (module definition)
+16       work.mipi_hs_lp_tx.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v (N/A, 2018-06-07 11:11:36) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v (N/A, 2018-06-05 10:59:41) <-- (module definition)
+17       work.mipi_packetizer.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v (N/A, 2018-06-07 11:11:36) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_packetizer.v (N/A, 2018-06-08 10:12:12) <-- (module definition)
+18       work.mipi_screen_init.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v (N/A, 2018-06-07 11:11:36) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_screen_init.v (N/A, 2018-08-22 10:39:25) <-- (module definition)
+19       work.rgb48bit_to4ch16bit_ctrl.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v (N/A, 2018-08-17 13:38:59) <-- (module definition)
+20       work.rgb_data_asyfifo.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb_data_asyfifo.v (N/A, 2018-04-13 18:32:47) <-- (module definition)
+28       work.serdes_rst_ctrl.verilog may have changed because the following files changed:
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v (N/A, 2020-08-10 14:20:27) <-- (may instantiate this module)
+                        E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\serdes_rst_ctrl.v (N/A, 2019-12-13 18:06:31) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

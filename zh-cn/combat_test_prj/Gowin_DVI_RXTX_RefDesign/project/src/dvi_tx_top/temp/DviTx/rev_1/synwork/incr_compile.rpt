@@ -1,0 +1,58 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G-1
+Install: D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-AP2159I
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp2019q3p1, Build 317R, Built Apr  1 2020 10:50:36
+
+Modified Files: 10
+FID:  path (prevtimestamp, timestamp)
+0        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\dvi_tx_top.v (N/A, 2020-05-08 11:26:14)
+1        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp (N/A, 2020-05-08 11:26:14)
+2        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\static_macro_define.v (N/A, 2020-05-08 11:26:14)
+3        D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\lib\generic\gw2a.v (N/A, 2020-02-29 04:17:12)
+4        D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\lib\vlog\hypermods.v (N/A, 2020-02-29 04:19:08)
+5        D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2020-02-29 04:19:08)
+6        D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2020-02-29 04:19:08)
+7        D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2020-02-29 04:19:08)
+8        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\dvi_tx_defines.v (N/A, 2020-05-14 09:54:36)
+9        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\top_define.v (N/A, 2020-05-14 09:54:36)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 3
+MID:  lib.cell.view
+0        work.DVI_TX_Top.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\dvi_tx_top.v (N/A, 2020-05-08 11:26:14) <-- (module definition)
+                        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp (N/A, 2020-05-08 11:26:14) <-- (may instantiate this module)
+                        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\static_macro_define.v (N/A, 2020-05-08 11:26:14) <-- (may instantiate this module)
+                        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\dvi_tx_defines.v (N/A, 2020-05-14 09:54:36) <-- (may instantiate this module)
+                        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\top_define.v (N/A, 2020-05-14 09:54:36) <-- (may instantiate this module)
+1        work.\~TMDS8b10b.DVI_TX_Top.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\dvi_tx_top.v (N/A, 2020-05-08 11:26:14) <-- (may instantiate this module)
+                        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp (N/A, 2020-05-08 11:26:14) <-- (module definition)
+                        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\static_macro_define.v (N/A, 2020-05-08 11:26:14) <-- (may instantiate this module)
+                        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\dvi_tx_defines.v (N/A, 2020-05-14 09:54:36) <-- (may instantiate this module)
+                        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\top_define.v (N/A, 2020-05-14 09:54:36) <-- (may instantiate this module)
+2        work.\~rgb2dvi.DVI_TX_Top.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\dvi_tx_top.v (N/A, 2020-05-08 11:26:14) <-- (may instantiate this module)
+                        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\rgb2dvi.vp (N/A, 2020-05-08 11:26:14) <-- (module definition)
+                        D:\Gowin\Gowin_V1.9.5.02Beta\IDE\ipcore\DVI_TX\data\static_macro_define.v (N/A, 2020-05-08 11:26:14) <-- (may instantiate this module)
+                        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\dvi_tx_defines.v (N/A, 2020-05-14 09:54:36) <-- (may instantiate this module)
+                        D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\top_define.v (N/A, 2020-05-14 09:54:36) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

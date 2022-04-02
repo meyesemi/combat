@@ -1,0 +1,160 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+Modified Files: 46
+FID:  path (prevtimestamp, timestamp)
+0        C:\Gowin\Gowin_V1.9.6.01Beta\IDE\simlib\hardware_core\gw2a\prim_syn.v (2020-06-04 14:30:56, N/A)
+1        C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v (2020-06-19 18:46:34, N/A)
+2        C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\hypermods.v (2020-05-12 03:02:52, N/A)
+3        C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\scemi_objects.v (2020-05-12 03:02:52, N/A)
+4        C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (2020-05-12 03:02:52, N/A)
+5        C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\umr_capim.v (2020-05-12 03:02:52, N/A)
+23       D:\Gowin\Gowin_V1.9.6.01Beta\IDE\simlib\hardware_core\gw2a\prim_syn.v (N/A, 2020-06-04 14:30:56)
+24       D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v (N/A, 2020-06-19 18:46:34)
+25       D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\hypermods.v (N/A, 2020-05-12 03:02:52)
+26       D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2020-05-12 03:02:52)
+27       D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2020-05-12 03:02:52)
+28       D:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2020-05-12 03:02:52)
+6        E:\gowin\gw2a18_test\src\btn_ctl.v (2020-08-07 19:20:02, N/A)
+7        E:\gowin\gw2a18_test\src\btn_deb.v (2020-06-29 18:16:03, N/A)
+8        E:\gowin\gw2a18_test\src\gowin_rpll\rpll.v (2020-08-06 16:55:41, N/A)
+9        E:\gowin\gw2a18_test\src\hdmi_out_top.v (2020-08-11 09:08:25, N/A)
+10       E:\gowin\gw2a18_test\src\key_ctl.v (2020-08-07 19:20:02, N/A)
+11       E:\gowin\gw2a18_test\src\lcd_rpll\lcd_rpll.v (2020-08-10 16:27:17, N/A)
+12       E:\gowin\gw2a18_test\src\led.v (2020-06-29 18:17:45, N/A)
+13       E:\gowin\gw2a18_test\src\outputserdes.v (2020-08-07 19:20:02, N/A)
+14       E:\gowin\gw2a18_test\src\pattern_vg.v (2020-06-30 09:15:23, N/A)
+15       E:\gowin\gw2a18_test\src\rgb2dvi.v (2020-07-31 19:38:05, N/A)
+16       E:\gowin\gw2a18_test\src\sync_vg.v (2020-08-06 19:09:27, N/A)
+17       E:\gowin\gw2a18_test\src\tmds_encoder.v (2020-06-30 09:15:23, N/A)
+18       E:\gowin\gw2a18_test\src\top.v (2020-08-12 10:01:58, N/A)
+19       E:\gowin\gw2a18_test\src\uart\uart_data_gen.v (2020-08-10 19:00:05, N/A)
+20       E:\gowin\gw2a18_test\src\uart\uart_rx.v (2020-08-10 19:00:30, N/A)
+21       E:\gowin\gw2a18_test\src\uart\uart_top.v (2020-08-10 18:55:44, N/A)
+22       E:\gowin\gw2a18_test\src\uart\uart_tx.v (2020-01-06 20:45:21, N/A)
+29       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v (N/A, 2020-08-07 19:20:02)
+30       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_deb.v (N/A, 2020-06-29 18:16:03)
+31       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\gowin_rpll\rpll.v (N/A, 2020-08-06 16:55:41)
+32       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59)
+33       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\key_ctl.v (N/A, 2020-08-07 19:20:02)
+34       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\lcd_rpll\lcd_rpll.v (N/A, 2020-08-10 16:27:17)
+35       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\led.v (N/A, 2020-06-29 18:17:45)
+36       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\outputserdes.v (N/A, 2020-08-07 19:20:02)
+37       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\pattern_vg.v (N/A, 2020-06-30 09:15:23)
+38       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\rgb2dvi.v (N/A, 2020-07-31 19:38:05)
+39       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v (N/A, 2020-08-06 19:09:27)
+40       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\tmds_encoder.v (N/A, 2020-06-30 09:15:23)
+41       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58)
+42       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_data_gen.v (N/A, 2020-08-10 19:00:05)
+43       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_rx.v (N/A, 2020-08-10 19:00:30)
+44       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_top.v (N/A, 2020-08-10 18:55:44)
+45       J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_tx.v (N/A, 2020-01-06 20:45:21)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 20
+MID:  lib.cell.view
+0        work.CLKDIV2.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.6.01Beta\IDE\simlib\hardware_core\gw2a\prim_syn.v (N/A, 2020-06-04 14:30:56) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\gowin_rpll\rpll.v (N/A, 2020-08-06 16:55:41) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\lcd_rpll\lcd_rpll.v (N/A, 2020-08-10 16:27:17) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+1        work.IODELAYA.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.6.01Beta\IDE\simlib\hardware_core\gw2a\prim_syn.v (N/A, 2020-06-04 14:30:56) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\gowin_rpll\rpll.v (N/A, 2020-08-06 16:55:41) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\lcd_rpll\lcd_rpll.v (N/A, 2020-08-10 16:27:17) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+2        work.TMDS_pll.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\gowin_rpll\rpll.v (N/A, 2020-08-06 16:55:41) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+3        work.btn_ctl.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v (N/A, 2020-08-07 19:20:02) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+4        work.btn_deb.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_ctl.v (N/A, 2020-08-07 19:20:02) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\btn_deb.v (N/A, 2020-06-29 18:16:03) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\key_ctl.v (N/A, 2020-08-07 19:20:02) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+5        work.hdmi_out_top.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+6        work.key_ctl.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\key_ctl.v (N/A, 2020-08-07 19:20:02) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+7        work.lcd_pll.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\lcd_rpll\lcd_rpll.v (N/A, 2020-08-10 16:27:17) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+8        work.led.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\led.v (N/A, 2020-06-29 18:17:45) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+9        work.outputserdes.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\outputserdes.v (N/A, 2020-08-07 19:20:02) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\rgb2dvi.v (N/A, 2020-07-31 19:38:05) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+10       work.pattern_vg.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\pattern_vg.v (N/A, 2020-06-30 09:15:23) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+11       work.rPLL.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.6.01Beta\IDE\simlib\hardware_core\gw2a\prim_syn.v (N/A, 2020-06-04 14:30:56) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\gowin_rpll\rpll.v (N/A, 2020-08-06 16:55:41) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\lcd_rpll\lcd_rpll.v (N/A, 2020-08-10 16:27:17) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+12       work.rgb2dvi.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\rgb2dvi.v (N/A, 2020-07-31 19:38:05) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+13       work.sync_vg.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\sync_vg.v (N/A, 2020-08-06 19:09:27) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+14       work.tmds_encoder.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\hdmi_out_top.v (N/A, 2020-08-12 10:40:59) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\rgb2dvi.v (N/A, 2020-07-31 19:38:05) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\tmds_encoder.v (N/A, 2020-06-30 09:15:23) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+15       work.top.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (module definition)
+16       work.uart_data_gen.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_data_gen.v (N/A, 2020-08-10 19:00:05) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_top.v (N/A, 2020-08-10 18:55:44) <-- (may instantiate this module)
+17       work.uart_rx.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_rx.v (N/A, 2020-08-10 19:00:30) <-- (module definition)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_top.v (N/A, 2020-08-10 18:55:44) <-- (may instantiate this module)
+18       work.uart_top.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_top.v (N/A, 2020-08-10 18:55:44) <-- (module definition)
+19       work.uart_tx.verilog may have changed because the following files changed:
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\top.v (N/A, 2020-08-12 10:01:58) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_top.v (N/A, 2020-08-10 18:55:44) <-- (may instantiate this module)
+                        J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\gw2a18_test\src\uart\uart_tx.v (N/A, 2020-01-06 20:45:21) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

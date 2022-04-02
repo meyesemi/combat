@@ -1,0 +1,55 @@
+# Written by Synplify Pro version mapgw, Build 1564R. Synopsys Run ID: sid1589421304 
+# Top Level Design Parameters 
+
+# Clocks 
+create_clock -period 11.057 -waveform {0.000 5.529} -name {DVI_TX_Top|I_rgb_clk} [get_ports {I_rgb_clk}] 
+create_clock -period 6.667 -waveform {0.000 3.333} -name {_~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock} [get_pins {rgb2dvi_inst/TMDSTX_PLL_inst/CLKOUT}] 
+
+# Virtual Clocks 
+
+# Generated Clocks 
+
+# Paths Between Clocks 
+
+# Multicycle Constraints 
+
+# Point-to-point Delay Constraints 
+
+# False Path Constraints 
+
+# Output Load Constraints 
+
+# Driving Cell Constraints 
+
+# Input Delay Constraints 
+
+# Output Delay Constraints 
+
+# Wire Loads 
+
+# Other Constraints 
+
+# syn_hier Attributes 
+
+# set_case Attributes 
+
+# Clock Delay Constraints 
+set Autoconstr_clkgroup_0 [list DVI_TX_Top|I_rgb_clk]
+set Autoconstr_clkgroup_1 [list _~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock]
+set_clock_groups -asynchronous -group $Autoconstr_clkgroup_0 -group $Autoconstr_clkgroup_1
+
+# syn_mode Attributes 
+
+# Cells 
+
+# Port DRC Rules 
+
+# Input Transition Constraints 
+
+# Unused constraints (intentionally commented out) 
+
+
+# Non-forward-annotatable constraints (intentionally commented out) 
+
+# Block Path constraints 
+

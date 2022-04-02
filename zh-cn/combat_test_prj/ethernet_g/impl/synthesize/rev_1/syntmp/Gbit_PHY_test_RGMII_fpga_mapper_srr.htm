@@ -1,0 +1,603 @@
+<html><body><samp><pre>
+<!@TC:1520933510>
+# Tue Mar 13 17:31:47 2018
+
+<a name=mapperReport7></a>Synopsys Generic Technology Mapper, Version maprc, Build 932R, Built Oct  3 2017 11:07:00</a>
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03G-SP1-1-Beta1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1520933510> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1520933510> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1520933510> | Auto Constrain mode is enabled 
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="e:\demo_program\dk_dev_gw2ar18_v2.10\gbit_phy_test_rgmiiv1.0_20171204\src\gbit_phy_test_rgmii.v:359:0:359:6:@W:BN132:@XP_MSG">gbit_phy_test_rgmii.v(359)</a><!@TM:1520933510> | Removing sequential instance led_reg[0] because it is equivalent to instance led_reg[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="e:\demo_program\dk_dev_gw2ar18_v2.10\gbit_phy_test_rgmiiv1.0_20171204\src\gbit_phy_test_rgmii.v:359:0:359:6:@A:BN291:@XP_MSG">gbit_phy_test_rgmii.v(359)</a><!@TM:1520933510> | Boundary register led_reg[0] (in view: work.Gbit_PHY_test_RGMII(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="e:\demo_program\dk_dev_gw2ar18_v2.10\gbit_phy_test_rgmiiv1.0_20171204\src\gbit_phy_test_rgmii.v:350:0:350:6:@N:BN362:@XP_MSG">gbit_phy_test_rgmii.v(350)</a><!@TM:1520933510> | Removing sequential instance led_reg[1] (in view: work.Gbit_PHY_test_RGMII(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="e:\demo_program\dk_dev_gw2ar18_v2.10\gbit_phy_test_rgmiiv1.0_20171204\src\gbit_phy_test_rgmii.v:350:0:350:6:@A:BN291:@XP_MSG">gbit_phy_test_rgmii.v(350)</a><!@TM:1520933510> | Boundary register led_reg[1] (in view: work.Gbit_PHY_test_RGMII(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.44ns		   4 /         0
+
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+@N:<a href="@N:FX164:@XP_HELP">FX164</a> : <!@TM:1520933510> | The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.   
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 190MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+2 non-gated/non-generated clock tree(s) driving 20 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+<a href="@|S:I_phy2_rxc@|E:U_IDDR_dv2@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       I_phy2_rxc          port                   10         U_IDDR_dv2     
+<a href="@|S:I_phy1_rxc@|E:U_IDDR_dv1@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002  @XP_NAMES_BY_PROP">ClockId0002 </a>       I_phy1_rxc          port                   10         U_IDDR_dv1     
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 190MB)
+
+Writing Analyst data base E:\Demo_program\DK_DEV_GW2AR18_V2.10\Gbit_PHY_test_RGMIIV1.0_20171204\impl\synthesize\rev_1\synwork\Gbit_PHY_test_RGMII_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 187MB peak: 190MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 189MB peak: 190MB)
+
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1520933510> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1520933510> | Synopsys Constraint File capacitance units using default value of 1pF  
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 187MB peak: 190MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 188MB peak: 190MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1520933510> | Found inferred clock Gbit_PHY_test_RGMII|clk with period 0.74ns. Please declare a user-defined clock on object "p:clk"</font> 
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1520933510> | Found inferred clock Gbit_PHY_test_RGMII|I_phy1_rxc with period 0.69ns. Please declare a user-defined clock on object "p:I_phy1_rxc"</font> 
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1520933510> | Found inferred clock Gbit_PHY_test_RGMII|I_phy2_rxc with period 0.69ns. Please declare a user-defined clock on object "p:I_phy2_rxc"</font> 
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Tue Mar 13 17:31:50 2018
+#
+
+
+Top view:               Gbit_PHY_test_RGMII
+Requested Frequency:    1356.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1520933510> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1520933510> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: -0.464
+
+                                   Requested      Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                     Frequency      Frequency     Period        Period        Slack      Type         Group                
+-----------------------------------------------------------------------------------------------------------------------------------------
+Gbit_PHY_test_RGMII|I_phy1_rxc     1459.2 MHz     620.1 MHz     0.685         1.613         -0.464     inferred     Autoconstr_clkgroup_0
+Gbit_PHY_test_RGMII|I_phy2_rxc     1459.2 MHz     620.1 MHz     0.685         1.613         -0.464     inferred     Autoconstr_clkgroup_1
+Gbit_PHY_test_RGMII|clk            1356.5 MHz     NA            0.737         NA            NA         inferred     Autoconstr_clkgroup_2
+=========================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks                                                          |    rise  to  rise    |    fall  to  fall   |    rise  to  fall    |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                        Ending                          |  constraint  slack   |  constraint  slack  |  constraint  slack   |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Gbit_PHY_test_RGMII|I_phy1_rxc  Gbit_PHY_test_RGMII|I_phy1_rxc  |  0.685       -0.121  |  No paths    -      |  0.343       -0.464  |  No paths    -    
+Gbit_PHY_test_RGMII|I_phy2_rxc  Gbit_PHY_test_RGMII|I_phy2_rxc  |  0.685       -0.121  |  No paths    -      |  0.343       -0.464  |  No paths    -    
+========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport13></a>Detailed Report for Clock: Gbit_PHY_test_RGMII|I_phy1_rxc</a>
+====================================
+
+
+
+<a name=startingSlack14></a>Starting Points with Worst Slack</a>
+********************************
+
+                             Starting                                                                 Arrival           
+Instance                     Reference                          Type     Pin     Net                  Time        Slack 
+                             Clock                                                                                      
+------------------------------------------------------------------------------------------------------------------------
+U_IDDR_dv1                   Gbit_PHY_test_RGMII|I_phy1_rxc     IDDR     Q0      Phy1_rxdv            0.198       -0.464
+genblk2\[0\]\.U_IDDR_dq1     Gbit_PHY_test_RGMII|I_phy1_rxc     IDDR     Q1      Lan_rxd_reg_2[4]     0.198       -0.464
+genblk2\[1\]\.U_IDDR_dq1     Gbit_PHY_test_RGMII|I_phy1_rxc     IDDR     Q1      Lan_rxd_reg_2[5]     0.198       -0.464
+genblk2\[2\]\.U_IDDR_dq1     Gbit_PHY_test_RGMII|I_phy1_rxc     IDDR     Q1      Lan_rxd_reg_2[6]     0.198       -0.464
+genblk2\[3\]\.U_IDDR_dq1     Gbit_PHY_test_RGMII|I_phy1_rxc     IDDR     Q1      Lan_rxd_reg_2[7]     0.198       -0.464
+genblk2\[0\]\.U_IDDR_dq1     Gbit_PHY_test_RGMII|I_phy1_rxc     IDDR     Q0      Lan_rxd_reg_2[0]     0.198       -0.121
+genblk2\[1\]\.U_IDDR_dq1     Gbit_PHY_test_RGMII|I_phy1_rxc     IDDR     Q0      Lan_rxd_reg_2[1]     0.198       -0.121
+genblk2\[2\]\.U_IDDR_dq1     Gbit_PHY_test_RGMII|I_phy1_rxc     IDDR     Q0      Lan_rxd_reg_2[2]     0.198       -0.121
+genblk2\[3\]\.U_IDDR_dq1     Gbit_PHY_test_RGMII|I_phy1_rxc     IDDR     Q0      Lan_rxd_reg_2[3]     0.198       -0.121
+========================================================================================================================
+
+
+<a name=endingSlack15></a>Ending Points with Worst Slack</a>
+******************************
+
+                             Starting                                                                 Required           
+Instance                     Reference                          Type     Pin     Net                  Time         Slack 
+                             Clock                                                                                       
+-------------------------------------------------------------------------------------------------------------------------
+U_ODDR_en2                   Gbit_PHY_test_RGMII|I_phy1_rxc     ODDR     D1      Phy1_rxdv            0.269        -0.464
+genblk6\[0\]\.U_ODDR_dq2     Gbit_PHY_test_RGMII|I_phy1_rxc     ODDR     D1      Lan_rxd_reg_2[4]     0.269        -0.464
+genblk6\[1\]\.U_ODDR_dq2     Gbit_PHY_test_RGMII|I_phy1_rxc     ODDR     D1      Lan_rxd_reg_2[5]     0.269        -0.464
+genblk6\[2\]\.U_ODDR_dq2     Gbit_PHY_test_RGMII|I_phy1_rxc     ODDR     D1      Lan_rxd_reg_2[6]     0.269        -0.464
+genblk6\[3\]\.U_ODDR_dq2     Gbit_PHY_test_RGMII|I_phy1_rxc     ODDR     D1      Lan_rxd_reg_2[7]     0.269        -0.464
+U_ODDR_en2                   Gbit_PHY_test_RGMII|I_phy1_rxc     ODDR     D0      Phy1_rxdv            0.612        -0.121
+genblk6\[0\]\.U_ODDR_dq2     Gbit_PHY_test_RGMII|I_phy1_rxc     ODDR     D0      Lan_rxd_reg_2[0]     0.612        -0.121
+genblk6\[1\]\.U_ODDR_dq2     Gbit_PHY_test_RGMII|I_phy1_rxc     ODDR     D0      Lan_rxd_reg_2[1]     0.612        -0.121
+genblk6\[2\]\.U_ODDR_dq2     Gbit_PHY_test_RGMII|I_phy1_rxc     ODDR     D0      Lan_rxd_reg_2[2]     0.612        -0.121
+genblk6\[3\]\.U_ODDR_dq2     Gbit_PHY_test_RGMII|I_phy1_rxc     ODDR     D0      Lan_rxd_reg_2[3]     0.612        -0.121
+=========================================================================================================================
+
+
+
+<a name=worstPaths16></a>Worst Path Information</a>
+<a href="E:\Demo_program\DK_DEV_GW2AR18_V2.10\Gbit_PHY_test_RGMIIV1.0_20171204\impl\synthesize\rev_1\synlog\Gbit_PHY_test_RGMII_fpga_mapper.srr:srsfE:\Demo_program\DK_DEV_GW2AR18_V2.10\Gbit_PHY_test_RGMIIV1.0_20171204\impl\synthesize\rev_1\Gbit_PHY_test_RGMII.srs:fp:15323:15560:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      0.343
+    - Setup time:                            0.073
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.269
+
+    - Propagation time:                      0.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.464
+
+    Number of logic level(s):                0
+    Starting point:                          U_IDDR_dv1 / Q0
+    Ending point:                            U_ODDR_en2 / D1
+    The start point is clocked by            Gbit_PHY_test_RGMII|I_phy1_rxc [rising] on pin CLK
+    The end   point is clocked by            Gbit_PHY_test_RGMII|I_phy1_rxc [falling] on pin CLK
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+U_IDDR_dv1         IDDR     Q0       Out     0.198     0.198       -         
+Phy1_rxdv          Net      -        -       0.535     -           2         
+U_ODDR_en2         ODDR     D1       In      -         0.733       -         
+=============================================================================
+Total path delay (propagation time + setup) of 0.806 is 0.271(33.6%) logic and 0.535(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      0.343
+    - Setup time:                            0.073
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.269
+
+    - Propagation time:                      0.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.464
+
+    Number of logic level(s):                0
+    Starting point:                          genblk2\[0\]\.U_IDDR_dq1 / Q1
+    Ending point:                            genblk6\[0\]\.U_ODDR_dq2 / D1
+    The start point is clocked by            Gbit_PHY_test_RGMII|I_phy1_rxc [rising] on pin CLK
+    The end   point is clocked by            Gbit_PHY_test_RGMII|I_phy1_rxc [falling] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+genblk2\[0\]\.U_IDDR_dq1     IDDR     Q1       Out     0.198     0.198       -         
+Lan_rxd_reg_2[4]             Net      -        -       0.535     -           1         
+genblk6\[0\]\.U_ODDR_dq2     ODDR     D1       In      -         0.733       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 0.806 is 0.271(33.6%) logic and 0.535(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      0.343
+    - Setup time:                            0.073
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.269
+
+    - Propagation time:                      0.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.464
+
+    Number of logic level(s):                0
+    Starting point:                          genblk2\[1\]\.U_IDDR_dq1 / Q1
+    Ending point:                            genblk6\[1\]\.U_ODDR_dq2 / D1
+    The start point is clocked by            Gbit_PHY_test_RGMII|I_phy1_rxc [rising] on pin CLK
+    The end   point is clocked by            Gbit_PHY_test_RGMII|I_phy1_rxc [falling] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+genblk2\[1\]\.U_IDDR_dq1     IDDR     Q1       Out     0.198     0.198       -         
+Lan_rxd_reg_2[5]             Net      -        -       0.535     -           1         
+genblk6\[1\]\.U_ODDR_dq2     ODDR     D1       In      -         0.733       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 0.806 is 0.271(33.6%) logic and 0.535(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      0.343
+    - Setup time:                            0.073
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.269
+
+    - Propagation time:                      0.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.464
+
+    Number of logic level(s):                0
+    Starting point:                          genblk2\[2\]\.U_IDDR_dq1 / Q1
+    Ending point:                            genblk6\[2\]\.U_ODDR_dq2 / D1
+    The start point is clocked by            Gbit_PHY_test_RGMII|I_phy1_rxc [rising] on pin CLK
+    The end   point is clocked by            Gbit_PHY_test_RGMII|I_phy1_rxc [falling] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+genblk2\[2\]\.U_IDDR_dq1     IDDR     Q1       Out     0.198     0.198       -         
+Lan_rxd_reg_2[6]             Net      -        -       0.535     -           1         
+genblk6\[2\]\.U_ODDR_dq2     ODDR     D1       In      -         0.733       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 0.806 is 0.271(33.6%) logic and 0.535(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      0.343
+    - Setup time:                            0.073
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.269
+
+    - Propagation time:                      0.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.464
+
+    Number of logic level(s):                0
+    Starting point:                          genblk2\[3\]\.U_IDDR_dq1 / Q1
+    Ending point:                            genblk6\[3\]\.U_ODDR_dq2 / D1
+    The start point is clocked by            Gbit_PHY_test_RGMII|I_phy1_rxc [rising] on pin CLK
+    The end   point is clocked by            Gbit_PHY_test_RGMII|I_phy1_rxc [falling] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+genblk2\[3\]\.U_IDDR_dq1     IDDR     Q1       Out     0.198     0.198       -         
+Lan_rxd_reg_2[7]             Net      -        -       0.535     -           1         
+genblk6\[3\]\.U_ODDR_dq2     ODDR     D1       In      -         0.733       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 0.806 is 0.271(33.6%) logic and 0.535(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+<a name=clockReport17></a>Detailed Report for Clock: Gbit_PHY_test_RGMII|I_phy2_rxc</a>
+====================================
+
+
+
+<a name=startingSlack18></a>Starting Points with Worst Slack</a>
+********************************
+
+                             Starting                                                            Arrival           
+Instance                     Reference                          Type     Pin     Net             Time        Slack 
+                             Clock                                                                                 
+-------------------------------------------------------------------------------------------------------------------
+U_IDDR_dv2                   Gbit_PHY_test_RGMII|I_phy2_rxc     IDDR     Q0      Phy2_rxdv       0.198       -0.464
+genblk4\[0\]\.U_IDDR_dq2     Gbit_PHY_test_RGMII|I_phy2_rxc     IDDR     Q1      Phy2_rxd[4]     0.198       -0.464
+genblk4\[1\]\.U_IDDR_dq2     Gbit_PHY_test_RGMII|I_phy2_rxc     IDDR     Q1      Phy2_rxd[5]     0.198       -0.464
+genblk4\[2\]\.U_IDDR_dq2     Gbit_PHY_test_RGMII|I_phy2_rxc     IDDR     Q1      Phy2_rxd[6]     0.198       -0.464
+genblk4\[3\]\.U_IDDR_dq2     Gbit_PHY_test_RGMII|I_phy2_rxc     IDDR     Q1      Phy2_rxd[7]     0.198       -0.464
+genblk4\[0\]\.U_IDDR_dq2     Gbit_PHY_test_RGMII|I_phy2_rxc     IDDR     Q0      Phy2_rxd[0]     0.198       -0.121
+genblk4\[1\]\.U_IDDR_dq2     Gbit_PHY_test_RGMII|I_phy2_rxc     IDDR     Q0      Phy2_rxd[1]     0.198       -0.121
+genblk4\[2\]\.U_IDDR_dq2     Gbit_PHY_test_RGMII|I_phy2_rxc     IDDR     Q0      Phy2_rxd[2]     0.198       -0.121
+genblk4\[3\]\.U_IDDR_dq2     Gbit_PHY_test_RGMII|I_phy2_rxc     IDDR     Q0      Phy2_rxd[3]     0.198       -0.121
+===================================================================================================================
+
+
+<a name=endingSlack19></a>Ending Points with Worst Slack</a>
+******************************
+
+                             Starting                                                            Required           
+Instance                     Reference                          Type     Pin     Net             Time         Slack 
+                             Clock                                                                                  
+--------------------------------------------------------------------------------------------------------------------
+U_ODDR_en1                   Gbit_PHY_test_RGMII|I_phy2_rxc     ODDR     D1      Phy2_rxdv       0.269        -0.464
+genblk5\[0\]\.U_ODDR_dq1     Gbit_PHY_test_RGMII|I_phy2_rxc     ODDR     D1      Phy2_rxd[4]     0.269        -0.464
+genblk5\[1\]\.U_ODDR_dq1     Gbit_PHY_test_RGMII|I_phy2_rxc     ODDR     D1      Phy2_rxd[5]     0.269        -0.464
+genblk5\[2\]\.U_ODDR_dq1     Gbit_PHY_test_RGMII|I_phy2_rxc     ODDR     D1      Phy2_rxd[6]     0.269        -0.464
+genblk5\[3\]\.U_ODDR_dq1     Gbit_PHY_test_RGMII|I_phy2_rxc     ODDR     D1      Phy2_rxd[7]     0.269        -0.464
+U_ODDR_en1                   Gbit_PHY_test_RGMII|I_phy2_rxc     ODDR     D0      Phy2_rxdv       0.612        -0.121
+genblk5\[0\]\.U_ODDR_dq1     Gbit_PHY_test_RGMII|I_phy2_rxc     ODDR     D0      Phy2_rxd[0]     0.612        -0.121
+genblk5\[1\]\.U_ODDR_dq1     Gbit_PHY_test_RGMII|I_phy2_rxc     ODDR     D0      Phy2_rxd[1]     0.612        -0.121
+genblk5\[2\]\.U_ODDR_dq1     Gbit_PHY_test_RGMII|I_phy2_rxc     ODDR     D0      Phy2_rxd[2]     0.612        -0.121
+genblk5\[3\]\.U_ODDR_dq1     Gbit_PHY_test_RGMII|I_phy2_rxc     ODDR     D0      Phy2_rxd[3]     0.612        -0.121
+====================================================================================================================
+
+
+
+<a name=worstPaths20></a>Worst Path Information</a>
+<a href="E:\Demo_program\DK_DEV_GW2AR18_V2.10\Gbit_PHY_test_RGMIIV1.0_20171204\impl\synthesize\rev_1\synlog\Gbit_PHY_test_RGMII_fpga_mapper.srr:srsfE:\Demo_program\DK_DEV_GW2AR18_V2.10\Gbit_PHY_test_RGMIIV1.0_20171204\impl\synthesize\rev_1\Gbit_PHY_test_RGMII.srs:fp:27327:27564:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      0.343
+    - Setup time:                            0.073
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.269
+
+    - Propagation time:                      0.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.464
+
+    Number of logic level(s):                0
+    Starting point:                          U_IDDR_dv2 / Q0
+    Ending point:                            U_ODDR_en1 / D1
+    The start point is clocked by            Gbit_PHY_test_RGMII|I_phy2_rxc [rising] on pin CLK
+    The end   point is clocked by            Gbit_PHY_test_RGMII|I_phy2_rxc [falling] on pin CLK
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+U_IDDR_dv2         IDDR     Q0       Out     0.198     0.198       -         
+Phy2_rxdv          Net      -        -       0.535     -           2         
+U_ODDR_en1         ODDR     D1       In      -         0.733       -         
+=============================================================================
+Total path delay (propagation time + setup) of 0.806 is 0.271(33.6%) logic and 0.535(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      0.343
+    - Setup time:                            0.073
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.269
+
+    - Propagation time:                      0.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.464
+
+    Number of logic level(s):                0
+    Starting point:                          genblk4\[0\]\.U_IDDR_dq2 / Q1
+    Ending point:                            genblk5\[0\]\.U_ODDR_dq1 / D1
+    The start point is clocked by            Gbit_PHY_test_RGMII|I_phy2_rxc [rising] on pin CLK
+    The end   point is clocked by            Gbit_PHY_test_RGMII|I_phy2_rxc [falling] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+genblk4\[0\]\.U_IDDR_dq2     IDDR     Q1       Out     0.198     0.198       -         
+Phy2_rxd[4]                  Net      -        -       0.535     -           1         
+genblk5\[0\]\.U_ODDR_dq1     ODDR     D1       In      -         0.733       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 0.806 is 0.271(33.6%) logic and 0.535(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      0.343
+    - Setup time:                            0.073
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.269
+
+    - Propagation time:                      0.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.464
+
+    Number of logic level(s):                0
+    Starting point:                          genblk4\[1\]\.U_IDDR_dq2 / Q1
+    Ending point:                            genblk5\[1\]\.U_ODDR_dq1 / D1
+    The start point is clocked by            Gbit_PHY_test_RGMII|I_phy2_rxc [rising] on pin CLK
+    The end   point is clocked by            Gbit_PHY_test_RGMII|I_phy2_rxc [falling] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+genblk4\[1\]\.U_IDDR_dq2     IDDR     Q1       Out     0.198     0.198       -         
+Phy2_rxd[5]                  Net      -        -       0.535     -           1         
+genblk5\[1\]\.U_ODDR_dq1     ODDR     D1       In      -         0.733       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 0.806 is 0.271(33.6%) logic and 0.535(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      0.343
+    - Setup time:                            0.073
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.269
+
+    - Propagation time:                      0.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.464
+
+    Number of logic level(s):                0
+    Starting point:                          genblk4\[2\]\.U_IDDR_dq2 / Q1
+    Ending point:                            genblk5\[2\]\.U_ODDR_dq1 / D1
+    The start point is clocked by            Gbit_PHY_test_RGMII|I_phy2_rxc [rising] on pin CLK
+    The end   point is clocked by            Gbit_PHY_test_RGMII|I_phy2_rxc [falling] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+genblk4\[2\]\.U_IDDR_dq2     IDDR     Q1       Out     0.198     0.198       -         
+Phy2_rxd[6]                  Net      -        -       0.535     -           1         
+genblk5\[2\]\.U_ODDR_dq1     ODDR     D1       In      -         0.733       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 0.806 is 0.271(33.6%) logic and 0.535(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      0.343
+    - Setup time:                            0.073
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.269
+
+    - Propagation time:                      0.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.464
+
+    Number of logic level(s):                0
+    Starting point:                          genblk4\[3\]\.U_IDDR_dq2 / Q1
+    Ending point:                            genblk5\[3\]\.U_ODDR_dq1 / D1
+    The start point is clocked by            Gbit_PHY_test_RGMII|I_phy2_rxc [rising] on pin CLK
+    The end   point is clocked by            Gbit_PHY_test_RGMII|I_phy2_rxc [falling] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+genblk4\[3\]\.U_IDDR_dq2     IDDR     Q1       Out     0.198     0.198       -         
+Phy2_rxd[7]                  Net      -        -       0.535     -           1         
+genblk5\[3\]\.U_ODDR_dq1     ODDR     D1       In      -         0.733       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 0.806 is 0.271(33.6%) logic and 0.535(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 189MB peak: 190MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 189MB peak: 190MB)
+
+---------------------------------------
+<a name=resourceUsage21></a>Resource Usage Report for Gbit_PHY_test_RGMII </a>
+
+Mapping to part: gw2ar_18lqfp144-6
+Cell usage:
+GSR             1 use
+IDDR            10 uses
+IODELAY         10 uses
+ODDR            10 uses
+
+I/O ports: 30
+I/O primitives: 29
+IBUF           12 uses
+OBUF           17 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 of 15552 (0%)
+Total load per clock:
+   Gbit_PHY_test_RGMII|I_phy1_rxc: 11
+   Gbit_PHY_test_RGMII|I_phy2_rxc: 11
+
+@S |Mapping Summary:
+Total  LUTs: 0 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 38MB peak: 190MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Tue Mar 13 17:31:50 2018
+
+###########################################################]
+
+</pre></samp></body></html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="ivideo_dynamic_top" Register="10" Alu="10" Lut="16">
+    <SubModule name="GW_PLL_mipi_inst"/>
+    <SubModule name="GW_PLL_inst"/>
+    <SubModule name="colorbar_test_inst" Register="39" Alu="33" Lut="66"/>
+    <SubModule name="rgb48bit_to4ch16bit_ctrl_inst" Register="975" Lut="28"/>
+    <SubModule name="mipi_dsi_top_inst" Register="2" Lut="2">
+        <SubModule name="mipi_data_rd_ctrl_inst" Register="95" Alu="11" Lut="98"/>
+        <SubModule name="mipi_packetizer_inst" Register="56" Lut="139"/>
+        <SubModule name="mipi_screen_init_inst" Register="29" Alu="24" Lut="45"/>
+        <SubModule name="mipi_hs_lp_tx_inst" Register="509" Alu="22" Lut="45" Bsram="1"/>
+    </SubModule>
+    <SubModule name="serdes_rst_ctrl_mipi" Register="16" Alu="8" Lut="22"/>
+    <SubModule name="MIPI_DPHY_tx_inst">
+        <SubModule name="DPHY_TX_INST">
+            <SubModule name="u_oserx4" Lut="1"/>
+            <SubModule name="u_IO_Ctrl_TX" Lut="17"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="lcd_backlight_ctrl_inst" Register="13" Alu="12" Lut="19"/>
+    <SubModule name="rgb_data_asyfifo_inst">
+        <SubModule name="afifo_lane0">
+            <SubModule name="asyn_fifo" Register="124" Alu="22" Lut="79">
+                <SubModule name="Dul_Ram" Lut="1" Bsram="1"/>
+            </SubModule>
+        </SubModule>
+        <SubModule name="afifo_lane1">
+            <SubModule name="asyn_fifo" Register="123" Alu="22" Lut="78">
+                <SubModule name="Dul_Ram" Lut="1" Bsram="1"/>
+            </SubModule>
+        </SubModule>
+        <SubModule name="afifo_lane2">
+            <SubModule name="asyn_fifo" Register="123" Alu="22" Lut="89">
+                <SubModule name="Dul_Ram" Lut="1" Bsram="1"/>
+            </SubModule>
+        </SubModule>
+        <SubModule name="afifo_lane3">
+            <SubModule name="asyn_fifo" Register="123" Alu="22" Lut="86">
+                <SubModule name="Dul_Ram" Lut="1" Bsram="1"/>
+            </SubModule>
+        </SubModule>
+        <SubModule name="afifo_lane4">
+            <SubModule name="asyn_fifo" Register="77" Alu="14" Lut="48">
+                <SubModule name="Dul_Ram" Register="8" Lut="32" Ssram="8"/>
+            </SubModule>
+        </SubModule>
+    </SubModule>
+</Module>

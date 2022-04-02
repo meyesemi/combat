@@ -1,0 +1,30 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+5 non-gated/non-generated clock tree(s) driving 2545 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 29 clock pin(s) of sequential element(s)
+0 instances converted, 29 sequential instances remain driven by gated/generated clocks
+
+================================================================= Non-Gated/Non-Generated Clocks =================================================================
+Clock Tree ID     Driving Element                                              Drive Element Type     Fanout     Sample Instance                                  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       I_clk                                                        port                   39         cnt[9:0]                                         
+@KP:ckid0_1       DHCEN_ECLK_OP.CLKOUT                                         DHCEN                  1          MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8 
+@KP:ckid0_2       MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U3_CLKDIV.CLKOUT     CLKDIV                 1194       MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U6_OSER8 
+@KP:ckid0_3       DHCEN_ECLK_OS.CLKOUT                                         DHCEN                  4          MIPI_DPHY_tx_inst.DPHY_TX_INST.u_oserx4.U5_OSER83
+@KP:ckid0_6       GW_PLL_inst.pll_inst.CLKOUT                                  PLL                    1307       rgb48bit_to4ch16bit_ctrl_inst.Fsm_vss_flag[1]    
+==================================================================================================================================================================
+============================================================================================= Gated/Generated Clocks =============================================================================================
+Clock Tree ID     Driving Element                            Drive Element Type     Unconverted Fanout     Sample Instance                                              Explanation                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_4       mipi_dsi_top_inst.I_mipi_init_clk.Q[0]     dffre                  29                     mipi_dsi_top_inst.mipi_screen_init_inst.Fsm_mipi_init[1]     Derived clock on input (not legal for GCC)
+==================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+

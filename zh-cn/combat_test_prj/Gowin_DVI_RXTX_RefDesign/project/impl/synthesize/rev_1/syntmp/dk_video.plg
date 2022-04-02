@@ -1,0 +1,33 @@
+@P:  Worst Slack : -1.951
+@P:  _~dvi2rgb_DVI_RX_Top__|O_rgb_clk_inferred_clock - Estimated Frequency : 76.9 MHz
+@P:  _~dvi2rgb_DVI_RX_Top__|O_rgb_clk_inferred_clock - Requested Frequency : 90.4 MHz
+@P:  _~dvi2rgb_DVI_RX_Top__|O_rgb_clk_inferred_clock - Estimated Period : 13.008
+@P:  _~dvi2rgb_DVI_RX_Top__|O_rgb_clk_inferred_clock - Requested Period : 11.057
+@P:  _~dvi2rgb_DVI_RX_Top__|O_rgb_clk_inferred_clock - Slack : -1.951
+@P:  _~dvi2rgb_DVI_RX_Top__|hdmi_dclk_inferred_clock - Estimated Frequency : NA
+@P:  _~dvi2rgb_DVI_RX_Top__|hdmi_dclk_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~dvi2rgb_DVI_RX_Top__|hdmi_dclk_inferred_clock - Estimated Period : NA
+@P:  _~dvi2rgb_DVI_RX_Top__|hdmi_dclk_inferred_clock - Requested Period : 6.667
+@P:  _~dvi2rgb_DVI_RX_Top__|hdmi_dclk_inferred_clock - Slack : NA
+@P:  _~rgb2dvi_DVI_TX_Top__|serial_clk_inferred_clock - Estimated Frequency : NA
+@P:  _~rgb2dvi_DVI_TX_Top__|serial_clk_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~rgb2dvi_DVI_TX_Top__|serial_clk_inferred_clock - Estimated Period : NA
+@P:  _~rgb2dvi_DVI_TX_Top__|serial_clk_inferred_clock - Requested Period : 6.667
+@P:  _~rgb2dvi_DVI_TX_Top__|serial_clk_inferred_clock - Slack : NA
+@P:  video_top|I_clk - Estimated Frequency : 121.4 MHz
+@P:  video_top|I_clk - Requested Frequency : 142.8 MHz
+@P:  video_top|I_clk - Estimated Period : 8.237
+@P:  video_top|I_clk - Requested Period : 7.002
+@P:  video_top|I_clk - Slack : -1.236
+@P:  System - Estimated Frequency : 609.8 MHz
+@P:  System - Requested Frequency : 717.4 MHz
+@P:  System - Estimated Period : 1.640
+@P:  System - Requested Period : 1.394
+@P:  System - Slack : -0.246
+@P: video_top Part : gw2a_18pbga484-8
+@P: video_top I/O primitives : 17
+@P: video_top I/O Register bits : 0
+@P: video_top Register bits (Non I/O) : 371 (2%)
+@P: video_top Block Rams : 1 of 46 (2%)
+@P: video_top Total Luts : 1056 of 800 (5%)
+@P:  CPU Time : 0h:00m:07s

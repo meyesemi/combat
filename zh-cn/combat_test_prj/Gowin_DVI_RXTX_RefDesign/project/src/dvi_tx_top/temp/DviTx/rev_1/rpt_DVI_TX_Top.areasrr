@@ -1,0 +1,133 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G-1
+Install: D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-AP2159I
+
+Implementation : rev_1
+
+#### START OF AREA REPORT #####[
+
+Part:			GW2A_18PBGA484-8 (GoWin)
+
+--------------------------------------------------------------------------
+########   Utilization report for  Top level view:   DVI_TX_Top   ########
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     79                 100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block DVI_TX_Top:	79 (19.65 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          276                100 %                
+MUX2_LUT5     11                 100 %                
+MUX2_LUT6     3                  100 %                
+ALU           15                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block DVI_TX_Top:	305 (75.87 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~rgb2dvi\.DVI_TX_Top\    ########
+Instance path:   DVI_TX_Top.\\\~rgb2dvi\.DVI_TX_Top\                           
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     79                 100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block DVI_TX_Top.\\\~rgb2dvi\.DVI_TX_Top\ :	79 (19.65 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          276                100 %                
+MUX2_LUT5     11                 100 %                
+MUX2_LUT6     3                  100 %                
+ALU           15                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block DVI_TX_Top.\\\~rgb2dvi\.DVI_TX_Top\ :	305 (75.87 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~TMDS8b10b\.DVI_TX_Top\    ########
+Instance path:   \\\~rgb2dvi\.DVI_TX_Top\ .\\\~TMDS8b10b\.DVI_TX_Top\            
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     25                 31.6 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~rgb2dvi\.DVI_TX_Top\ .\\\~TMDS8b10b\.DVI_TX_Top\ :	25 (6.22 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          101                36.6 %               
+MUX2_LUT5     9                  81.8 %               
+MUX2_LUT6     3                  100 %                
+ALU           5                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block \\\~rgb2dvi\.DVI_TX_Top\ .\\\~TMDS8b10b\.DVI_TX_Top\ :	118 (29.35 % Utilization)
+
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~TMDS8b10b\.DVI_TX_Top\ _0   ########
+Instance path:   \\\~rgb2dvi\.DVI_TX_Top\ .\\\~TMDS8b10b\.DVI_TX_Top\ _0           
+===================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     28                 35.4 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~rgb2dvi\.DVI_TX_Top\ .\\\~TMDS8b10b\.DVI_TX_Top\ _0:	28 (6.97 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          91                 33 %                 
+MUX2_LUT5     2                  18.2 %               
+ALU           5                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block \\\~rgb2dvi\.DVI_TX_Top\ .\\\~TMDS8b10b\.DVI_TX_Top\ _0:	98 (24.38 % Utilization)
+
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~TMDS8b10b\.DVI_TX_Top\ _2   ########
+Instance path:   \\\~rgb2dvi\.DVI_TX_Top\ .\\\~TMDS8b10b\.DVI_TX_Top\ _2           
+===================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     26                 32.9 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~rgb2dvi\.DVI_TX_Top\ .\\\~TMDS8b10b\.DVI_TX_Top\ _2:	26 (6.47 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     83                 30.1 %               
+ALU      5                  33.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~rgb2dvi\.DVI_TX_Top\ .\\\~TMDS8b10b\.DVI_TX_Top\ _2:	88 (21.89 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

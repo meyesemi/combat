@@ -1,0 +1,320 @@
+Selecting top level module ivideo_dynamic_top
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2339:7:2339:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\gw_pll_mipi\gw_pll_mipi.v":8:7:8:17|Synthesizing module GW_PLL_mipi in library work.
+Running optimization stage 1 on GW_PLL_mipi .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\gw_pll\gw_pll.v":8:7:8:12|Synthesizing module GW_PLL in library work.
+Running optimization stage 1 on GW_PLL .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":1:7:1:19|Synthesizing module colorbar_test in library work.
+Running optimization stage 1 on colorbar_test .......
+@A: CL282 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Feedback mux created for signal lcd_datain1[23:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Feedback mux created for signal lcd_datain[23:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v":29:7:29:30|Synthesizing module rgb48bit_to4ch16bit_ctrl in library work.
+Running optimization stage 1 on rgb48bit_to4ch16bit_ctrl .......
+@W: CL169 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v":101:1:101:6|Pruning unused register j[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v":101:1:101:6|Pruning unused register i[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v":101:1:101:6|Pruning unused register m[8:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Dul_Ram.v":10:7:10:13|Synthesizing module Dul_Ram in library work.
+
+	L=32'b00000000000000000000000000001010
+	DW=32'b00000000000000000000000000010000
+   Generated name = Dul_Ram_10s_16s
+Running optimization stage 1 on Dul_Ram_10s_16s .......
+@N: CL134 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Dul_Ram.v":33:0:33:5|Found RAM Ram, depth=1024, width=16
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Asyn_Fifo.v":21:8:21:16|Synthesizing module Asyn_Fifo in library work.
+
+	L=32'b00000000000000000000000000001010
+	DW=32'b00000000000000000000000000010000
+	IDLE=2'b00
+	FRST=2'b01
+	ONLO=2'b10
+	HVTW=2'b11
+   Generated name = Asyn_Fifo_10s_16s_0_1_2_3
+Running optimization stage 1 on Asyn_Fifo_10s_16s_0_1_2_3 .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\afifo.v":1:7:1:11|Synthesizing module afifo in library work.
+
+	DATASIZE=32'b00000000000000000000000000010000
+	ADDRSIZE=32'b00000000000000000000000000001010
+   Generated name = afifo_16s_10s
+Running optimization stage 1 on afifo_16s_10s .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Dul_Ram.v":10:7:10:13|Synthesizing module Dul_Ram in library work.
+
+	L=32'b00000000000000000000000000000110
+	DW=32'b00000000000000000000000000001000
+   Generated name = Dul_Ram_6s_8s
+Running optimization stage 1 on Dul_Ram_6s_8s .......
+@N: CL134 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Dul_Ram.v":45:0:45:5|Found RAM Ram, depth=64, width=8
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Asyn_Fifo.v":21:8:21:16|Synthesizing module Asyn_Fifo in library work.
+
+	L=32'b00000000000000000000000000000110
+	DW=32'b00000000000000000000000000001000
+	IDLE=2'b00
+	FRST=2'b01
+	ONLO=2'b10
+	HVTW=2'b11
+   Generated name = Asyn_Fifo_6s_8s_0_1_2_3
+Running optimization stage 1 on Asyn_Fifo_6s_8s_0_1_2_3 .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\afifo.v":1:7:1:11|Synthesizing module afifo in library work.
+
+	DATASIZE=32'b00000000000000000000000000001000
+	ADDRSIZE=32'b00000000000000000000000000000110
+   Generated name = afifo_8s_6s
+Running optimization stage 1 on afifo_8s_6s .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb_data_asyfifo.v":22:7:22:22|Synthesizing module rgb_data_asyfifo in library work.
+Running optimization stage 1 on rgb_data_asyfifo .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v":22:7:22:23|Synthesizing module mipi_data_rd_ctrl in library work.
+Running optimization stage 1 on mipi_data_rd_ctrl .......
+@W: CL271 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v":326:2:326:7|Pruning unused bits 7 to 0 of I_rgb_lane0_data_reg[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v":326:2:326:7|Pruning unused bits 7 to 0 of I_rgb_lane1_data_reg[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v":326:2:326:7|Pruning unused bits 7 to 0 of I_rgb_lane2_data_reg[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v":326:2:326:7|Pruning unused bits 7 to 0 of I_rgb_lane3_data_reg[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_packetizer.v":22:7:22:21|Synthesizing module mipi_packetizer in library work.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_packetizer.v":77:21:77:37|Removing wire Lcd_rgb_lane0_inv, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_packetizer.v":78:21:78:37|Removing wire Lcd_rgb_lane1_inv, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_packetizer.v":79:21:79:37|Removing wire Lcd_rgb_lane2_inv, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_packetizer.v":80:21:80:37|Removing wire Lcd_rgb_lane3_inv, as there is no assignment to it.
+Running optimization stage 1 on mipi_packetizer .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_screen_init.v":23:7:23:22|Synthesizing module mipi_screen_init in library work.
+@N: CG179 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_screen_init.v":342:21:342:35|Removing redundant assignment.
+Running optimization stage 1 on mipi_screen_init .......
+@W: CL190 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_screen_init.v":201:1:201:6|Optimizing register bit O_init_lp_data[0] to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_screen_init.v":201:1:201:6|Optimizing register bit O_init_lp_data[1] to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_screen_init.v":201:1:201:6|Pruning unused register O_init_lp_data[1:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v":23:7:23:19|Synthesizing module mipi_hs_lp_tx in library work.
+@N: CG179 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v":169:23:169:39|Removing redundant assignment.
+@N: CG179 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v":188:21:188:35|Removing redundant assignment.
+Running optimization stage 1 on mipi_hs_lp_tx .......
+@W: CL169 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v":140:1:140:6|Pruning unused register i[7:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v":23:7:23:18|Synthesizing module mipi_dsi_top in library work.
+@N: CG179 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v":112:20:112:34|Removing redundant assignment.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v":74:14:74:23|Removing wire Lcd_hs_rgb, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_dsi_top.v":75:14:75:19|Removing wire Lcd_vs, as there is no assignment to it.
+Running optimization stage 1 on mipi_dsi_top .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\serdes_rst_ctrl.v":4:7:4:21|Synthesizing module serdes_rst_ctrl in library work.
+Running optimization stage 1 on serdes_rst_ctrl .......
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2494:7:2494:11|Synthesizing module DHCEN in library work.
+Running optimization stage 1 on DHCEN .......
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2406:7:2406:9|Synthesizing module GSR in library work.
+Running optimization stage 1 on GSR .......
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":380:7:380:11|Synthesizing module IOBUF in library work.
+Running optimization stage 1 on IOBUF .......
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":360:7:360:9|Synthesizing module INV in library work.
+Running optimization stage 1 on INV .......
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2428:7:2428:16|Synthesizing module TLVDS_TBUF in library work.
+Running optimization stage 1 on TLVDS_TBUF .......
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2481:7:2481:12|Synthesizing module CLKDIV in library work.
+Running optimization stage 1 on CLKDIV .......
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":525:7:525:11|Synthesizing module OSER8 in library work.
+Running optimization stage 1 on OSER8 .......
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2398:7:2398:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":2402:7:2402:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v":20:7:20:27|Synthesizing module \~oserx4.DPHY_TX_TOP_  in library work.
+Running optimization stage 1 on \~oserx4.DPHY_TX_TOP_  .......
+@N: CG364 :"C:\Gowin\Gowin_V1.9.6.01Beta\SynplifyPro\lib\generic\gw2a.v":101:7:101:10|Synthesizing module LUT2 in library work.
+Running optimization stage 1 on LUT2 .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v":259:7:259:31|Synthesizing module \~IO_Ctrl_TX.DPHY_TX_TOP_  in library work.
+Running optimization stage 1 on \~IO_Ctrl_TX.DPHY_TX_TOP_  .......
+@W: CL168 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v":444:6:444:11|Removing instance VCC_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v":441:6:441:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v":449:7:449:28|Synthesizing module \~DPHY_TX.DPHY_TX_TOP_  in library work.
+Running optimization stage 1 on \~DPHY_TX.DPHY_TX_TOP_  .......
+@W: CL168 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v":614:6:614:11|Removing instance VCC_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v":611:6:611:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v":619:7:619:17|Synthesizing module DPHY_TX_TOP in library work.
+Running optimization stage 1 on DPHY_TX_TOP .......
+@W: CL168 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\DPHY_TX_TOP.v":850:6:850:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lcd_backlight_ctrl.v":23:7:23:24|Synthesizing module lcd_backlight_ctrl in library work.
+Running optimization stage 1 on lcd_backlight_ctrl .......
+@N: CG364 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":2:7:2:24|Synthesizing module ivideo_dynamic_top in library work.
+@N: CG179 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":248:25:248:27|Removing redundant assignment.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":57:18:57:20|Removing wire r_R, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":57:22:57:24|Removing wire r_G, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":57:26:57:28|Removing wire r_B, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":58:18:58:24|Removing wire RCLK_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":59:18:59:22|Removing wire R0_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":59:24:59:28|Removing wire R1_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":59:30:59:34|Removing wire R2_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":59:36:59:40|Removing wire R3_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":61:18:61:21|Removing wire r_R1, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":61:23:61:26|Removing wire r_G1, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":61:28:61:31|Removing wire r_B1, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":62:18:62:25|Removing wire RCLK1_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":63:18:63:22|Removing wire R4_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":63:24:63:28|Removing wire R5_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":63:30:63:34|Removing wire R6_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":63:36:63:40|Removing wire R7_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":65:18:65:28|Removing wire pll_lock_rx, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":66:18:66:29|Removing wire pll_lock_rx1, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":68:18:68:21|Removing wire eclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":69:18:69:21|Removing wire sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":70:18:70:22|Removing wire eclk1, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":71:18:71:22|Removing wire sclk1, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":73:18:73:30|Removing wire RCLK_out_sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":74:18:74:21|Removing wire rx_a, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":74:23:74:26|Removing wire rx_b, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":74:28:74:31|Removing wire rx_c, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":74:33:74:36|Removing wire rx_d, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":75:18:75:26|Removing wire rx_a_sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":75:28:75:36|Removing wire rx_b_sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":75:38:75:46|Removing wire rx_c_sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":75:48:75:56|Removing wire rx_d_sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":77:18:77:31|Removing wire RCLK1_out_sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":78:18:78:21|Removing wire rx_e, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":78:23:78:26|Removing wire rx_f, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":78:28:78:31|Removing wire rx_g, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":78:33:78:36|Removing wire rx_h, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":79:18:79:26|Removing wire rx_e_sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":79:28:79:36|Removing wire rx_f_sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":79:38:79:46|Removing wire rx_g_sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":79:48:79:56|Removing wire rx_h_sclk, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":82:19:82:22|Removing wire psda, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":83:19:83:24|Removing wire dutyda, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":84:19:84:23|Removing wire psda1, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":85:19:85:25|Removing wire dutyda1, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":90:18:90:26|Removing wire lock_flag, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":91:18:91:27|Removing wire lock1_flag, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":95:14:95:20|Removing wire RXO_rgb, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":95:22:95:28|Removing wire RXE_rgb, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":96:9:96:17|Removing wire RXO_hsync, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":96:19:96:27|Removing wire RXO_vsync, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":96:29:96:34|Removing wire RXO_de, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":97:9:97:17|Removing wire RXE_hsync, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":97:19:97:27|Removing wire RXE_vsync, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":97:29:97:34|Removing wire RXE_de, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":99:14:99:22|Removing wire RXO_rgb_o, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":99:24:99:32|Removing wire RXE_rgb_o, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":100:9:100:19|Removing wire RXO_hsync_o, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":100:21:100:31|Removing wire RXO_vsync_o, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":100:33:100:40|Removing wire RXO_de_o, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":100:42:100:49|Removing wire RXE_de_o, as there is no assignment to it.
+@W: CG360 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":123:12:123:15|Removing wire test, as there is no assignment to it.
+Running optimization stage 1 on ivideo_dynamic_top .......
+Running optimization stage 2 on ivideo_dynamic_top .......
+@W: CL190 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":244:0:244:5|Optimizing register bit cnt[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic_top.v":244:0:244:5|Pruning register bit 10 of cnt[10:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on lcd_backlight_ctrl .......
+@W: CL190 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lcd_backlight_ctrl.v":40:1:40:6|Optimizing register bit Led_brightness_count[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lcd_backlight_ctrl.v":40:1:40:6|Optimizing register bit Led_brightness_count[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lcd_backlight_ctrl.v":40:1:40:6|Optimizing register bit Led_brightness_count[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lcd_backlight_ctrl.v":40:1:40:6|Optimizing register bit Led_brightness_count[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\lcd_backlight_ctrl.v":40:1:40:6|Pruning register bits 15 to 12 of Led_brightness_count[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on DPHY_TX_TOP .......
+Running optimization stage 2 on \~DPHY_TX.DPHY_TX_TOP_  .......
+Running optimization stage 2 on \~IO_Ctrl_TX.DPHY_TX_TOP_  .......
+Running optimization stage 2 on LUT2 .......
+Running optimization stage 2 on \~oserx4.DPHY_TX_TOP_  .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on OSER8 .......
+Running optimization stage 2 on CLKDIV .......
+Running optimization stage 2 on TLVDS_TBUF .......
+Running optimization stage 2 on INV .......
+Running optimization stage 2 on IOBUF .......
+Running optimization stage 2 on GSR .......
+Running optimization stage 2 on DHCEN .......
+Running optimization stage 2 on serdes_rst_ctrl .......
+@N: CL201 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\serdes_rst_ctrl.v":28:1:28:6|Trying to extract state machine for register Fsm_serdes_rst_ctrl.
+Extracted state machine for register Fsm_serdes_rst_ctrl
+State machine has 6 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+   00100
+   00101
+Running optimization stage 2 on mipi_dsi_top .......
+Running optimization stage 2 on mipi_hs_lp_tx .......
+@N: CL135 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v":140:1:140:6|Found sequential shift Rgb_d_hold_Reg3 with address depth of 81 words and data bit width of 8.
+@N: CL135 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v":140:1:140:6|Found sequential shift Rgb_d_hold_Reg2 with address depth of 81 words and data bit width of 8.
+@N: CL135 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v":140:1:140:6|Found sequential shift Rgb_d_hold_Reg1 with address depth of 81 words and data bit width of 8.
+@N: CL135 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_hs_lp_tx.v":140:1:140:6|Found sequential shift Rgb_d_hold_Reg0 with address depth of 81 words and data bit width of 8.
+Running optimization stage 2 on mipi_screen_init .......
+@N: CL201 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_screen_init.v":201:1:201:6|Trying to extract state machine for register Fsm_mipi_init.
+Extracted state machine for register Fsm_mipi_init
+State machine has 4 reachable states with original encodings of:
+   000000
+   000010
+   000011
+   001000
+@N: CL159 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_screen_init.v":26:27:26:45|Input I_mipi_screen_onoff is unused.
+Running optimization stage 2 on mipi_packetizer .......
+@N: CL201 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_packetizer.v":290:1:290:6|Trying to extract state machine for register Fsm_mipi_hs.
+Extracted state machine for register Fsm_mipi_hs
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+@N: CL159 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_packetizer.v":28:27:28:34|Input I_lcd_vs is unused.
+Running optimization stage 2 on mipi_data_rd_ctrl .......
+@N: CL201 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v":206:1:206:6|Trying to extract state machine for register Fsm_rgb_ctrl.
+Extracted state machine for register Fsm_rgb_ctrl
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL159 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v":41:15:41:27|Input I_empty_lane0 is unused.
+@N: CL159 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v":45:15:45:27|Input I_empty_lane1 is unused.
+@N: CL159 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v":49:15:49:27|Input I_empty_lane2 is unused.
+@N: CL159 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\mipi_data_rd_ctrl.v":53:15:53:27|Input I_empty_lane3 is unused.
+Running optimization stage 2 on rgb_data_asyfifo .......
+Running optimization stage 2 on afifo_8s_6s .......
+Running optimization stage 2 on Asyn_Fifo_6s_8s_0_1_2_3 .......
+@N: CL201 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Asyn_Fifo.v":186:0:186:5|Trying to extract state machine for register ST.
+Extracted state machine for register ST
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+Running optimization stage 2 on Dul_Ram_6s_8s .......
+Running optimization stage 2 on afifo_16s_10s .......
+Running optimization stage 2 on Asyn_Fifo_10s_16s_0_1_2_3 .......
+@N: CL201 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\Asyn_Fifo.v":186:0:186:5|Trying to extract state machine for register ST.
+Extracted state machine for register ST
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+Running optimization stage 2 on Dul_Ram_10s_16s .......
+Running optimization stage 2 on rgb48bit_to4ch16bit_ctrl .......
+@W: CL177 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v":187:1:187:6|Sharing sequential element O_rgb_lane1_wren. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v":187:1:187:6|Sharing sequential element O_rgb_lane3_wren. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v":101:1:101:6|Trying to extract state machine for register Fsm_vss_flag.
+Extracted state machine for register Fsm_vss_flag
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL279 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v":161:1:161:6|Pruning register bits 7 to 5 of O_vshsde_ctrl[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\rgb48bit_to4ch16bit_ctrl.v":161:1:161:6|Pruning register bits 3 to 1 of O_vshsde_ctrl[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on colorbar_test .......
+@W: CL190 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":42:0:42:5|Optimizing register bit h_cnt[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":42:0:42:5|Optimizing register bit h_cnt[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":55:0:55:5|Optimizing register bit v_cnt[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":55:0:55:5|Pruning register bit 11 of v_cnt[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":42:0:42:5|Pruning register bits 11 to 10 of h_cnt[11:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Pruning register bits 23 to 17 of lcd_datain1[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Pruning register bits 15 to 9 of lcd_datain1[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Pruning register bits 7 to 1 of lcd_datain1[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Pruning register bits 23 to 17 of lcd_datain[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Pruning register bits 15 to 9 of lcd_datain[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Pruning register bits 7 to 1 of lcd_datain[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Sharing sequential element lcd_datain1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Sharing sequential element lcd_datain1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\colorbar_test.v":119:0:119:5|Sharing sequential element lcd_datain1. Add a syn_preserve attribute to the element to prevent sharing.
+Running optimization stage 2 on GW_PLL .......
+Running optimization stage 2 on GW_PLL_mipi .......
+Running optimization stage 2 on PLL .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\impl\synthesize\rev_1\synwork\layer0.rt.csv
+

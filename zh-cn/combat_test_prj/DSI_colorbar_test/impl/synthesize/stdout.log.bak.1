@@ -1,0 +1,83 @@
+error reading package index file D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/pkgIndex.tcl: couldn't read file "{D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/pkgIndex.tcl}": no such file or directory
+error reading package index file D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/tcllib-1.12/pkgIndex.tcl: couldn't read file "{D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/tcllib-1.12/pkgIndex.tcl}": no such file or directory
+error reading package index file D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/TclReadLine/pkgIndex.tcl: couldn't read file "{D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/TclReadLine/pkgIndex.tcl}": no such file or directory
+error reading package index file D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/pkgIndex.tcl: couldn't read file "{D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/pkgIndex.tcl}": no such file or directory
+error reading package index file D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/pkgIndex.tcl: couldn't read file "{D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/pkgIndex.tcl}": no such file or directory
+error reading package index file D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/tcllib-1.12/pkgIndex.tcl: couldn't read file "{D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/tcllib-1.12/pkgIndex.tcl}": no such file or directory
+error reading package index file D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/TclReadLine/pkgIndex.tcl: couldn't read file "{D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/TclReadLine/pkgIndex.tcl}": no such file or directory
+error reading package index file D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/pkgIndex.tcl: couldn't read file "{D:/Program Files/Gowin/Gowin_V1.9.2.01Beta/SynplifyPro/lib/pkgIndex.tcl}": no such file or directory
+
+Starting:    D:\Program Files\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     D:\Program Files\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+Hostname:    GW-HW-023
+Date:        Mon Aug 10 13:55:04 2020
+Version:     P-2019.03G
+
+Arguments:   -product synplify_pro -batch -licensetype synplifypro_gowin E:/RTL_Design/others_reference/UniversityPlan1_Guangzhou2020/DSI_colorbar_test/impl/synthesize/sytech_lvds2mipi.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_gowin
+License: synplifypro_gowin from server 192.168.31.246 
+Licensed Vendor: gowin
+
+Running in Vendor Mode
+
+log file: "E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi.srr"
+Running: rev_1 in foreground
+
+Running sytech_lvds2mipi|rev_1
+
+Running Flow: compile (Compile) on sytech_lvds2mipi|rev_1
+# Mon Aug 10 13:55:05 2020
+
+Running Flow: compile_flow (Compile Process) on sytech_lvds2mipi|rev_1
+# Mon Aug 10 13:55:05 2020
+
+Running: compiler (Compile Input) on sytech_lvds2mipi|rev_1
+# Mon Aug 10 13:55:05 2020
+Copied E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\DSI_colorbar_test\impl\synthesize\rev_1\synwork\sytech_lvds2mipi_comp.srs to E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi.srs
+
+compiler completed
+# Mon Aug 10 13:55:09 2020
+
+Return Code: 0
+Run Time:00h:00m:04s
+
+Running: multi_srs_gen (Multi-srs Generator) on sytech_lvds2mipi|rev_1
+# Mon Aug 10 13:55:09 2020
+
+multi_srs_gen completed
+# Mon Aug 10 13:55:10 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\DSI_colorbar_test\impl\synthesize\rev_1\synwork\sytech_lvds2mipi_mult.srs to E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi.srs
+Complete: Compile Process on sytech_lvds2mipi|rev_1
+
+Running: premap (Premap) on sytech_lvds2mipi|rev_1
+# Mon Aug 10 13:55:10 2020
+
+premap completed with warnings
+# Mon Aug 10 13:55:13 2020
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Compile on sytech_lvds2mipi|rev_1
+
+Running Flow: map (Map) on sytech_lvds2mipi|rev_1
+# Mon Aug 10 13:55:13 2020
+
+Running: fpga_mapper (Map & Optimize) on sytech_lvds2mipi|rev_1
+# Mon Aug 10 13:55:13 2020
+Copied E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\DSI_colorbar_test\impl\synthesize\rev_1\synwork\sytech_lvds2mipi_m.srm to E:\RTL_Design\others_reference\UniversityPlan1_Guangzhou2020\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi.srm
+
+fpga_mapper completed with warnings
+# Mon Aug 10 13:55:31 2020
+
+Return Code: 1
+Run Time:00h:00m:18s
+Complete: Map on sytech_lvds2mipi|rev_1
+Complete: Logic Synthesis on sytech_lvds2mipi|rev_1
+exit status=0
+exit status=0
+License checkin: synplifypro_gowin

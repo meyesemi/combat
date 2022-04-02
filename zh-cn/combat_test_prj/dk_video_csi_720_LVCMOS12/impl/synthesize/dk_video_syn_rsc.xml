@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="video_top" Register="38" Alu="26" Lut="26">
+    <SubModule name="key_debounceN_inst0" Register="36" Alu="32" Lut="58"/>
+    <SubModule name="key_debounceN_inst1" Register="35" Alu="32" Lut="65"/>
+    <SubModule name="OV5647_Controller_inst" Register="35" Alu="32" Lut="71">
+        <SubModule name="Regs" Register="33" Alu="32" Lut="29" Bsram="1"/>
+        <SubModule name="I2C" Register="96" Alu="8" Lut="141"/>
+    </SubModule>
+    <SubModule name="CSI2RAW8_inst" Register="2" Lut="3">
+        <SubModule name="DPHY_RX_TOP_inst" Register="267" Lut="244" Ssram="4"/>
+        <SubModule name="u_control_capture" Register="90" Alu="72" Lut="86"/>
+        <SubModule name="u_raw8_lane2" Register="1">
+            <SubModule name="u_fifo16b_8b" Register="95" Alu="21" Lut="67" Bsram="1"/>
+        </SubModule>
+        <SubModule name="pll"/>
+    </SubModule>
+    <SubModule name="bayer_rgb_inst" Register="95" Alu="16" Lut="70">
+        <SubModule name="video_format_detect_inst" Register="34" Alu="11" Lut="13"/>
+        <SubModule name="shift_line_inst0" Register="22" Alu="33" Lut="12">
+            <SubModule name="ram_line_inst" Bsram="1"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="DDR3_Memory_Interface_Top_inst" Register="1717" Alu="227" Lut="1330" Bsram="8" Ssram="70"/>
+    <SubModule name="syn_gen_inst" Register="38" Alu="32" Lut="68"/>
+    <SubModule name="u_tmds_pll"/>
+    <SubModule name="DVI_TX_Top_inst">
+        <SubModule name="rgb2dvi_inst">
+            <SubModule name="TMDS8b10b_inst_r" Register="20" Alu="5" Lut="74"/>
+            <SubModule name="TMDS8b10b_inst_g" Register="22" Alu="5" Lut="91"/>
+            <SubModule name="TMDS8b10b_inst_b" Register="23" Alu="5" Lut="109"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="vfb_top_inst" Register="347" Alu="164" Lut="635" Bsram="8"/>
+</Module>

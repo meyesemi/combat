@@ -1,0 +1,65 @@
+# Written by Synplify Pro version mapgw2020q1p1, Build 004R. Synopsys Run ID: sid1597059138 
+# Top Level Design Parameters 
+
+# Clocks 
+create_clock -period 3.204 -waveform {0.000 1.602} -name {ivideo_dynamic_top|I_clk} [get_ports {I_clk}] 
+create_clock -period 5.154 -waveform {0.000 2.577} -name {_~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock} [get_pins {MIPI_DPHY_tx_inst/DPHY_TX_INST/u_oserx4/U3_CLKDIV/CLKOUT}] 
+create_clock -period 6.667 -waveform {0.000 3.333} -name {ivideo_dynamic_top|O_lcd_clkos_wire_inferred_clock} [get_pins {DHCEN_ECLK_OS/CLKOUT}] 
+create_clock -period 6.667 -waveform {0.000 3.333} -name {ivideo_dynamic_top|O_lcd_clkop_wire_inferred_clock} [get_pins {DHCEN_ECLK_OP/CLKOUT}] 
+create_clock -period 5.419 -waveform {0.000 2.709} -name {GW_PLL|clkout_inferred_clock} [get_pins {GW_PLL_inst/pll_inst/CLKOUT}] 
+
+# Virtual Clocks 
+
+# Generated Clocks 
+create_generated_clock -name {mipi_dsi_top|I_mipi_init_clk_derived_clock} -add -divide_by 1 -master_clock [get_clocks {_~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock}] -source [get_pins {mipi_dsi_top_inst/I_mipi_init_clk_Z/CLK}] [get_pins {mipi_dsi_top_inst/I_mipi_init_clk_Z/Q}] 
+
+# Paths Between Clocks 
+
+# Multicycle Constraints 
+set_multicycle_path 2 -setup -from [get_clocks {mipi_dsi_top|I_mipi_init_clk_derived_clock}] -to [get_clocks {mipi_dsi_top|I_mipi_init_clk_derived_clock}] 
+set_multicycle_path 1 -hold -from [get_clocks {mipi_dsi_top|I_mipi_init_clk_derived_clock}] -to [get_clocks {mipi_dsi_top|I_mipi_init_clk_derived_clock}] 
+
+# Point-to-point Delay Constraints 
+
+# False Path Constraints 
+
+# Output Load Constraints 
+
+# Driving Cell Constraints 
+
+# Input Delay Constraints 
+
+# Output Delay Constraints 
+
+# Wire Loads 
+
+# Other Constraints 
+
+# syn_hier Attributes 
+
+# set_case Attributes 
+
+# Clock Delay Constraints 
+set Autoconstr_clkgroup_0 [list ivideo_dynamic_top|I_clk]
+set Autoconstr_clkgroup_1 [list _~oserx4_DPHY_TX_TOP__|sclk_0_inferred_clock \
+                                  mipi_dsi_top|I_mipi_init_clk_derived_clock]
+set Autoconstr_clkgroup_2 [list ivideo_dynamic_top|O_lcd_clkos_wire_inferred_clock]
+set Autoconstr_clkgroup_3 [list ivideo_dynamic_top|O_lcd_clkop_wire_inferred_clock]
+set Autoconstr_clkgroup_4 [list GW_PLL|clkout_inferred_clock]
+set_clock_groups -asynchronous -group $Autoconstr_clkgroup_0 -group $Autoconstr_clkgroup_1 -group $Autoconstr_clkgroup_2 -group $Autoconstr_clkgroup_3 -group $Autoconstr_clkgroup_4
+
+# syn_mode Attributes 
+
+# Cells 
+
+# Port DRC Rules 
+
+# Input Transition Constraints 
+
+# Unused constraints (intentionally commented out) 
+
+
+# Non-forward-annotatable constraints (intentionally commented out) 
+
+# Block Path constraints 
+

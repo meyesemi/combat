@@ -1,0 +1,200 @@
+========Oooo=========================================Oooo========
+=     Copyright ©2014-2016 Gowin Semiconductor Corporation.     =
+=                     All rights reserved.                      =
+========Oooo=========================================Oooo========
+
+PIN report for E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\impl\synthesize\rev_1\Gbit_PHY_test_RGMII.vm
+
+-----------------------
+Table of Contents
+-----------------------
+1. PIN Messages
+2. Pinout by Port Name
+3. All Package Pins
+=======================
+
+
+1. PIN Messages
+
+  <Report Title>: Gowin PIN Report
+  <Tool Version>: v1.7.1.06Beta
+  <Family/Device/Package/Speed>: GW2AR, GW2AR-18, LQFP144, 6
+  <Design Name>: Gbit_PHY_test_RGMII
+  <Design File>: E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\impl\pnr\E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\impl\synthesize\rev_1\Gbit_PHY_test_RGMII.vm
+  <Physical Constraint File>: E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\impl\pnr\E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\src\Gbit_PHY_test_RGMII.cst
+  <Timing Constraint File>: E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\impl\pnr\E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\src\Gbit_PHY_test_RGMII.sdc
+  <PIN Report File>: E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\impl\pnr\Gbit_PHY_test_RGMII.pin
+  <Created Time>: Tue Feb 07 14:48:28 2017
+  <Command Line>: C:\Gowin\1.7\Pnr\bin\gowin.exe -d E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\impl\synthesize\rev_1\Gbit_PHY_test_RGMII.vm -cst E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\src\Gbit_PHY_test_RGMII.cst -sdc E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\src\Gbit_PHY_test_RGMII.sdc -p GW2AR-18-LQFP144-6 -cfg E:\Test\Gbit_PHY_test_RGMIIV1.0_20161027\impl\pnr\device.cfg -bit -tr 
+  <Legal Announcement>: Copyright (C)2014-2016 Gowin Semiconductor Corporation. All rights reserved.
+
+
+2. Pinout by Port Name
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Port Name      | Loc./Bank  | Dir.  | Site     | IO Type    | Drive      | Pull Mode  | Slew Rate  | Clamp      | OpenDrain  | VREF       | BankVccio 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+I_rst_n        | 79/-       | in    | IOR49[B] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | -         
+I_phy1_rxd[0]  | 68/4       | in    | IOB48[A] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy1_rxd[1]  | 69/4       | in    | IOB48[B] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy1_rxd[2]  | 70/4       | in    | IOB53[A] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy1_rxd[3]  | 71/4       | in    | IOB53[B] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy1_rxdv    | 72/4       | in    | IOB55[B] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy1_rxc     | 67/4       | in    | IOB42[B] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy2_rxd[0]  | 56/4       | in    | IOB30[A] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy2_rxd[1]  | 57/4       | in    | IOB30[B] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy2_rxd[2]  | 58/4       | in    | IOB33[A] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy2_rxd[3]  | 59/4       | in    | IOB33[B] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy2_rxdv    | 60/4       | in    | IOB34[A] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+I_phy2_rxc     | 54/5       | in    | IOB22[B] | LVCMOS18   | NA         | UP         | NA         | NA         | NA         | NA         | 1.8       
+O_phy_mdc      | 45/5       | out   | IOB12[B] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+IO_phy_mdio    | 46/5       | out   | IOB14[A] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy1_txd[0]  | 62/4       | out   | IOB38[A] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy1_txd[1]  | 63/4       | out   | IOB38[B] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy1_txd[2]  | 64/4       | out   | IOB40[A] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy1_txd[3]  | 65/4       | out   | IOB40[B] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy1_txen    | 66/4       | out   | IOB42[A] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy1_gtxclk  | 61/4       | out   | IOB34[B] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy2_txd[0]  | 48/5       | out   | IOB17[A] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy2_txd[1]  | 49/5       | out   | IOB17[B] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy2_txd[2]  | 50/5       | out   | IOB20[A] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy2_txd[3]  | 51/5       | out   | IOB20[B] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy2_txen    | 52/5       | out   | IOB22[A] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+O_phy2_gtxclk  | 47/5       | out   | IOB14[B] | LVCMOS18   | 8          | UP         | FAST       | NA         | OFF        | NA         | 1.8       
+=====================================================================================================================================================
+
+
+
+
+3. Pinout by Pin Number
+
+--------------------------------------------------------------------------------------------------------------------
+Loc./Bank  | Signal         | Dir.  | Site     | IO Type    | Pull Mode | Hysteresis | DiffResistor | SingleResistor
+--------------------------------------------------------------------------------------------------------------------
+141/0      | UNUSED         | -     | IOT2[B]  | -          | -         | -          | -            | -       
+140/0      | UNUSED         | -     | IOT4[A]  | -          | -         | -          | -            | -       
+139/0      | UNUSED         | -     | IOT4[B]  | -          | -         | -          | -            | -       
+138/0      | UNUSED         | -     | IOT6[A]  | -          | -         | -          | -            | -       
+137/0      | UNUSED         | -     | IOT6[B]  | -          | -         | -          | -            | -       
+136/0      | UNUSED         | -     | IOT7[A]  | -          | -         | -          | -            | -       
+135/0      | UNUSED         | -     | IOT7[B]  | -          | -         | -          | -            | -       
+134/0      | UNUSED         | -     | IOT12[A] | -          | -         | -          | -            | -       
+133/0      | UNUSED         | -     | IOT12[B] | -          | -         | -          | -            | -       
+132/0      | UNUSED         | -     | IOT14[A] | -          | -         | -          | -            | -       
+131/0      | UNUSED         | -     | IOT14[B] | -          | -         | -          | -            | -       
+130/0      | UNUSED         | -     | IOT17[A] | -          | -         | -          | -            | -       
+129/0      | UNUSED         | -     | IOT17[B] | -          | -         | -          | -            | -       
+128/0      | UNUSED         | -     | IOT19[A] | -          | -         | -          | -            | -       
+125/0      | UNUSED         | -     | IOT22[A] | -          | -         | -          | -            | -       
+126/0      | UNUSED         | -     | IOT23[A] | -          | -         | -          | -            | -       
+124/0      | UNUSED         | -     | IOT23[B] | -          | -         | -          | -            | -       
+123/0      | UNUSED         | -     | IOT27[A] | -          | -         | -          | -            | -       
+122/0      | UNUSED         | -     | IOT27[B] | -          | -         | -          | -            | -       
+121/1      | UNUSED         | -     | IOT30[A] | -          | -         | -          | -            | -       
+120/1      | UNUSED         | -     | IOT30[B] | -          | -         | -          | -            | -       
+119/1      | UNUSED         | -     | IOT38[A] | -          | -         | -          | -            | -       
+118/1      | UNUSED         | -     | IOT38[B] | -          | -         | -          | -            | -       
+117/1      | UNUSED         | -     | IOT40[A] | -          | -         | -          | -            | -       
+116/1      | UNUSED         | -     | IOT40[B] | -          | -         | -          | -            | -       
+115/1      | UNUSED         | -     | IOT42[A] | -          | -         | -          | -            | -       
+114/1      | UNUSED         | -     | IOT42[B] | -          | -         | -          | -            | -       
+113/1      | UNUSED         | -     | IOT48[A] | -          | -         | -          | -            | -       
+112/1      | UNUSED         | -     | IOT48[B] | -          | -         | -          | -            | -       
+111/1      | UNUSED         | -     | IOT50[A] | -          | -         | -          | -            | -       
+110/1      | UNUSED         | -     | IOT50[B] | -          | -         | -          | -            | -       
+--------------------------------------------------------------------------------------------------------------------
+38/5       | UNUSED         | -     | IOB5[A]  | -          | -         | -          | -            | -       
+39/5       | UNUSED         | -     | IOB5[B]  | -          | -         | -          | -            | -       
+40/5       | UNUSED         | -     | IOB6[A]  | -          | -         | -          | -            | -       
+41/5       | UNUSED         | -     | IOB6[B]  | -          | -         | -          | -            | -       
+42/5       | UNUSED         | -     | IOB7[A]  | -          | -         | -          | -            | -       
+43/5       | UNUSED         | -     | IOB7[B]  | -          | -         | -          | -            | -       
+44/5       | UNUSED         | -     | IOB12[A] | -          | -         | -          | -            | -       
+45/5       | O_phy_mdc      | out   | IOB12[B] | LVCMOS18   | UP        | NA         | NA           | NA      
+46/5       | IO_phy_mdio    | out   | IOB14[A] | LVCMOS18   | UP        | NA         | NA           | NA      
+47/5       | O_phy2_gtxclk  | out   | IOB14[B] | LVCMOS18   | UP        | NA         | NA           | NA      
+48/5       | O_phy2_txd[0]  | out   | IOB17[A] | LVCMOS18   | UP        | NA         | NA           | NA      
+49/5       | O_phy2_txd[1]  | out   | IOB17[B] | LVCMOS18   | UP        | NA         | NA           | NA      
+50/5       | O_phy2_txd[2]  | out   | IOB20[A] | LVCMOS18   | UP        | NA         | NA           | NA      
+51/5       | O_phy2_txd[3]  | out   | IOB20[B] | LVCMOS18   | UP        | NA         | NA           | NA      
+52/5       | O_phy2_txen    | out   | IOB22[A] | LVCMOS18   | UP        | NA         | NA           | NA      
+54/5       | I_phy2_rxc     | in    | IOB22[B] | LVCMOS18   | UP        | NONE       | NA           | NA      
+56/4       | I_phy2_rxd[0]  | in    | IOB30[A] | LVCMOS18   | UP        | NONE       | NA           | NA      
+57/4       | I_phy2_rxd[1]  | in    | IOB30[B] | LVCMOS18   | UP        | NONE       | NA           | NA      
+58/4       | I_phy2_rxd[2]  | in    | IOB33[A] | LVCMOS18   | UP        | NONE       | NA           | NA      
+59/4       | I_phy2_rxd[3]  | in    | IOB33[B] | LVCMOS18   | UP        | NONE       | NA           | NA      
+60/4       | I_phy2_rxdv    | in    | IOB34[A] | LVCMOS18   | UP        | NONE       | NA           | NA      
+61/4       | O_phy1_gtxclk  | out   | IOB34[B] | LVCMOS18   | UP        | NA         | NA           | NA      
+62/4       | O_phy1_txd[0]  | out   | IOB38[A] | LVCMOS18   | UP        | NA         | NA           | NA      
+63/4       | O_phy1_txd[1]  | out   | IOB38[B] | LVCMOS18   | UP        | NA         | NA           | NA      
+64/4       | O_phy1_txd[2]  | out   | IOB40[A] | LVCMOS18   | UP        | NA         | NA           | NA      
+65/4       | O_phy1_txd[3]  | out   | IOB40[B] | LVCMOS18   | UP        | NA         | NA           | NA      
+66/4       | O_phy1_txen    | out   | IOB42[A] | LVCMOS18   | UP        | NA         | NA           | NA      
+67/4       | I_phy1_rxc     | in    | IOB42[B] | LVCMOS18   | UP        | NONE       | NA           | NA      
+68/4       | I_phy1_rxd[0]  | in    | IOB48[A] | LVCMOS18   | UP        | NONE       | NA           | NA      
+69/4       | I_phy1_rxd[1]  | in    | IOB48[B] | LVCMOS18   | UP        | NONE       | NA           | NA      
+70/4       | I_phy1_rxd[2]  | in    | IOB53[A] | LVCMOS18   | UP        | NONE       | NA           | NA      
+71/4       | I_phy1_rxd[3]  | in    | IOB53[B] | LVCMOS18   | UP        | NONE       | NA           | NA      
+72/4       | I_phy1_rxdv    | in    | IOB55[B] | LVCMOS18   | UP        | NONE       | NA           | NA      
+--------------------------------------------------------------------------------------------------------------------
+3/7        | UNUSED         | -     | IOL2[A]  | -          | -         | -          | -            | -       
+4/7        | UNUSED         | -     | IOL2[B]  | -          | -         | -          | -            | -       
+6/7        | UNUSED         | -     | IOL7[A]  | -          | -         | -          | -            | -       
+7/7        | UNUSED         | -     | IOL7[B]  | -          | -         | -          | -            | -       
+9/7        | UNUSED         | -     | IOL22[A] | -          | -         | -          | -            | -       
+10/7       | UNUSED         | -     | IOL22[B] | -          | -         | -          | -            | -       
+11/7       | UNUSED         | -     | IOL27[A] | -          | -         | -          | -            | -       
+12/7       | UNUSED         | -     | IOL27[B] | -          | -         | -          | -            | -       
+25/6       | UNUSED         | -     | IOL29[A] | -          | -         | -          | -            | -       
+26/6       | UNUSED         | -     | IOL29[B] | -          | -         | -          | -            | -       
+23/6       | UNUSED         | -     | IOL32[A] | -          | -         | -          | -            | -       
+24/6       | UNUSED         | -     | IOL32[B] | -          | -         | -          | -            | -       
+27/6       | UNUSED         | -     | IOL33[A] | -          | -         | -          | -            | -       
+28/6       | UNUSED         | -     | IOL33[B] | -          | -         | -          | -            | -       
+29/6       | UNUSED         | -     | IOL36[A] | -          | -         | -          | -            | -       
+30/6       | UNUSED         | -     | IOL36[B] | -          | -         | -          | -            | -       
+32/6       | UNUSED         | -     | IOL42[A] | -          | -         | -          | -            | -       
+33/6       | UNUSED         | -     | IOL42[B] | -          | -         | -          | -            | -       
+34/6       | UNUSED         | -     | IOL45[A] | -          | -         | -          | -            | -       
+35/6       | UNUSED         | -     | IOL45[B] | -          | -         | -          | -            | -       
+--------------------------------------------------------------------------------------------------------------------
+106/2      | UNUSED         | -     | IOR7[A]  | -          | -         | -          | -            | -       
+105/2      | UNUSED         | -     | IOR7[B]  | -          | -         | -          | -            | -       
+102/2      | UNUSED         | -     | IOR20[A] | -          | -         | -          | -            | -       
+101/2      | UNUSED         | -     | IOR20[B] | -          | -         | -          | -            | -       
+100/2      | UNUSED         | -     | IOR22[A] | -          | -         | -          | -            | -       
+99/2       | UNUSED         | -     | IOR22[B] | -          | -         | -          | -            | -       
+18/2       | UNUSED         | -     | IOR25[A] | -          | -         | -          | -            | -       
+13/2       | UNUSED         | -     | IOR25[B] | -          | -         | -          | -            | -       
+14/2       | UNUSED         | -     | IOR26[A] | -          | -         | -          | -            | -       
+16/2       | UNUSED         | -     | IOR26[B] | -          | -         | -          | -            | -       
+98/2       | UNUSED         | -     | IOR27[A] | -          | -         | -          | -            | -       
+97/2       | UNUSED         | -     | IOR27[B] | -          | -         | -          | -            | -       
+144/3      | UNUSED         | -     | IOR30[A] | -          | -         | -          | -            | -       
+142/3      | UNUSED         | -     | IOR30[B] | -          | -         | -          | -            | -       
+143/3      | UNUSED         | -     | IOR31[A] | -          | -         | -          | -            | -       
+20/3       | UNUSED         | -     | IOR31[B] | -          | -         | -          | -            | -       
+22/3       | UNUSED         | -     | IOR32[A] | -          | -         | -          | -            | -       
+21/3       | UNUSED         | -     | IOR32[B] | -          | -         | -          | -            | -       
+96/3       | UNUSED         | -     | IOR33[A] | -          | -         | -          | -            | -       
+95/3       | UNUSED         | -     | IOR33[B] | -          | -         | -          | -            | -       
+94/3       | UNUSED         | -     | IOR34[A] | -          | -         | -          | -            | -       
+93/3       | UNUSED         | -     | IOR34[B] | -          | -         | -          | -            | -       
+92/3       | UNUSED         | -     | IOR35[A] | -          | -         | -          | -            | -       
+90/3       | UNUSED         | -     | IOR35[B] | -          | -         | -          | -            | -       
+88/3       | UNUSED         | -     | IOR36[A] | -          | -         | -          | -            | -       
+87/3       | UNUSED         | -     | IOR36[B] | -          | -         | -          | -            | -       
+86/3       | UNUSED         | -     | IOR38[A] | -          | -         | -          | -            | -       
+85/3       | UNUSED         | -     | IOR38[B] | -          | -         | -          | -            | -       
+15/3       | UNUSED         | -     | IOR39[A] | -          | -         | -          | -            | -       
+84/3       | UNUSED         | -     | IOR42[A] | -          | -         | -          | -            | -       
+83/3       | UNUSED         | -     | IOR42[B] | -          | -         | -          | -            | -       
+82/3       | UNUSED         | -     | IOR45[A] | -          | -         | -          | -            | -       
+80/3       | UNUSED         | -     | IOR49[A] | -          | -         | -          | -            | -       
+79/3       | UNUSED         | -     | IOR49[B] | -          | -         | -          | -            | -       
+78/3       | UNUSED         | -     | IOR50[A] | -          | -         | -          | -            | -       
+76/3       | UNUSED         | -     | IOR50[B] | -          | -         | -          | -            | -       
+--------------------------------------------------------------------------------------------------------------------
+====================================================================================================================
+
+

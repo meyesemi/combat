@@ -1,0 +1,9 @@
+-d J:\Source_bac\Gowin_board\GW2A_LV18PG484\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\impl\synthesize\rev_1\sytech_lvds2mipi.vm
+-p GW2A-18-PBGA484-8
+-pn GW2A-LV18PG484C8/I7
+-cst J:\Source_bac\Gowin_board\GW2A_LV18PG484\gowin\DSI_colorbar\DSI_colorbar_test18K\DSI_colorbar_test\src\ivideo_dynamic.cst
+-cfg J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\test_combat_prj\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing

@@ -1,0 +1,688 @@
+# Thu May 14 09:55:04 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G-1
+Install: D:\Gowin\Gowin_V1.9.5.02Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-AP2159I
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version mapgw, Build 1564R, Built Mar  4 2020 10:56:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 128MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 217MB peak: 217MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 222MB peak: 222MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 222MB peak: 222MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 246MB peak: 246MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 231MB peak: 247MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 232MB peak: 247MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 238MB peak: 247MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 238MB peak: 247MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 238MB peak: 247MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 248MB peak: 253MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		    -4.11ns		 255 /        73
+   2		0h:00m:03s		    -4.11ns		 250 /        73
+   3		0h:00m:03s		    -4.17ns		 251 /        73
+   4		0h:00m:03s		    -4.17ns		 252 /        73
+   5		0h:00m:03s		    -4.17ns		 251 /        73
+   6		0h:00m:03s		    -4.17ns		 252 /        73
+Timing driven replication report
+Added 6 Registers via timing driven replication
+Added 4 LUTs via timing driven replication
+
+   7		0h:00m:04s		    -3.81ns		 256 /        79
+   8		0h:00m:04s		    -3.81ns		 260 /        79
+   9		0h:00m:04s		    -3.81ns		 259 /        79
+  10		0h:00m:04s		    -3.54ns		 264 /        79
+
+
+  11		0h:00m:04s		    -3.54ns		 263 /        79
+  12		0h:00m:04s		    -3.48ns		 266 /        79
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 249MB peak: 253MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 249MB peak: 253MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 175MB peak: 253MB)
+
+Writing Analyst data base D:\proj\Gowin_DVI_RXTX_RefDesign\project\src\dvi_tx_top\temp\DviTx\rev_1\synwork\dvi_tx_top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 249MB peak: 253MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 250MB peak: 253MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 250MB peak: 253MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 247MB peak: 253MB)
+
+@W: MT246 :"d:\gowin\gowin_v1.9.5.02beta\ide\ipcore\dvi_tx\data\rgb2dvi.vp":66:5:66:19|Blackbox PLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock DVI_TX_Top|I_rgb_clk with period 11.06ns. Please declare a user-defined clock on port I_rgb_clk.
+@W: MT420 |Found inferred clock _~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock with period 6.67ns. Please declare a user-defined clock on net rgb2dvi_inst.serial_clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu May 14 09:55:11 2020
+#
+
+
+Top view:               DVI_TX_Top
+Requested Frequency:    90.4 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.951
+
+                                                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                                      Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+DVI_TX_Top|I_rgb_clk                                90.4 MHz      76.9 MHz      11.057        13.008        -1.951     inferred     Autoconstr_clkgroup_0
+_~rgb2dvi_DVI_TX_Top_|serial_clk_inferred_clock     150.0 MHz     NA            6.667         NA            NA         inferred     Autoconstr_clkgroup_1
+System                                              150.0 MHz     NA            6.667         NA            9.356      system       system_clkgroup      
+=========================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------
+Starting              Ending                |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------
+System                DVI_TX_Top|I_rgb_clk  |  11.057      9.356   |  No paths    -      |  No paths    -      |  No paths    -    
+DVI_TX_Top|I_rgb_clk  DVI_TX_Top|I_rgb_clk  |  11.057      -1.951  |  No paths    -      |  No paths    -      |  No paths    -    
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: DVI_TX_Top|I_rgb_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                Starting                                                    Arrival           
+Instance                                        Reference                Type     Pin     Net               Time        Slack 
+                                                Clock                                                                         
+------------------------------------------------------------------------------------------------------------------------------
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[7]          DVI_TX_Top|I_rgb_clk     DFFC     Q       din_d[7]          0.243       -1.951
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[0]          DVI_TX_Top|I_rgb_clk     DFFC     Q       din_d[0]          0.243       -1.930
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[4]          DVI_TX_Top|I_rgb_clk     DFFC     Q       din_d[4]          0.243       -1.930
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[3]          DVI_TX_Top|I_rgb_clk     DFFC     Q       din_d[3]          0.243       -1.909
+rgb2dvi_inst.TMDS8b10b_inst_g.sel_xnor_fast     DVI_TX_Top|I_rgb_clk     DFFC     Q       sel_xnor_fast     0.243       -1.843
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[5]          DVI_TX_Top|I_rgb_clk     DFFC     Q       din_d[5]          0.243       -1.822
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[6]          DVI_TX_Top|I_rgb_clk     DFFC     Q       din_d[6]          0.243       -1.731
+rgb2dvi_inst.TMDS8b10b_inst_b.din_d[0]          DVI_TX_Top|I_rgb_clk     DFFC     Q       din_d[0]          0.243       -1.248
+rgb2dvi_inst.TMDS8b10b_inst_r.din_d_fast[5]     DVI_TX_Top|I_rgb_clk     DFFC     Q       din_d_fast[5]     0.243       -1.237
+rgb2dvi_inst.TMDS8b10b_inst_r.din_d_fast[3]     DVI_TX_Top|I_rgb_clk     DFFC     Q       din_d_fast[3]     0.243       -1.216
+==============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                         Starting                                                      Required           
+Instance                                 Reference                Type     Pin     Net                 Time         Slack 
+                                         Clock                                                                            
+--------------------------------------------------------------------------------------------------------------------------
+rgb2dvi_inst.TMDS8b10b_inst_g.cnt[4]     DVI_TX_Top|I_rgb_clk     DFFC     D       z[4]                10.996       -1.951
+rgb2dvi_inst.TMDS8b10b_inst_g.cnt[3]     DVI_TX_Top|I_rgb_clk     DFFC     D       z[3]                10.996       -1.916
+rgb2dvi_inst.TMDS8b10b_inst_g.cnt[2]     DVI_TX_Top|I_rgb_clk     DFFC     D       z[2]                10.996       -1.881
+rgb2dvi_inst.TMDS8b10b_inst_g.cnt[1]     DVI_TX_Top|I_rgb_clk     DFFC     D       z[1]                10.996       -1.411
+rgb2dvi_inst.TMDS8b10b_inst_b.cnt[4]     DVI_TX_Top|I_rgb_clk     DFFC     D       z[4]                10.996       -1.248
+rgb2dvi_inst.TMDS8b10b_inst_r.cnt[4]     DVI_TX_Top|I_rgb_clk     DFFC     D       z_0_s_4_0_SUM       10.996       -1.237
+rgb2dvi_inst.TMDS8b10b_inst_r.cnt[3]     DVI_TX_Top|I_rgb_clk     DFFC     D       z_0_cry_3_0_SUM     10.996       -0.844
+rgb2dvi_inst.TMDS8b10b_inst_b.cnt[3]     DVI_TX_Top|I_rgb_clk     DFFC     D       z[3]                10.996       -0.795
+rgb2dvi_inst.TMDS8b10b_inst_b.cnt[2]     DVI_TX_Top|I_rgb_clk     DFFC     D       z[2]                10.996       -0.760
+rgb2dvi_inst.TMDS8b10b_inst_b.cnt[1]     DVI_TX_Top|I_rgb_clk     DFFC     D       z[1]                10.996       -0.725
+==========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      11.057
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.996
+
+    - Propagation time:                      12.947
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.951
+
+    Number of logic level(s):                14
+    Starting point:                          rgb2dvi_inst.TMDS8b10b_inst_g.din_d[7] / Q
+    Ending point:                            rgb2dvi_inst.TMDS8b10b_inst_g.cnt[4] / D
+    The start point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+    The end   point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[7]                  DFFC     Q        Out     0.243     0.243       -         
+din_d[7]                                                Net      -        -       0.535     -           4         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.SUM_0_i_i_x2[0]     LUT3     I1       In      -         0.778       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.SUM_0_i_i_x2[0]     LUT3     F        Out     0.570     1.348       -         
+N_59_i                                                  Net      -        -       0.535     -           3         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_c1                    LUT4     I0       In      -         1.883       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_c1                    LUT4     F        Out     0.549     2.432       -         
+N_7_c1                                                  Net      -        -       0.535     -           2         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_axbxc1                LUT3     I1       In      -         2.967       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_axbxc1                LUT3     F        Out     0.570     3.537       -         
+ANB10                                                   Net      -        -       0.401     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_0_m[1]                LUT4     I1       In      -         3.938       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_0_m[1]                LUT4     F        Out     0.570     4.508       -         
+ANB1                                                    Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.SUM_i[1]                  LUT3     I2       In      -         5.043       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.SUM_i[1]                  LUT3     F        Out     0.462     5.505       -         
+cnt_one_9bit[1]                                         Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2                 LUT4     I1       In      -         6.040       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2                 LUT4     F        Out     0.570     6.610       -         
+un1_cnt_2                                               Net      -        -       0.535     -           9         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2_RNIVJRI         LUT2     I1       In      -         7.145       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2_RNIVJRI         LUT2     F        Out     0.570     7.715       -         
+N_85                                                    Net      -        -       0.535     -           2         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_5_axb1             LUT4     I1       In      -         8.250       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_5_axb1             LUT4     F        Out     0.570     8.820       -         
+z_5[1]                                                  Net      -        -       0.535     -           3         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_axb_1              LUT3     I2       In      -         9.355       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_axb_1              LUT3     F        Out     0.462     9.817       -         
+z_axb_1                                                 Net      -        -       0.401     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0_RNO        LUT2     I1       In      -         10.218      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0_RNO        LUT2     F        Out     0.570     10.788      -         
+z_cry_1_0_RNO_0                                         Net      -        -       0.535     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0            ALU      I0       In      -         11.323      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0            ALU      COUT     Out     0.549     11.872      -         
+z_cry_1                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_2_0            ALU      CIN      In      -         11.872      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_2_0            ALU      COUT     Out     0.035     11.907      -         
+z_cry_2                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_3_0            ALU      CIN      In      -         11.907      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_3_0            ALU      COUT     Out     0.035     11.942      -         
+z_cry_3                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_s_4_0              ALU      CIN      In      -         11.942      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_s_4_0              ALU      SUM      Out     0.470     12.412      -         
+z[4]                                                    Net      -        -       0.535     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.cnt[4]                    DFFC     D        In      -         12.947      -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 13.008 is 6.856(52.7%) logic and 6.152(47.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      11.057
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.996
+
+    - Propagation time:                      12.926
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.930
+
+    Number of logic level(s):                14
+    Starting point:                          rgb2dvi_inst.TMDS8b10b_inst_g.din_d[0] / Q
+    Ending point:                            rgb2dvi_inst.TMDS8b10b_inst_g.cnt[4] / D
+    The start point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+    The end   point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[0]                  DFFC     Q        Out     0.243     0.243       -         
+din_d[0]                                                Net      -        -       0.535     -           7         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.SUM_0_i_i_x2[0]     LUT3     I0       In      -         0.778       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.SUM_0_i_i_x2[0]     LUT3     F        Out     0.549     1.327       -         
+N_59_i                                                  Net      -        -       0.535     -           3         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_c1                    LUT4     I0       In      -         1.862       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_c1                    LUT4     F        Out     0.549     2.411       -         
+N_7_c1                                                  Net      -        -       0.535     -           2         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_axbxc1                LUT3     I1       In      -         2.946       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_axbxc1                LUT3     F        Out     0.570     3.516       -         
+ANB10                                                   Net      -        -       0.401     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_0_m[1]                LUT4     I1       In      -         3.917       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_0_m[1]                LUT4     F        Out     0.570     4.487       -         
+ANB1                                                    Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.SUM_i[1]                  LUT3     I2       In      -         5.022       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.SUM_i[1]                  LUT3     F        Out     0.462     5.484       -         
+cnt_one_9bit[1]                                         Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2                 LUT4     I1       In      -         6.019       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2                 LUT4     F        Out     0.570     6.589       -         
+un1_cnt_2                                               Net      -        -       0.535     -           9         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2_RNIVJRI         LUT2     I1       In      -         7.124       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2_RNIVJRI         LUT2     F        Out     0.570     7.694       -         
+N_85                                                    Net      -        -       0.535     -           2         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_5_axb1             LUT4     I1       In      -         8.229       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_5_axb1             LUT4     F        Out     0.570     8.799       -         
+z_5[1]                                                  Net      -        -       0.535     -           3         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_axb_1              LUT3     I2       In      -         9.334       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_axb_1              LUT3     F        Out     0.462     9.796       -         
+z_axb_1                                                 Net      -        -       0.401     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0_RNO        LUT2     I1       In      -         10.197      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0_RNO        LUT2     F        Out     0.570     10.767      -         
+z_cry_1_0_RNO_0                                         Net      -        -       0.535     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0            ALU      I0       In      -         11.302      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0            ALU      COUT     Out     0.549     11.851      -         
+z_cry_1                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_2_0            ALU      CIN      In      -         11.851      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_2_0            ALU      COUT     Out     0.035     11.886      -         
+z_cry_2                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_3_0            ALU      CIN      In      -         11.886      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_3_0            ALU      COUT     Out     0.035     11.921      -         
+z_cry_3                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_s_4_0              ALU      CIN      In      -         11.921      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_s_4_0              ALU      SUM      Out     0.470     12.391      -         
+z[4]                                                    Net      -        -       0.535     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.cnt[4]                    DFFC     D        In      -         12.926      -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 12.987 is 6.835(52.6%) logic and 6.152(47.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      11.057
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.996
+
+    - Propagation time:                      12.926
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.930
+
+    Number of logic level(s):                14
+    Starting point:                          rgb2dvi_inst.TMDS8b10b_inst_g.din_d[4] / Q
+    Ending point:                            rgb2dvi_inst.TMDS8b10b_inst_g.cnt[4] / D
+    The start point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+    The end   point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[4]               DFFC     Q        Out     0.243     0.243       -         
+din_d[4]                                             Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.CO0_1_0_x2       LUT4     I1       In      -         0.778       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.CO0_1_0_x2       LUT4     F        Out     0.570     1.348       -         
+N_50_i_i                                             Net      -        -       0.535     -           2         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.CO0_0_i          LUT4     I0       In      -         1.883       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.CO0_0_i          LUT4     F        Out     0.549     2.432       -         
+CO0_0_i                                              Net      -        -       0.535     -           2         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_axbxc1             LUT3     I0       In      -         2.967       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_axbxc1             LUT3     F        Out     0.549     3.516       -         
+ANB10                                                Net      -        -       0.401     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_0_m[1]             LUT4     I1       In      -         3.917       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_0_m[1]             LUT4     F        Out     0.570     4.487       -         
+ANB1                                                 Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.SUM_i[1]               LUT3     I2       In      -         5.022       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.SUM_i[1]               LUT3     F        Out     0.462     5.484       -         
+cnt_one_9bit[1]                                      Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2              LUT4     I1       In      -         6.019       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2              LUT4     F        Out     0.570     6.589       -         
+un1_cnt_2                                            Net      -        -       0.535     -           9         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2_RNIVJRI      LUT2     I1       In      -         7.124       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2_RNIVJRI      LUT2     F        Out     0.570     7.694       -         
+N_85                                                 Net      -        -       0.535     -           2         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_5_axb1          LUT4     I1       In      -         8.229       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_5_axb1          LUT4     F        Out     0.570     8.799       -         
+z_5[1]                                               Net      -        -       0.535     -           3         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_axb_1           LUT3     I2       In      -         9.334       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_axb_1           LUT3     F        Out     0.462     9.796       -         
+z_axb_1                                              Net      -        -       0.401     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0_RNO     LUT2     I1       In      -         10.197      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0_RNO     LUT2     F        Out     0.570     10.767      -         
+z_cry_1_0_RNO_0                                      Net      -        -       0.535     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0         ALU      I0       In      -         11.302      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0         ALU      COUT     Out     0.549     11.851      -         
+z_cry_1                                              Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_2_0         ALU      CIN      In      -         11.851      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_2_0         ALU      COUT     Out     0.035     11.886      -         
+z_cry_2                                              Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_3_0         ALU      CIN      In      -         11.886      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_3_0         ALU      COUT     Out     0.035     11.921      -         
+z_cry_3                                              Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_s_4_0           ALU      CIN      In      -         11.921      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_s_4_0           ALU      SUM      Out     0.470     12.391      -         
+z[4]                                                 Net      -        -       0.535     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.cnt[4]                 DFFC     D        In      -         12.926      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 12.987 is 6.835(52.6%) logic and 6.152(47.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      11.057
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.996
+
+    - Propagation time:                      12.926
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.930
+
+    Number of logic level(s):                14
+    Starting point:                          rgb2dvi_inst.TMDS8b10b_inst_g.din_d[7] / Q
+    Ending point:                            rgb2dvi_inst.TMDS8b10b_inst_g.cnt[4] / D
+    The start point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+    The end   point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[7]                  DFFC     Q        Out     0.243     0.243       -         
+din_d[7]                                                Net      -        -       0.535     -           4         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.SUM_0_i_i_x2[0]     LUT3     I1       In      -         0.778       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.SUM_0_i_i_x2[0]     LUT3     F        Out     0.570     1.348       -         
+N_59_i                                                  Net      -        -       0.535     -           3         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_c1                    LUT4     I0       In      -         1.883       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_c1                    LUT4     F        Out     0.549     2.432       -         
+N_7_c1                                                  Net      -        -       0.535     -           2         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_axbxc1                LUT3     I1       In      -         2.967       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_axbxc1                LUT3     F        Out     0.570     3.537       -         
+ANB10                                                   Net      -        -       0.401     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_0_m[1]                LUT4     I1       In      -         3.938       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_0_m[1]                LUT4     F        Out     0.570     4.508       -         
+ANB1                                                    Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.SUM_i[1]                  LUT3     I2       In      -         5.043       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.SUM_i[1]                  LUT3     F        Out     0.462     5.505       -         
+cnt_one_9bit[1]                                         Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2                 LUT4     I1       In      -         6.040       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2                 LUT4     F        Out     0.570     6.610       -         
+un1_cnt_2                                               Net      -        -       0.535     -           9         
+rgb2dvi_inst.TMDS8b10b_inst_g.dout_12_1_m2[9]           LUT3     I1       In      -         7.145       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.dout_12_1_m2[9]           LUT3     F        Out     0.570     7.715       -         
+N_48                                                    Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_5_axb1             LUT4     I0       In      -         8.250       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_5_axb1             LUT4     F        Out     0.549     8.799       -         
+z_5[1]                                                  Net      -        -       0.535     -           3         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_axb_1              LUT3     I2       In      -         9.334       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_axb_1              LUT3     F        Out     0.462     9.796       -         
+z_axb_1                                                 Net      -        -       0.401     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0_RNO        LUT2     I1       In      -         10.197      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0_RNO        LUT2     F        Out     0.570     10.767      -         
+z_cry_1_0_RNO_0                                         Net      -        -       0.535     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0            ALU      I0       In      -         11.302      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0            ALU      COUT     Out     0.549     11.851      -         
+z_cry_1                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_2_0            ALU      CIN      In      -         11.851      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_2_0            ALU      COUT     Out     0.035     11.886      -         
+z_cry_2                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_3_0            ALU      CIN      In      -         11.886      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_3_0            ALU      COUT     Out     0.035     11.921      -         
+z_cry_3                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_s_4_0              ALU      CIN      In      -         11.921      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_s_4_0              ALU      SUM      Out     0.470     12.391      -         
+z[4]                                                    Net      -        -       0.535     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.cnt[4]                    DFFC     D        In      -         12.926      -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 12.987 is 6.835(52.6%) logic and 6.152(47.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      11.057
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.996
+
+    - Propagation time:                      12.912
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.916
+
+    Number of logic level(s):                13
+    Starting point:                          rgb2dvi_inst.TMDS8b10b_inst_g.din_d[7] / Q
+    Ending point:                            rgb2dvi_inst.TMDS8b10b_inst_g.cnt[3] / D
+    The start point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+    The end   point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+rgb2dvi_inst.TMDS8b10b_inst_g.din_d[7]                  DFFC     Q        Out     0.243     0.243       -         
+din_d[7]                                                Net      -        -       0.535     -           4         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.SUM_0_i_i_x2[0]     LUT3     I1       In      -         0.778       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_3_1.SUM_0_i_i_x2[0]     LUT3     F        Out     0.570     1.348       -         
+N_59_i                                                  Net      -        -       0.535     -           3         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_c1                    LUT4     I0       In      -         1.883       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_c1                    LUT4     F        Out     0.549     2.432       -         
+N_7_c1                                                  Net      -        -       0.535     -           2         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_axbxc1                LUT3     I1       In      -         2.967       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_axbxc1                LUT3     F        Out     0.570     3.537       -         
+ANB10                                                   Net      -        -       0.401     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_0_m[1]                LUT4     I1       In      -         3.938       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.N_7_0_m[1]                LUT4     F        Out     0.570     4.508       -         
+ANB1                                                    Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.SUM_i[1]                  LUT3     I2       In      -         5.043       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.SUM_i[1]                  LUT3     F        Out     0.462     5.505       -         
+cnt_one_9bit[1]                                         Net      -        -       0.535     -           5         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2                 LUT4     I1       In      -         6.040       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2                 LUT4     F        Out     0.570     6.610       -         
+un1_cnt_2                                               Net      -        -       0.535     -           9         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2_RNIVJRI         LUT2     I1       In      -         7.145       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un1_cnt_2_RNIVJRI         LUT2     F        Out     0.570     7.715       -         
+N_85                                                    Net      -        -       0.535     -           2         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_5_axb1             LUT4     I1       In      -         8.250       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_5_axb1             LUT4     F        Out     0.570     8.820       -         
+z_5[1]                                                  Net      -        -       0.535     -           3         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_axb_1              LUT3     I2       In      -         9.355       -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_axb_1              LUT3     F        Out     0.462     9.817       -         
+z_axb_1                                                 Net      -        -       0.401     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0_RNO        LUT2     I1       In      -         10.218      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0_RNO        LUT2     F        Out     0.570     10.788      -         
+z_cry_1_0_RNO_0                                         Net      -        -       0.535     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0            ALU      I0       In      -         11.323      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_1_0            ALU      COUT     Out     0.549     11.872      -         
+z_cry_1                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_2_0            ALU      CIN      In      -         11.872      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_2_0            ALU      COUT     Out     0.035     11.907      -         
+z_cry_2                                                 Net      -        -       0.000     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_3_0            ALU      CIN      In      -         11.907      -         
+rgb2dvi_inst.TMDS8b10b_inst_g.un20.z_cry_3_0            ALU      SUM      Out     0.470     12.377      -         
+z[3]                                                    Net      -        -       0.535     -           1         
+rgb2dvi_inst.TMDS8b10b_inst_g.cnt[3]                    DFFC     D        In      -         12.912      -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 12.973 is 6.821(52.6%) logic and 6.152(47.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                     Arrival          
+Instance                         Reference     Type     Pin      Net          Time        Slack
+                                 Clock                                                         
+-----------------------------------------------------------------------------------------------
+rgb2dvi_inst.TMDSTX_PLL_inst     System        PLL      LOCK     pll_lock     0.000       9.356
+===============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                       Starting                                       Required          
+Instance                               Reference     Type     Pin        Net          Time         Slack
+                                       Clock                                                            
+--------------------------------------------------------------------------------------------------------
+rgb2dvi_inst.TMDS8b10b_inst_b.c0_d     System        DFFP     PRESET     rst_n1_i     10.996       9.356
+rgb2dvi_inst.TMDS8b10b_inst_g.c0_d     System        DFFP     PRESET     rst_n1_i     10.996       9.356
+rgb2dvi_inst.TMDS8b10b_inst_b.c1_d     System        DFFP     PRESET     rst_n1_i     10.996       9.356
+========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      11.057
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.996
+
+    - Propagation time:                      1.640
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 9.356
+
+    Number of logic level(s):                1
+    Starting point:                          rgb2dvi_inst.TMDSTX_PLL_inst / LOCK
+    Ending point:                            rgb2dvi_inst.TMDS8b10b_inst_b.c0_d / PRESET
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            DVI_TX_Top|I_rgb_clk [rising] on pin CLK
+
+Instance / Net                                    Pin        Pin               Arrival     No. of    
+Name                                     Type     Name       Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+rgb2dvi_inst.TMDSTX_PLL_inst             PLL      LOCK       Out     0.000     0.000       -         
+pll_lock                                 Net      -          -       0.535     -           1         
+rgb2dvi_inst.TMDSTX_PLL_inst_RNIMDUD     LUT2     I1         In      -         0.535       -         
+rgb2dvi_inst.TMDSTX_PLL_inst_RNIMDUD     LUT2     F          Out     0.570     1.105       -         
+rst_n1_i                                 Net      -          -       0.535     -           83        
+rgb2dvi_inst.TMDS8b10b_inst_b.c0_d       DFFP     PRESET     In      -         1.640       -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 1.701 is 0.631(37.1%) logic and 1.070(62.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 248MB peak: 253MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 248MB peak: 253MB)
+
+---------------------------------------
+Resource Usage Report for DVI_TX_Top 
+
+Mapping to part: gw2a_18pbga484-8
+Cell usage:
+ALU             15 uses
+DFFC            76 uses
+DFFP            3 uses
+GSR             1 use
+MUX2_LUT5       11 uses
+MUX2_LUT6       3 uses
+OSER10          4 uses
+PLL             1 use
+LUT2            32 uses
+LUT3            95 uses
+LUT4            149 uses
+
+I/O ports: 37
+I/O primitives: 4
+TLVDS_OBUF     4 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   79 of 15552 (0%)
+Total load per clock:
+   DVI_TX_Top|I_rgb_clk: 84
+
+@S |Mapping Summary:
+Total  LUTs: 276 (1%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 76MB peak: 253MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Thu May 14 09:55:11 2020
+
+###########################################################]

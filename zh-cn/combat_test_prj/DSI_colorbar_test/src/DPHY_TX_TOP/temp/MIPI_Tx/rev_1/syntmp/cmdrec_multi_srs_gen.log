@@ -1,0 +1,7 @@
+D:\Program Files\Gowin\1.8\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_20180818_V2.1_MIPIIP\sytech_lvds2mipi\src\DPHY_TX_TOP\temp\MIPI_Tx\rev_1\synwork\DPHY_TX_TOP_comp.srs  -osyn  C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_20180818_V2.1_MIPIIP\sytech_lvds2mipi\src\DPHY_TX_TOP\temp\MIPI_Tx\rev_1\synwork\DPHY_TX_TOP_mult.srs  -log  C:\Users\gqg\Desktop\Ivideo_7to1_dynamic_rx18KLQ144_8channal_sytechboard_20180818_V2.1_MIPIIP\sytech_lvds2mipi\src\DPHY_TX_TOP\temp\MIPI_Tx\rev_1\synlog\DPHY_TX_TOP_multi_srs_gen.srr 
+relcom:D:\Program Files\Gowin\1.8\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\DPHY_TX_TOP_comp.srs -osyn ..\synwork\DPHY_TX_TOP_mult.srs -log ..\synlog\DPHY_TX_TOP_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\DPHY_TX_TOP_comp.srs|io:i|time:1534753703|size:37055|exec:0|csum:89A1C3CAE9976B6142D79F4C676586A0
+file:..\synwork\DPHY_TX_TOP_mult.srs|io:o|time:1534753704|size:3832|exec:0|csum:
+file:..\synlog\DPHY_TX_TOP_multi_srs_gen.srr|io:o|time:1534753704|size:1644|exec:0|csum:
+file:D:\Program Files\Gowin\1.8\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1528215770|size:8704000|exec:1|csum:00E3241BEB214E04C43679205530D785

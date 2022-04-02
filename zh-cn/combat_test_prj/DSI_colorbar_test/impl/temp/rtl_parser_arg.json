@@ -1,0 +1,83 @@
+{
+ "Files" : [
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/Asyn_Fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/DPHY_TX_TOP.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/Dul_Ram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/afifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/colorbar_test.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/gw_pll/gw_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/gw_pll_mipi/gw_pll_mipi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/ivideo_dynamic_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/lcd_backlight_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/lvds2mipi_defines.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/mipi_data_rd_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/mipi_dsi_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/mipi_hs_lp_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/mipi_packetizer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/mipi_screen_init.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/rgb48bit_to4ch16bit_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/rgb_data_asyfifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/src/serdes_rst_ctrl.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/DSI_colorbar_test/impl/temp/rtl_parser.result",
+ "Top" : "ivideo_dynamic_top",
+ "VerilogStd" : "sysv"
+}

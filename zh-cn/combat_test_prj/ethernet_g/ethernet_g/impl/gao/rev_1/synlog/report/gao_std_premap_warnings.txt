@@ -1,0 +1,2 @@
+@W: BN117 :"c:\users\gowin\desktop\ceshi\ethernet_g\ethernet_g\impl\gao\gw_gao_top.v":104:12:104:21|Instance u_icon_top of partition view:work.gw_con_top(verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"c:\users\gowin\desktop\ceshi\ethernet_g\ethernet_g\impl\gao\gw_gao_top.v":104:12:104:21|Instance u_icon_top of partition view:work.gw_con_top(verilog) has no references to its outputs; instance not removed. 

@@ -1,0 +1,66 @@
+[
+ {
+  "InstFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/video_top.v",
+  "InstLine" : 24,
+  "InstName" : "video_top",
+  "ModuleFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/video_top.v",
+  "ModuleLine" : 24,
+  "ModuleName" : "video_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/video_top.v",
+    "InstLine" : 88,
+    "InstName" : "EDID_PROM_inst",
+    "ModuleFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/edid_i2c/EDID_PROM.v",
+    "ModuleLine" : 26,
+    "ModuleName" : "EDID_PROM",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/edid_i2c/EDID_PROM.v",
+      "InstLine" : 37,
+      "InstName" : "I2C_SLAVE_Top_inst",
+      "ModuleFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/edid_i2c/I2C_SLAVE_TOP.vp",
+      "ModuleLine" : 1,
+      "ModuleName" : "I2C_SLAVE_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/video_top.v",
+    "InstLine" : 101,
+    "InstName" : "DVI_RX_Top_inst",
+    "ModuleFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/dvi_rx_top/dvi_rx_top.v",
+    "ModuleLine" : 2872,
+    "ModuleName" : "DVI_RX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/dvi_rx_top/dvi_rx_top.v",
+      "InstLine" : 2912,
+      "InstName" : "dvi2rgb_inst",
+      "ModuleFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/dvi_rx_top/dvi_rx_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~dvi2rgb.DVI_RX_Top_"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/video_top.v",
+    "InstLine" : 119,
+    "InstName" : "DVI_TX_Top_inst",
+    "ModuleFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/dvi_tx_top/dvi_tx_top.v",
+    "ModuleLine" : 1145,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/dvi_tx_top/dvi_tx_top.v",
+      "InstLine" : 1185,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "D:/Tencent/WXWork/file/WXWork/1688850133589285/Cache/File/2021-09/combat_test_prj/Gowin_DVI_RXTX_RefDesign/project/src/dvi_tx_top/dvi_tx_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top_"
+     }
+    ]
+   }
+  ]
+ }
+]

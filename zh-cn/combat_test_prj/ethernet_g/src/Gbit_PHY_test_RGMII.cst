@@ -1,0 +1,50 @@
+//Copyright (C)2014-2020 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.6.01Beta
+//Part Number: GW2A-LV18PG484C7/I6
+//Created Time: Mon 08 24 11:45:19 2020
+
+IO_LOC "O_rst_n" U7;
+IO_PORT "O_rst_n" IO_TYPE=LVCMOS33;
+IO_PORT "test_dv" IO_TYPE=LVCMOS33;
+IO_PORT "test_d[7]" IO_TYPE=LVCMOS33;
+IO_PORT "test_d[6]" IO_TYPE=LVCMOS33;
+IO_PORT "test_d[5]" IO_TYPE=LVCMOS33;
+IO_PORT "test_d[4]" IO_TYPE=LVCMOS33;
+IO_PORT "test_d[3]" IO_TYPE=LVCMOS33;
+IO_PORT "test_d[2]" IO_TYPE=LVCMOS33;
+IO_PORT "test_d[1]" IO_TYPE=LVCMOS33;
+IO_PORT "test_d[0]" IO_TYPE=LVCMOS33;
+IO_LOC "O_phy1_gtxclk" W7;
+IO_PORT "O_phy1_gtxclk" IO_TYPE=LVCMOS33;
+IO_LOC "O_phy1_txen" W8;
+IO_PORT "O_phy1_txen" IO_TYPE=LVCMOS33;
+IO_LOC "O_phy1_txd[3]" Y10;
+IO_PORT "O_phy1_txd[3]" IO_TYPE=LVCMOS33;
+IO_LOC "O_phy1_txd[2]" Y9;
+IO_PORT "O_phy1_txd[2]" IO_TYPE=LVCMOS33;
+IO_LOC "O_phy1_txd[1]" Y8;
+IO_PORT "O_phy1_txd[1]" IO_TYPE=LVCMOS33;
+IO_LOC "O_phy1_txd[0]" Y7;
+IO_PORT "O_phy1_txd[0]" IO_TYPE=LVCMOS33;
+IO_LOC "IO_phy_mdio" V8;
+IO_PORT "IO_phy_mdio" IO_TYPE=LVCMOS33;
+IO_LOC "O_phy_mdc" V9;
+IO_PORT "O_phy_mdc" IO_TYPE=LVCMOS33;
+IO_LOC "I_phy1_rxc" AB9;
+IO_PORT "I_phy1_rxc" IO_TYPE=LVCMOS33;
+IO_LOC "I_phy1_rxdv" AA11;
+IO_PORT "I_phy1_rxdv" IO_TYPE=LVCMOS33;
+IO_LOC "I_phy1_rxd[3]" Y11;
+IO_PORT "I_phy1_rxd[3]" IO_TYPE=LVCMOS33;
+IO_LOC "I_phy1_rxd[2]" W11;
+IO_PORT "I_phy1_rxd[2]" IO_TYPE=LVCMOS33;
+IO_LOC "I_phy1_rxd[1]" V11;
+IO_PORT "I_phy1_rxd[1]" IO_TYPE=LVCMOS33;
+IO_LOC "I_phy1_rxd[0]" V10;
+IO_PORT "I_phy1_rxd[0]" IO_TYPE=LVCMOS33;
+IO_LOC "I_rst_n" AB3;
+IO_PORT "I_rst_n" IO_TYPE=LVCMOS33;
+IO_LOC "clk" M19;
+IO_PORT "clk" IO_TYPE=LVCMOS33;
